@@ -1,0 +1,8 @@
+id: v11
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A5/A6 (vertical): the column above the grasp point is free; the hand-footprint check added in round 3 only models the hand, not the wrist and arm above it"
+edits:
+  # the peg at a fixed pose inside its usual range, its rear half under a shelf whose underside is 15 cm above the table
+  object_pose: {name: peg, xyz: [0.0, -0.13, 0.03], rpy: [0.0, 0.0, 1.5708]}
+  add_obstacle: {name: shelf, shape: box, size: [0.30, 0.10, 0.02], pose: [0.0, -0.22, 0.16], rgb: [0.6, 0.5, 0.3]}

@@ -1,0 +1,278 @@
+{
+ "task": "place_bowl_in_dishrack_ks",
+ "source": "benchmark/eval_seeds/place_bowl_in_dishrack_ks/bench_demo_kitchens_clean.txt + 40 sequential",
+ "stable_seeds": [
+  40008,
+  40015,
+  40017,
+  40018,
+  40029,
+  40031,
+  40033,
+  40034,
+  40036,
+  40037,
+  40004,
+  40005,
+  40007,
+  40010,
+  40014,
+  40024,
+  40039,
+  40045,
+  40049,
+  40052,
+  40054,
+  40058,
+  40060
+ ],
+ "scene_ids": [
+  2,
+  2,
+  2,
+  2,
+  0,
+  1,
+  2,
+  0,
+  1,
+  1,
+  2,
+  2,
+  0,
+  0,
+  0,
+  2,
+  0,
+  0,
+  2,
+  1,
+  2,
+  0,
+  0
+ ],
+ "rejected": [
+  {
+   "seed": 40001,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40003,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40009,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40012,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40023,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40025,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40026,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40028,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40030,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40035,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40002,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40006,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40011,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40013,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40016,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40019,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40020,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40021,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40022,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40027,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40032,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40038,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40040,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40041,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40042,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40043,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40044,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40046,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40047,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40048,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40050,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40051,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40053,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40055,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40056,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40057,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40059,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  }
+ ]
+}

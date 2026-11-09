@@ -1,0 +1,7 @@
+id: v4
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A9/A10: the charger does not slip or rotate in the fingers between the in-hand estimate and the end of insertion (light part, grippy surface)"
+description: "The charger is a heavy, slippery part: 0.3 kg (a charger with a metal core) with a smooth plastic shell, friction 0.15. It can slide or pivot in the fingers when the arm accelerates and when the pegs meet resistance in the receptacle."
+edits:
+  dynamics: {name: charger, mass: 0.3, friction: 0.15}

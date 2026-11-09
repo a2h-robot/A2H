@@ -1,0 +1,6 @@
+id: rejected7_motion
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "the plate stays where it was detected between the detection and the pinch: one detection per attempt, then an open-loop approach (D1)"
+edits:
+  object_motion: {name: plate_1, velocity: [-0.03, 0.03, 0.0], start_time: 1.5, duration: 4.0, mode: constant}

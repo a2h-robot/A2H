@@ -1,0 +1,6 @@
+id: s_bowl_left
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: the bowl lies on the sink's side of the counter, within reach of the arm that carries it to the sink"
+edits:
+  object_pose: {name: bowl, xyz: [-0.25, -0.17]}

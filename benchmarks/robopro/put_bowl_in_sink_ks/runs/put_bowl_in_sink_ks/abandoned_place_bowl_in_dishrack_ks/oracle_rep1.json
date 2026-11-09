@@ -1,0 +1,534 @@
+{
+ "oracle_success_rate": 0.5652173913043478,
+ "per_seed": [
+  {
+   "seed": 40008,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.38199999928474426,
+     0.13099999725818634,
+     0.9520000219345093
+    ],
+    "bowl_upright_cos": 0.078,
+    "bowl_axis": [
+     0.044,
+     -0.996,
+     0.078
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.062,
+     -0.039,
+     0.032
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40015,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.382999986410141,
+     0.1289999932050705,
+     0.9470000267028809
+    ],
+    "bowl_upright_cos": 0.213,
+    "bowl_axis": [
+     0.259,
+     -0.942,
+     0.213
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.063,
+     -0.041,
+     0.026
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40017,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.3840000033378601,
+     0.13099999725818634,
+     0.9520000219345093
+    ],
+    "bowl_upright_cos": 0.091,
+    "bowl_axis": [
+     0.11,
+     -0.99,
+     0.091
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.064,
+     -0.039,
+     0.031
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40018,
+   "success": false,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.3479999899864197,
+     0.1550000011920929,
+     0.7919999957084656
+    ],
+    "bowl_upright_cos": 0.989,
+    "bowl_axis": [
+     -0.144,
+     -0.046,
+     0.989
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.028,
+     -0.015,
+     -0.129
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40029,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.017999999225139618,
+     0.13199999928474426,
+     0.9449999928474426
+    ],
+    "bowl_upright_cos": 0.185,
+    "bowl_axis": [
+     0.36,
+     -0.914,
+     0.185
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.068,
+     -0.038,
+     0.025
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40031,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 1,
+    "bowl_xyz": [
+     0.3580000102519989,
+     0.1289999932050705,
+     0.9509999752044678
+    ],
+    "bowl_upright_cos": 0.112,
+    "bowl_axis": [
+     0.147,
+     -0.983,
+     0.112
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.062,
+     -0.041,
+     0.031
+    ],
+    "rack_center": [
+     0.42,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40033,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.3709999918937683,
+     0.15700000524520874,
+     0.8539999723434448
+    ],
+    "bowl_upright_cos": -0.008,
+    "bowl_axis": [
+     0.816,
+     0.577,
+     -0.008
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.051,
+     -0.013,
+     -0.067
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40034,
+   "success": false,
+   "error": "RuntimeError: vk::PhysicalDevice::createDeviceUnique: ErrorInitializationFailed",
+   "final": null
+  },
+  {
+   "seed": 40036,
+   "success": false,
+   "error": "RuntimeError: vk::PhysicalDevice::createDeviceUnique: ErrorInitializationFailed",
+   "final": null
+  },
+  {
+   "seed": 40037,
+   "success": false,
+   "error": "RuntimeError: vk::PhysicalDevice::createDeviceUnique: ErrorInitializationFailed",
+   "final": null
+  },
+  {
+   "seed": 40004,
+   "success": false,
+   "error": "RuntimeError: vk::PhysicalDevice::createDeviceUnique: ErrorInitializationFailed",
+   "final": null
+  },
+  {
+   "seed": 40005,
+   "success": false,
+   "error": "RuntimeError: vk::PhysicalDevice::createDeviceUnique: ErrorInitializationFailed",
+   "final": null
+  },
+  {
+   "seed": 40007,
+   "success": false,
+   "error": "RuntimeError: vk::PhysicalDevice::createDeviceUnique: ErrorInitializationFailed",
+   "final": null
+  },
+  {
+   "seed": 40010,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.013000000268220901,
+     0.12999999523162842,
+     0.949999988079071
+    ],
+    "bowl_upright_cos": 0.125,
+    "bowl_axis": [
+     0.165,
+     -0.978,
+     0.125
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.063,
+     -0.04,
+     0.029
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40014,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.012000000104308128,
+     0.13099999725818634,
+     0.9509999752044678
+    ],
+    "bowl_upright_cos": 0.112,
+    "bowl_axis": [
+     0.062,
+     -0.992,
+     0.112
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.062,
+     -0.039,
+     0.03
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40024,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.39800000190734863,
+     0.15399999916553497,
+     0.8849999904632568
+    ],
+    "bowl_upright_cos": 0.785,
+    "bowl_axis": [
+     0.456,
+     -0.42,
+     0.785
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.078,
+     -0.016,
+     -0.036
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40039,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.003000000026077032,
+     0.16699999570846558,
+     0.8529999852180481
+    ],
+    "bowl_upright_cos": -0.02,
+    "bowl_axis": [
+     0.803,
+     0.595,
+     -0.02
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.053,
+     -0.003,
+     -0.067
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40045,
+   "success": false,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.0,
+     0.1550000011920929,
+     0.8320000171661377
+    ],
+    "bowl_upright_cos": 0.458,
+    "bowl_axis": [
+     0.824,
+     0.334,
+     0.458
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.05,
+     -0.015,
+     -0.089
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40049,
+   "success": false,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.37700000405311584,
+     0.1550000011920929,
+     0.8389999866485596
+    ],
+    "bowl_upright_cos": 0.339,
+    "bowl_axis": [
+     0.855,
+     0.393,
+     0.339
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.057,
+     -0.015,
+     -0.082
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40052,
+   "success": false,
+   "error": null,
+   "final": {
+    "scene_id": 1,
+    "bowl_xyz": [
+     0.24699999392032623,
+     -0.1679999977350235,
+     0.7429999709129333
+    ],
+    "bowl_upright_cos": 0.997,
+    "bowl_axis": [
+     -0.0,
+     -0.079,
+     0.997
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.173,
+     -0.338,
+     -0.178
+    ],
+    "rack_center": [
+     0.42,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40054,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 2,
+    "bowl_xyz": [
+     -0.3779999911785126,
+     0.12999999523162842,
+     0.953000009059906
+    ],
+    "bowl_upright_cos": 0.067,
+    "bowl_axis": [
+     -0.116,
+     -0.991,
+     0.067
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.058,
+     -0.04,
+     0.032
+    ],
+    "rack_center": [
+     -0.32,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40058,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.017000000923871994,
+     0.15000000596046448,
+     0.8629999756813049
+    ],
+    "bowl_upright_cos": 0.795,
+    "bowl_axis": [
+     0.599,
+     -0.094,
+     0.795
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.067,
+     -0.02,
+     -0.057
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  },
+  {
+   "seed": 40060,
+   "success": true,
+   "error": null,
+   "final": {
+    "scene_id": 0,
+    "bowl_xyz": [
+     -0.014999999664723873,
+     0.12600000202655792,
+     0.9520000219345093
+    ],
+    "bowl_upright_cos": 0.121,
+    "bowl_axis": [
+     0.164,
+     -0.979,
+     0.121
+    ],
+    "bowl_minus_rack_xyz": [
+     -0.065,
+     -0.044,
+     0.031
+    ],
+    "rack_center": [
+     0.05,
+     0.17,
+     0.921
+    ]
+   }
+  }
+ ]
+}

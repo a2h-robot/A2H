@@ -1,0 +1,6 @@
+id: integ
+axis: color
+parameter_tuning: false
+assumption_violated: sanity check (d)
+edits:
+  object_color: {name: object, rgb: [0.1, 0.9, 0.1]}

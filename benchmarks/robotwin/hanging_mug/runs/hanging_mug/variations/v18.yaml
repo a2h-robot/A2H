@@ -1,0 +1,6 @@
+id: v18
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A2 (as now coded): the fetching arm is the one on the mug's side and it can always grasp the mug where it stands; here the mug stands at the front edge of the table, close in front of the robot's body"
+edits:
+  object_pose: {name: mug, xyz: [-0.12, -0.24, 0.741]}

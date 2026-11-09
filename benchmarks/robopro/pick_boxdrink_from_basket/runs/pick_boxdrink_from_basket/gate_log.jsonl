@@ -1,0 +1,6 @@
+{"variation": "v1", "time": "2026-10-23 21:49:07", "pass": false, "reason": "integrity: modified ['scene_edits.py', 'tools/pool.py']", "parameter_tuning": null, "s0": null, "s_break": null, "oracle_success_rate": null}
+{"variation": "v1", "time": "2026-10-23 21:50:02", "pass": true, "reason": "pass (the expert could not solve it: counts only after the agent recovers it)", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0, "oracle_success_rate": 0.0}
+{"variation": "v2", "time": "2026-10-23 23:09:47", "pass": true, "reason": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.1, "oracle_success_rate": 0.3}
+{"variation": "v3", "time": "2026-10-23 23:38:24", "pass": true, "reason": "pass (the expert could not solve it: counts only after the agent recovers it)", "parameter_tuning": false, "s0": 1.0, "s_break": 0.2, "oracle_success_rate": 0.0}
+{"variation": "v4", "time": "2026-10-24 01:54:50", "pass": true, "reason": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.4, "oracle_success_rate": 0.6}
+{"variation": "v5", "time": "2026-10-24 02:22:40", "pass": true, "reason": "pass", "parameter_tuning": false, "s0": 0.9, "s_break": 0.2, "oracle_success_rate": 0.5}

@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/libero/runs/open_the_middle_drawer_of_the_cabinet/pipeline.py@918048151e14"
+}

@@ -1,0 +1,7 @@
+id: s13_pinned
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A5': nothing rests on the spoon, so lifting it lifts only the spoon"
+edits:
+  object_pose: {name: spoon, xyz: [-0.38, -0.20], rpy: [1.5708, 0.0, 0.0]}
+  add_distractor: {name: box, shape: box, size: [0.06, 0.06, 0.06], pose: [-0.44, -0.20, 0.792], mass: 0.4, rgb: [0.3, 0.6, 0.3]}

@@ -1,0 +1,7 @@
+id: v2
+axis: distractor
+parameter_tuning: false
+assumption_violated: "there is room for the open fingers on both sides of the peg at the fixed grasp point (centre + 3 cm), so a single grasp location is enough (A13)"
+edits:
+  object_pose: {name: peg, xyz: [0.02, -0.03, 0.025]}
+  add_distractor: {name: block, shape: box, size: [0.06, 0.05, 0.08], pose: [0.05, 0.03, 0.04], rgb: [0.2, 0.6, 0.2], mass: 0.3}

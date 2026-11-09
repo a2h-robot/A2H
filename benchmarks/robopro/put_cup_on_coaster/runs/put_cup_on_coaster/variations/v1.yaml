@@ -1,0 +1,6 @@
+id: v1
+axis: size
+parameter_tuning: false
+assumption_violated: "A5: the cup is small (about 5 cm wide, 7 cm tall), so a tilted pinch on its upper body fits the gripper"
+edits:
+  object_scale: {name: cup, scale: 1.5}     # 7.3-8.3 cm wide, ~10.7 cm tall: an ordinary mug size

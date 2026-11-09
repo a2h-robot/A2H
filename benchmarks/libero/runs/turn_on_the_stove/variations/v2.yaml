@@ -1,0 +1,8 @@
+id: v2
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+assumption_violated: "A5/A16: the space above the knob is free, so the hand can reach the fin from (nearly) straight above"
+description: "A fixed shelf (2 cm board, like a range hood or wall-cabinet overhang) hangs 12 cm above the knob top, covering the knob and the area towards +y. (Earlier candidates for this round, knob damping 10 and 40, were rejected by the break gate.)"
+edits:
+  add_obstacle: {name: shelf, shape: box, size: [0.22, 0.24, 0.02], pose: [-0.41, 0.25, 1.095], rgb: [0.5, 0.35, 0.2]}

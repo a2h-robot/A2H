@@ -1,0 +1,70 @@
+{
+  "task": "hanging_mug",
+  "variation": "v19",
+  "pass": false,
+  "time": "2026-10-23 17:29:01",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "3548e4c615ad",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.9,
+  "break_frames_dir": "benchmarks/robotwin/logs/frames/hanging_mug/v19_20261023-172938",
+  "break_per_seed": [
+    {
+      "seed": 0,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 3,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 4,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 5,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 6,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 7,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 8,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 9,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 11,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "break",
+  "reason": "break gate: s_break=0.90 > s0/2=0.50",
+  "wall_clock_s": 84.3
+}

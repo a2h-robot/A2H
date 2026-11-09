@@ -1,0 +1,2 @@
+{"variation": "fake1", "time": "sanity", "parameter_tuning": true, "s0": 1.0, "s_break": 0.0, "edits": {"add_obstacle": {"name": "post", "shape": "box", "size": [0.05, 0.05, 0.05], "pose": [0.30, -0.20, 0.766]}}}
+{"variation": "fake2", "time": "sanity", "parameter_tuning": true, "s0": 1.0, "s_break": 0.0, "edits": {"add_obstacle": {"name": "post", "shape": "box", "size": [0.05, 0.05, 0.05], "pose": [0.32, -0.20, 0.766]}}}

@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/libero/runs/put_the_cream_cheese_in_the_bowl/pipeline.py@8debc58b6ac1"
+}

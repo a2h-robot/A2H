@@ -1,0 +1,8 @@
+id: v4
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "obstacles are static, so the obstacle list read at the start of an attempt is still valid when the peg is put down (A4'): here a box slides into the release area after the peg has been picked up"
+edits:
+  object_pose: {name: peg, xyz: [0.0, 0.0, 0.025]}
+  add_distractor: {name: box, shape: box, size: [0.10, 0.10, 0.06], pose: [0.0, 0.33, 0.03], rgb: [0.2, 0.3, 0.8], mass: 0.5}
+  object_motion: {name: box, velocity: [0.0, -0.2, 0.0], start_time: 7.0, duration: 3.0, mode: constant}

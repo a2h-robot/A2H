@@ -1,0 +1,13 @@
+id: s7_cluttered_cup
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A2: nothing stands next to the cup"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.10, -0.05]}
+    - {name: coaster, xyz: [-0.15, -0.12]}
+  add_distractor:
+    - {name: box_l, shape: box, size: [0.05, 0.05, 0.12], pose: [0.035, -0.05, 0.80], mass: 0.15}
+    - {name: box_r, shape: box, size: [0.05, 0.05, 0.12], pose: [0.165, -0.05, 0.80], mass: 0.15}
+    - {name: box_f, shape: box, size: [0.05, 0.05, 0.12], pose: [0.10, -0.115, 0.80], mass: 0.15}
+    - {name: box_b, shape: box, size: [0.05, 0.05, 0.12], pose: [0.10, 0.015, 0.80], mass: 0.15}

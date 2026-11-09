@@ -1,0 +1,23 @@
+{
+  "task": "put_cup_on_coaster",
+  "variation": "v7",
+  "pass": true,
+  "time": "2026-10-24 00:37:07",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "b7f04a11b6b6",
+  "s0": 1.0,
+  "s_break": 0.5,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_cup_on_coaster/v7_20261024-003711",
+  "break_failures": [
+    "grasp of ObjectState(name='cup', position=array([0.16899939, 0.11073378, 0.76271713]), quaternion=array([ 0.46887055,  0.23060207,  0.08820438, -0.8480584 ]), bbox_extents=array([0.04871397, 0.07127488, 0.04835801]), confidence=1.0) closed on nothing",
+    "linear move stopped at 4/6 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    null,
+    "linear move stopped at 5/6 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 2/5 steps: no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "reason": "pass"
+}

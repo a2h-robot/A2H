@@ -1,0 +1,6 @@
+id: v6
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A7: every block is light enough to lift by pinching it, so the base block can always be carried to the chosen build spot and a failed lift is just retried; here the red block weighs 5 kg (500 times nominal), more than the pinch grip can hold, so it can be grasped but not lifted"
+edits:
+  dynamics: {name: red block, mass: 5.0}

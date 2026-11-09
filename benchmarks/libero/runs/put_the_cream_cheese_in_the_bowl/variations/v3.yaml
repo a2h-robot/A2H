@@ -1,0 +1,6 @@
+id: v3
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A1/A5 (reach): a vertical top-down grasp is kinematically available wherever the object is; here the cheese lies at the far edge of the workspace (0.83 m from the robot base), where no vertical-gripper IK solution exists at table height"
+edits:
+  object_pose: {name: cream_cheese_1, xyz: [0.15, 0.15, 0.912]}

@@ -1,0 +1,5 @@
+.pool/
+.cache/
+logs/frames/
+__pycache__/
+runs/*/.gate_cache.json

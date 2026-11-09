@@ -1,0 +1,9 @@
+id: v6
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A5/A6: the space around the grasp point is free (every move_to is planned without avoid), so the open fingers can descend vertically on both sides of the peg near its tail"
+edits:
+  # the peg at a fixed pose inside its usual range, so the obstacle can be placed next to its grasp region
+  object_pose: {name: peg, xyz: [0.0, -0.13, 0.03], rpy: [0.0, 0.0, 1.5708]}
+  # an immovable block 1-2 cm beside the peg's rear half, where a finger of a tail grasp lands
+  add_obstacle: {name: block, shape: box, size: [0.03, 0.08, 0.08], pose: [0.05, -0.19, 0.04], rgb: [0.2, 0.4, 0.8]}

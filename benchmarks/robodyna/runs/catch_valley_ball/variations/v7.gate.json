@@ -1,0 +1,70 @@
+{
+  "task": "catch_valley_ball",
+  "variation": "v7",
+  "pass": false,
+  "time": "2026-10-24 05:36:27",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "fee793f52d3d",
+  "validity": "ok",
+  "s0": 0.9,
+  "s_break": 0.8,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/catch_valley_ball/v7_20261024-053724",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10013,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10014,
+      "success": false,
+      "error": "worker timed out (exit -9); see logs/workers/"
+    },
+    {
+      "seed": 10021,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "break",
+  "reason": "break gate: s_break=0.80 > s0/2=0.45",
+  "wall_clock_s": 1013.8
+}

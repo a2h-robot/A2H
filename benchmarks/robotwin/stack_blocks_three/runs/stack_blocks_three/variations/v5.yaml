@@ -1,0 +1,8 @@
+id: v5
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A17: a block that passed its placement check stays in place, so only the last block is ever verified and the finished stack is never re-checked; here the green block is flicked sideways twice (at 28 s and 38 s, typically after it has been stacked on the red block), as if the structure were bumped while the robot works"
+edits:
+  object_motion:
+    - {name: green block, velocity: [0.8, 0.0, 0.3], start_time: 28.0, mode: impulse}
+    - {name: green block, velocity: [-0.8, 0.0, 0.3], start_time: 38.0, mode: impulse}

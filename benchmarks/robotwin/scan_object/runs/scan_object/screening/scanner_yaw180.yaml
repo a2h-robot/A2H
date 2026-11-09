@@ -1,0 +1,6 @@
+id: scanner_yaw180
+axis: orientation
+parameter_tuning: false
+assumption_violated: "O1: the scanner handle faces the usual way"
+edits:
+  object_pose: {name: scanner, delta_rpy: [0, 0, 3.14159]}

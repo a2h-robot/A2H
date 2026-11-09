@@ -1,0 +1,7 @@
+id: v5
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A12: the charger's yaw is within +-60 deg of the insertion direction, so the top grasp chosen from its yaw (closing aligned with the current TCP y) leaves a wrist configuration that can reach the insertion pose"
+description: "The charger was put down the wrong way round: its pegs point back toward the robot (yaw pi), so after a top grasp the hand must turn the part about 180 deg about the vertical before inserting it. Its xy position stays random."
+edits:
+  object_pose: {name: charger, rpy: [0.0, 0.0, 3.1416]}

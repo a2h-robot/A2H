@@ -1,0 +1,7 @@
+id: s17_stand_12cm
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A6/A8: the plate sits on the counter, so a carry 10 cm above the counter clears it"
+edits:
+  object_pose: {name: plate, xyz: [0.0, -0.20, 0.861]}
+  add_obstacle: {name: stand, shape: box, size: [0.20, 0.20, 0.12], pose: [0.0, -0.20, 0.8], rgb: [0.5, 0.35, 0.2]}

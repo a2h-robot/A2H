@@ -1,0 +1,7 @@
+id: s_static_low
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_pose: {name: switch, xyz: [0.0, 0.06], rpy: [0.0, 0.0, 1.5708]}
+  add_obstacle: {name: ledge, shape: box, size: [0.14, 0.04, 0.05], pose: [0.0, -0.065, 0.765]}

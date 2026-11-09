@@ -1,0 +1,9 @@
+id: v1
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+assumption_violated: "D1/D2: nothing but the apples and the basket occupies the workspace; the front approach to the fruit is free (get_obstacles() is never used)"
+edits:
+  add_obstacle:
+    - {name: post_left, asset: box, size: [0.04, 0.04, 0.24], pose: [-0.12, -0.03, 0.86]}
+    - {name: post_right, asset: box, size: [0.04, 0.04, 0.24], pose: [0.12, -0.03, 0.86]}

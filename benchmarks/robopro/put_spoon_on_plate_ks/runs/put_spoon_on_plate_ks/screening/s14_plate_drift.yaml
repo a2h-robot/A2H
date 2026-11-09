@@ -1,0 +1,7 @@
+id: s14_plate_drift
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A1': a target that looks still over half a second stays still until the release"
+edits:
+  object_pose: {name: plate, xyz: [-0.15, -0.05]}
+  object_motion: {name: plate, velocity: [0.0, -0.012, 0.0], start_time: 6.0, duration: 12.0, mode: constant}

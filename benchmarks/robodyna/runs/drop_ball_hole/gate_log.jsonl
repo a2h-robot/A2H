@@ -1,0 +1,7 @@
+{"variation": "v1", "time": "2026-10-23 23:18:00", "pass": false, "reason": "integrity: modified ['task_file:pick_ripe_apple']", "gate": "integrity", "parameter_tuning": null, "s0": null, "s_break": null}
+{"variation": "v1", "time": "2026-10-23 23:18:58", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0}
+{"variation": "v2", "time": "2026-10-23 23:43:17", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0}
+{"variation": "v3", "time": "2026-10-24 00:30:20", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0}
+{"variation": "v4", "time": "2026-10-24 00:59:24", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.3}
+{"variation": "v5", "time": "2026-10-24 02:23:05", "pass": false, "reason": "break gate: s_break=0.90 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 0.9}
+{"variation": "v5", "time": "2026-10-24 02:28:17", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": true, "s0": 1.0, "s_break": 0.1}

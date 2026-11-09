@@ -1,0 +1,5 @@
+id: s_front_tall
+axis: distractor
+edits:
+  add_distractor: {name: carton, shape: box, size: [0.07, 0.03, 0.20], mass: 0.2, rgb: [0.2, 0.5, 0.8],
+                   pose: {relative_to: boxdrink, offset: [0.0, -0.046, 0.102]}}

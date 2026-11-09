@@ -1,0 +1,23 @@
+{
+  "task": "put_object_cabinet",
+  "variation": "v7",
+  "pass": true,
+  "time": "2026-10-23 17:25:16",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "21cb1119420c",
+  "s0": 1.0,
+  "s_break": 0.2,
+  "frames_dir": "benchmarks/robotwin/logs/frames/put_object_cabinet/v7_20261023-172623",
+  "break_failures": [
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "place: no reachable pre-place pose (no collision-free path (unreachable, or blocked by an obstacle))",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    null,
+    null
+  ],
+  "reason": "pass"
+}

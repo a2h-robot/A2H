@@ -1,0 +1,6 @@
+id: v11
+axis: lighting
+parameter_tuning: false
+assumption_violated: "C1 (colour): the light is white, so 'red' in the head camera means a red object (red pixels are dropped from the belt-pattern matching and mark the place line). Here a strongly red-tinted light colours the whole scene"
+edits:
+  lighting: {intensity: 1.0, color: [1.0, 0.35, 0.3]}

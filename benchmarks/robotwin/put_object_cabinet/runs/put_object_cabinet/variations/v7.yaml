@@ -1,0 +1,8 @@
+id: v7
+axis: size
+parameter_tuning: false
+unsolved: true
+unsolved_note: "infeasible on 3/10 seeds: the rubik's cube scaled 1.5 is 10 cm on every side, wider than the 9 cm gripper gap, and the API has no synchronized two-arm carry; 0.8 is unreachable (design error: gripper capacity not checked). No repair attempted."
+assumption_violated: "A7: the object is small, so a drop from 6-12 cm above an aim point 6 cm behind the handle lands it flat inside the exposed part of the drawer, whatever its orientation. Here the object is 1.5 times larger (each model scaled, e.g. a 10 cm rubik's cube, a 15-18 cm loaf): dropped like that it lands across the drawer's front wall or against the cabinet face."
+edits:
+  object_scale: {name: object, scale: 1.5}

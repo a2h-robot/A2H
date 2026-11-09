@@ -1,0 +1,23 @@
+{
+  "task": "put_cup_on_coaster",
+  "variation": "v6",
+  "pass": true,
+  "time": "2026-10-23 22:18:24",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "25b6498d32c4",
+  "s0": 1.0,
+  "s_break": 0.3,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_cup_on_coaster/v6_20261023-221828",
+  "break_failures": [
+    "linear move stopped at 5/6 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "blocked: pushing bookcase with 128 N (limit 40 N)",
+    "target [1.767, -1.811, 0.119] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "linear move stopped at 4/5 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "StepLimitExceeded: 30000 simulation steps"
+  ],
+  "reason": "pass"
+}

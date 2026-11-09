@@ -1,0 +1,25 @@
+{
+  "task": "turn_switch",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-23 16:51:19",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "8acf777dac37",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robotwin/logs/frames/turn_switch/v3_20261023-165150",
+  "break_failures": [
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 0/1 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 0/1 steps: no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "oracle_success_rate": 1.0,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

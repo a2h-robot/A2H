@@ -1,0 +1,10 @@
+id: v11
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+unsolved_note: "2 repairs reached 0.0: the 11 cm gap under the shelf is about the height of the hand's wrist, so every side approach that reaches the object puts the wrist on the table (100-560 N), and 2-3 cm objects cannot be gripped from the side at all; infeasible for this hand (design error: wrist size not checked)"
+assumption_violated: "A9/A5 at the pick: the space above the object is free, so it can be grasped from above and lifted straight up. Here the object lies under a fixed shelf (20 x 20 x 2 cm boards at z = 0.86 over each side's object zone, 1 cm above the tallest object, clear of the drawer's path): it must be taken from the side and drawn out before it can be lifted."
+edits:
+  add_obstacle:
+    - {name: shelf_right, shape: box, size: [0.20, 0.20, 0.02], pose: [0.28, -0.15, 0.86], rgb: [0.5, 0.4, 0.3]}
+    - {name: shelf_left, shape: box, size: [0.20, 0.20, 0.02], pose: [-0.28, -0.15, 0.86], rgb: [0.5, 0.4, 0.3]}

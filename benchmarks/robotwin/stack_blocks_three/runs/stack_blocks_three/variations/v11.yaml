@@ -1,0 +1,8 @@
+id: v11
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+assumption_violated: "A21: every block can be reached from above, or made reachable by lifting away whatever crowds it; here a fixed 8 x 8 x 2 cm slab hangs 1 cm above the blue block (moved to the front right of the table), like an object under a shelf: no top-down grasp fits and the slab cannot be moved, so the block must first be slid out from under it"
+edits:
+  object_pose: {name: blue block, xyz: [0.15, -0.20, 0.765]}
+  add_obstacle: {name: shelf, shape: box, size: [0.08, 0.08, 0.02], pose: [0.15, -0.20, 0.81], rgb: [0.5, 0.4, 0.3]}

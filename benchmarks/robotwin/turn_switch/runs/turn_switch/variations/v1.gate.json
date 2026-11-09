@@ -1,0 +1,25 @@
+{
+  "task": "turn_switch",
+  "variation": "v1",
+  "pass": true,
+  "time": "2026-10-23 20:02:58",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "3d3fea078ba9",
+  "s0": 1.0,
+  "s_break": 0.2,
+  "frames_dir": "benchmarks/robotwin/logs/frames/turn_switch/v1_20261023-200303",
+  "break_failures": [
+    "target [0.291, -0.534, 1.018] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "target [-0.324, -0.541, 1.054] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "reason": "pass"
+}

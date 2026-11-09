@@ -1,0 +1,11 @@
+id: v6
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A6: the carry at 10 cm above the counter is clear; the planner keeps the hand clear of obstacles, but nothing keeps the held spoon (which sticks out ~10 cm from the hand) clear of them"
+# a 25 cm tall divider (e.g. a cereal box seen edge-on) stands between the spoon (left front, lying along x)
+# and the plate (front centre)
+edits:
+  object_pose:
+    - {name: spoon, xyz: [-0.38, -0.20], rpy: [1.5708, 0.0, 0.0]}
+    - {name: plate, xyz: [0.0, -0.20]}
+  add_obstacle: {name: divider, shape: box, size: [0.02, 0.24, 0.25], pose: [-0.20, -0.20, 0.865], rgb: [0.8, 0.5, 0.2]}

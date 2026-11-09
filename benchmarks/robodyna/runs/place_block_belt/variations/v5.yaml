@@ -1,0 +1,8 @@
+id: v5
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A5/P3: the release point (3.5 cm before the place line, in the clear lane) and the vertical drop onto it are free - the pipeline puts the block at one fixed spot of the allowed zone and never checks what is above it"
+edits:
+  add_obstacle:
+    - {name: scanner bridge L, asset: box, size: [0.03, 0.30, 0.03], pose: [-0.12, -0.02, 0.95], rgb: [0.3, 0.3, 0.35]}
+    - {name: scanner bridge R, asset: box, size: [0.03, 0.30, 0.03], pose: [0.12, -0.02, 0.95], rgb: [0.3, 0.3, 0.35]}

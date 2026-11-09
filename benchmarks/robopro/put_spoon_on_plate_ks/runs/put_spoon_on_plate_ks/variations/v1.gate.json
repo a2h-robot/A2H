@@ -1,0 +1,23 @@
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "v1",
+  "pass": true,
+  "time": "2026-10-23 20:27:12",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "e4a80e237f5c",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_spoon_on_plate_ks/v1_20261023-202719",
+  "break_failures": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "reason": "pass"
+}

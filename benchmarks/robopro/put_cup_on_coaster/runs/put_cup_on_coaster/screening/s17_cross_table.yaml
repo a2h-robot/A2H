@@ -1,0 +1,8 @@
+id: s17_cross_table
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: one arm comfortably reaches both objects"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.10, 0.12]}
+    - {name: coaster, xyz: [-0.20, -0.28]}

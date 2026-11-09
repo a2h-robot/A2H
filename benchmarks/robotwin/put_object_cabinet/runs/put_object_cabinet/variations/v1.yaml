@@ -1,0 +1,6 @@
+id: v1
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A5: the space in front of the drawer is free. Here a movable tall box (6x6x18 cm, 0.3 kg) stands on the table right in front of the bottom drawer, in the path of the drawer and of the hand that grasps and pulls the handle."
+edits:
+  add_distractor: {name: tall_box, shape: box, size: [0.06, 0.06, 0.18], pose: [0.0, -0.10, 0.83], rgb: [0.2, 0.4, 0.8], mass: 0.3}

@@ -1,0 +1,6 @@
+id: v13
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A3/A8 (time): the drawer, once it resists, still opens within the episode with slow pulls and a few re-grasps. Here the runners are stiffer still (joint damping 100 N s/m, vs 60 in v6): slow pulls open it only a few cm per grasp, so the pull eats the time budget. Same physical aspect as v6 at a larger magnitude; v6 is not the previous variation, so it is not labelled parameter tuning."
+edits:
+  dynamics: {name: drawer, damping: 100.0}

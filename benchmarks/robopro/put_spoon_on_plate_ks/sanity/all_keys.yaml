@@ -1,0 +1,14 @@
+id: all_keys
+axis: obstacle
+parameter_tuning: false
+assumption_violated: sanity check - every edit key applies on one scene
+edits:
+  object_pose: {name: spoon, delta_xyz: [0.0, 0.03, 0.0], delta_rpy: [0, 0, 0.3]}
+  object_color: {name: plate, rgb: [0.2, 0.3, 0.8]}
+  object_scale: {name: spoon, scale: 1.2}
+  lighting: {intensity: 0.6, color: [1.0, 0.9, 0.8]}
+  add_distractor: {name: cup_box, shape: box, size: [0.05, 0.05, 0.08], pose: [0.0, -0.28, 0.785], mass: 0.2}
+  add_obstacle: {name: post, shape: cylinder, size: [0.03, 0.2], pose: [0.0, 0.0, 0.84, 0.7071068, 0, 0.7071068, 0]}
+  object_motion: {name: cup_box, velocity: [0.05, 0, 0], start_time: 1.0, duration: 1.0}
+  camera_pose: {view: head, delta_xyz: [0.02, 0, 0], delta_rpy: [0, 0.05, 0]}
+  dynamics: {name: spoon, mass: 0.08, friction: 0.4}

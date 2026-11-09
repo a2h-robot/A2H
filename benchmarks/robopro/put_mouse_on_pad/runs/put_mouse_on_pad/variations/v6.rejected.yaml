@@ -1,0 +1,9 @@
+id: v6
+axis: size
+parameter_tuning: false
+assumption_violated: "A11: the released mouse stays where it was put (here a large mouse, 1.3x: up to 7.4 x 13 x 4.9 cm, which can jam diagonally between the opened fingers)"
+# Screened as screening/s8_mid_mouse.yaml (0.4 against the round-5 pipeline). Every model still fits the gripper
+# across its width; the failures were the large model staying wedged in the open hand and riding back home with it.
+edits:
+  object_scale:
+    - {name: mouse, scale: 1.3}

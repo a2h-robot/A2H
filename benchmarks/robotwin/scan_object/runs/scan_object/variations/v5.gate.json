@@ -1,0 +1,15 @@
+{
+  "task": "scan_object",
+  "variation": "v5",
+  "pass": false,
+  "time": "2026-10-23 17:26:17",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "26ea3d818fd4",
+  "validity": "10/10 seeds invalid",
+  "gate": "validity",
+  "reason": "invalid scene: seed 5: added object ground touches the robot at reset",
+  "wall_clock_s": 23.2
+}

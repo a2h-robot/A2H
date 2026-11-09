@@ -1,0 +1,6 @@
+id: v12
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A22: the table top is the only work surface, so the stack and any hand-over are always at table height and every obstacle footprint is off-limits; here a broad, low, fixed tray (30 x 21.5 x 8 cm, flat top) fills the middle front of the table (x from -0.15 to 0.15, y from -0.33 to -0.115), the region both arms reach, so no table spot is reachable by both arms"
+edits:
+  add_obstacle: {name: tray, shape: box, size: [0.30, 0.215, 0.08], pose: [0.0, -0.2225, 0.78], rgb: [0.55, 0.45, 0.35]}

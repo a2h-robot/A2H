@@ -1,0 +1,7 @@
+id: v8
+axis: size
+parameter_tuning: false
+unsolved: true          # best 0.3 within 6 repair iterations (see reflections.jsonl)
+assumption_violated: "A9: the mug is the size of the training mugs (handle and body as on RoboTwin's mugs 0-9); here it is mug model 12, which the task never uses: ~22 cm across with the handle and 14 cm tall, handle further out"
+edits:
+  swap_object: {name: mug, with: 12}

@@ -1,0 +1,25 @@
+# Screening: candidate edits evaluated with the round-3 pipeline (frozen) before choosing what to gate.
+# Batch 1: 10 seeds each (2026-10-23 ~14:10 Toronto); batch 2: 6 seeds each (~14:20).
+s1_heavy: valid=ok rate=0.9 fails=['no collision-free path (unreachable, or blocked by']
+s2_center: valid=ok rate=0.8 fails=['linear move stopped at 1/5 steps: no collision-fre', 'no collision-free path (unreachable, or blocked by']
+s3_rot90: valid=ok rate=1.0 fails=[]
+s4_cab_right: valid=ok rate=0.6 fails=['place: no reachable pre-place pose (no collision-f', 'place: no reachable pre-place pose (no collision-f', 'place: no reachable pre-place pose (no collision-f']
+s5_cab_far: valid=ok rate=0.8 fails=['linear move stopped at 3/4 steps: no collision-fre', 'no collision-free path (unreachable, or blocked by']
+s6_drawer_friction: valid=ok rate=1.0 fails=[]
+t1_apple: valid=ok rate=1.0 fails=[]
+t2_battery: valid=object below the table top (z=0.081) rate=0.0 fails=['', '', "no grasp candidates for ObjectState(name='object',"]
+t3_can: valid=ok rate=1.0 fails=[]
+t4_drift: valid=ok rate=1.0 fails=[]
+t5_cab_right18: valid=ok rate=0.5 fails=['no collision-free path (unreachable, or blocked by', 'no collision-free path (unreachable, or blocked by', 'no collision-free path (unreachable, or blocked by']
+# Pre-checks while designing (current pipeline at the time): pre_damp_30 1.0, pre_damp_60 0.1 (-> v6), pre_damp_150/400 0.0 also with slow 1 cm pulls (judged infeasible), precheck_static_shift (cabinet 12 cm closer) 0.7 (-> v5 is reachable), scale135 0.6 (-> v7 at 1.5)
+# Batch 3 (round-4 pipeline, backend v2d, 10 seeds each, ~16:00 Toronto):
+u1_cab_left20: rate=0.7   u2_cab_left_rot: rate=0.9   u3_damp80: rate=0.7   u4_slippery: rate=1.0
+u5_cab_far8: rate=0.8     u6_mug: rate=0.8            u7_cup: rate=0.7
+# Batch 3 (round-4 pipeline, backend v2d, 10 seeds each, ~16:00 Toronto):
+u1_cab_left20: rate=0.7   u2_cab_left_rot: rate=0.9   u3_damp80: rate=0.7   u4_slippery: rate=1.0
+u5_cab_far8: rate=0.8     u6_mug: rate=0.8            u7_cup: rate=0.7
+# Batch 4 (round-4 pipeline, round 5, 10 seeds each, ~17:00 Toronto):
+w1_lid: rate=0.1 (-> v12)   w2_damp100: rate=0.5 (-> v13)   w3_cab_slide_drop: rate=0.9   w4_scale06: rate=1.0   w5_obj_near: rate=1.0
+# Controls / pre-checks during round 5:
+control_cube_only (v12's cube and pose, no lid): round-4 pipeline 1.0
+x1_lid_heavy (v12 with a 200 g object): round-4 pipeline 0.7 (does not break), v12-attempt pipeline 0.6

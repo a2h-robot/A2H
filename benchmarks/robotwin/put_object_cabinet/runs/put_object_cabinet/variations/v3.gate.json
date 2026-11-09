@@ -1,0 +1,23 @@
+{
+  "task": "put_object_cabinet",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-23 16:34:54",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "204376647322",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robotwin/logs/frames/put_object_cabinet/v3_20261023-163503",
+  "break_failures": [
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 9/24 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "grasped 'top_drawer' instead",
+    "grasped 'top_drawer' instead",
+    "grasp of ObjectState(name='drawer_handle', position=array([-0.03462178,  0.02730153,  0.86742847]), quaternion=array([-0.70460996, -0.70957107,  0.00542981, -0.00205073]), bbox_extents=array([0.16323039, 0.00457056, 0.00434673]), confidence=1.0) closed on nothing"
+  ],
+  "reason": "pass"
+}

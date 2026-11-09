@@ -1,0 +1,8 @@
+id: v6
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "obstacles are static: round 1 measures them once at the start and picks each key's press configuration from that snapshot"
+notes: "v2's post, but it starts 20 cm further left (clear of the key) and slides in next to the left key between t=7 s and t=9 s (someone puts it down there mid-task). Once it is there, the home-yaw hover over the key overlaps it. Solvable as v2: re-select the press configuration (turn the gripper 90 deg)."
+edits:
+  add_obstacle: {name: post, asset: box, size: [0.035, 0.06, 0.18], pose: [-0.5275, -0.13, 0.83]}
+  object_motion: {name: post, velocity: [0.10, 0.0, 0.0], start_time: 7.0, duration: 2.0, mode: constant}

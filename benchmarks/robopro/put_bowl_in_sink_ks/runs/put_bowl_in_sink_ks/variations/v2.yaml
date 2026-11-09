@@ -1,0 +1,9 @@
+id: v2
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: the bowl lies on the sink's side of the counter, within reach of the arm that carries it to the sink"
+description: >
+  The bowl stands on the far side of the counter from the sink (x = -0.25, in front of the robot's left arm),
+  where only the left arm can pick it up and the left arm cannot reach the sink.
+edits:
+  object_pose: {name: bowl, xyz: [-0.25, -0.17]}

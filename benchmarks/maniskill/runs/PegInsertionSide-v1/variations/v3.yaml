@@ -1,0 +1,6 @@
+id: v3
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A7: the peg is light and grippy enough that a full-strength grasp at its tail holds it rigidly while it is carried and pushed into the hole"
+edits:
+  dynamics: {name: peg, mass: 1.0, friction: 0.3}

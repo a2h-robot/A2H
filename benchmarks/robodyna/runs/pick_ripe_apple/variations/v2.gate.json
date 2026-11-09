@@ -1,0 +1,70 @@
+{
+  "task": "pick_ripe_apple",
+  "variation": "v2",
+  "pass": false,
+  "time": "2026-10-24 01:08:39",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "d0cac111133f",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.8,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/pick_ripe_apple/v2_20261024-011224",
+  "break_per_seed": [
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10002,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10003,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10010,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10016,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10017,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10019,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10023,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "break",
+  "reason": "break gate: s_break=0.80 > s0/2=0.50",
+  "wall_clock_s": 367.9
+}

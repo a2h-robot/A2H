@@ -1,0 +1,8 @@
+{
+  "task": "put_cup_on_coaster",
+  "variation": "v5",
+  "pass": false,
+  "time": "2026-10-23 22:18:04",
+  "validity": "box_l moved 0.091 m while settling (interpenetration or unsupported)",
+  "reason": "invalid scene (seed 1): box_l moved 0.091 m while settling (interpenetration or unsupported)"
+}

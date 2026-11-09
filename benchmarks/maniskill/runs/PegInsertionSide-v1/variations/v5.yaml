@@ -1,0 +1,9 @@
+id: v5
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A6: nothing stands right next to the peg, so the open fingers can descend vertically on both sides of it"
+edits:
+  # the peg at a fixed pose inside its usual range, so the clutter can be placed next to its grasp region
+  object_pose: {name: peg, xyz: [0.0, -0.13, 0.03], rpy: [0.0, 0.0, 1.5708]}
+  # loose clutter just beside the peg's rear half: about 1 cm from its side, where a finger lands
+  add_distractor: {name: clutter, shape: box, size: [0.03, 0.08, 0.06], pose: [0.05, -0.19, 0.03], rgb: [0.2, 0.4, 0.8], mass: 0.3}

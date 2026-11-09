@@ -1,0 +1,6 @@
+id: s_stand_path
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A3/A4: the way from the bowl to the sink is free, so a lift that clears the counter and the basin's contents clears everything"
+edits:
+  add_obstacle: {name: towel_stand, shape: cylinder, size: [0.07, 0.25], rpy: [0, 1.5707963, 0], pose: {relative_to: sink, offset: [-0.21, -0.17, 0], z: 0.866}}

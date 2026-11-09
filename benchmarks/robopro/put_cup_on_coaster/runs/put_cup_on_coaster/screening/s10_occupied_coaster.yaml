@@ -1,0 +1,10 @@
+id: s10_occupied_coaster
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A1: nothing lies on the coaster, so the cup can be lowered straight onto it"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.12, -0.10]}
+    - {name: coaster, xyz: [-0.15, -0.12]}
+  add_distractor:
+    - {name: item_on_coaster, shape: box, size: [0.05, 0.04, 0.03], pose: [-0.15, -0.12, 0.765], mass: 0.05}

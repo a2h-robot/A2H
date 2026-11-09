@@ -1,0 +1,6 @@
+id: s_heavy08
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A6: the bowl is light (0.05 kg), so a rim pinch holds it through the carry"
+edits:
+  dynamics: {name: bowl, mass: 0.8}

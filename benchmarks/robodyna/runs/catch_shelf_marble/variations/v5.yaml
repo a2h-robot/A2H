@@ -1,0 +1,7 @@
+id: v5
+axis: distractor
+parameter_tuning: false
+assumption_violated: "the key top is free, so lowering the gripper over it presses it (A2/A16); round 1 only avoids obstacles around the key, not something lying on it"
+notes: "a 4.5 x 4.5 x 3 cm block (100 g) lies on the left keycap (an item left on the button). Pressing through it does not reach the key's trigger depth. Solvable: push or lift the block off the key first."
+edits:
+  add_distractor: {name: block, asset: box, size: [0.045, 0.045, 0.03], pose: [-0.26, -0.13, 0.788], rgb: [0.8, 0.5, 0.2], mass: 0.1}

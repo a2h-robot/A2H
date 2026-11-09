@@ -1,0 +1,6 @@
+id: tune3
+axis: object_position
+parameter_tuning: true
+assumption_violated: "sanity check (c): the tea box moved further in the same direction a third time"
+edits:
+  object_pose: {name: object, delta_xyz: [-0.06, 0.0, 0.0]}

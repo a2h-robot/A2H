@@ -1,0 +1,7 @@
+id: v3
+axis: obstacle
+parameter_tuning: true
+assumption_violated: "A5/A18: there is enough free space above the knob for the approach and for the twist motion that follows the pinch"
+description: "The overhead shelf of v2 (unsolved), raised by 4.5 cm: its underside is about 16.5 cm above the knob top. (Earlier candidates for this round, stove rotated+shifted, stove scaled 0.6, a fixed side panel, the bowl sliding next to the knob, a heavy pot beside the knob, and stiff knob + clutter, were rejected by the break gate.)"
+edits:
+  add_obstacle: {name: shelf, shape: box, size: [0.22, 0.24, 0.02], pose: [-0.41, 0.25, 1.14], rgb: [0.5, 0.35, 0.2]}

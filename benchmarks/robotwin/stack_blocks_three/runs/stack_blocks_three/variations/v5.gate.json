@@ -1,0 +1,19 @@
+{
+  "task": "stack_blocks_three",
+  "variation": "v5",
+  "pass": true,
+  "time": "2026-10-23 12:46:41",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "f9699eda08ed",
+  "validity": "ok",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "break_frames": "benchmarks/robotwin/logs/frames/stack_blocks_three/v5_20261023-124737",
+  "break_errors": {},
+  "oracle_success_rate": 1.0,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

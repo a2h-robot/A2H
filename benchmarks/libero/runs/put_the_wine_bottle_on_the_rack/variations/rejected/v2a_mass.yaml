@@ -1,0 +1,6 @@
+id: v2
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A3: the bottle is light enough that a pinch on the thin neck holds it against the tipping torque when the wrist pitches 60 deg (a real full wine bottle weighs ~1 kg, here 0.015 kg)"
+edits:
+  dynamics: {name: wine_bottle_1, mass: 0.6}

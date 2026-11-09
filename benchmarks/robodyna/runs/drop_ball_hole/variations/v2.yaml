@@ -1,0 +1,8 @@
+id: v2
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "nothing stands between the ball and the sorter: the lift-and-carry moves pass no avoid list and carry the ball 8 cm above the platform top (A6)"
+edits:
+  add_obstacle:
+    - {name: left wall, asset: box, size: [0.02, 0.14, 0.32], pose: [-0.20, -0.02, 0.90], rgb: [0.5, 0.5, 0.55]}
+    - {name: right wall, asset: box, size: [0.02, 0.14, 0.32], pose: [0.20, -0.02, 0.90], rgb: [0.5, 0.5, 0.55]}

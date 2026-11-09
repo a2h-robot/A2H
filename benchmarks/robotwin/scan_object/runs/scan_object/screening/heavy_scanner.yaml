@@ -1,0 +1,6 @@
+id: heavy_scanner
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "M2/D1 (screening): the held scanner stays rigid in the hand"
+edits:
+  dynamics: {name: scanner, mass: 0.6, friction: 0.13}

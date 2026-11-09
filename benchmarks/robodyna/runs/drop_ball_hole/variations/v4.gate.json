@@ -1,0 +1,70 @@
+{
+  "task": "drop_ball_hole",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-24 00:59:24",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "019985706b41",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.3,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/drop_ball_hole/v4_20261024-010223",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10002,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10003,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10004,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "pass",
+  "reason": "pass",
+  "wall_clock_s": 270.2
+}

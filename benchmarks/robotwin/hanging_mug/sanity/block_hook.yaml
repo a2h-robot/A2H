@@ -1,0 +1,6 @@
+id: block_hook
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "backend smoke test: a static post stands right where the hanging arm approaches the hook"
+edits:
+  add_obstacle: {name: post, asset: box, size: [0.45, 0.02, 0.36], pose: [0.2, 0.0, 0.92]}

@@ -1,0 +1,27 @@
+{
+  "task": "stack_blocks_three",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-23 12:25:38",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "05b5214282d6",
+  "validity": "ok",
+  "s0": 0.8,
+  "s_break": 0.3,
+  "break_frames": "benchmarks/robotwin/logs/frames/stack_blocks_three/v4_20261023-122640",
+  "break_errors": {
+    "0": "StepLimitExceeded: 20000 physics steps (80 s)",
+    "1": "StepLimitExceeded: 20000 physics steps (80 s)",
+    "5": "StepLimitExceeded: 20000 physics steps (80 s)",
+    "6": "StepLimitExceeded: 20000 physics steps (80 s)",
+    "7": "StepLimitExceeded: 20000 physics steps (80 s)",
+    "8": "StepLimitExceeded: 20000 physics steps (80 s)",
+    "9": "StepLimitExceeded: 20000 physics steps (80 s)"
+  },
+  "oracle_success_rate": 0.8,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

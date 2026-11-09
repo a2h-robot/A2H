@@ -1,0 +1,10 @@
+id: v3
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A6: the mouse lies flat and right side up"
+# The mouse was knocked over and lies upside down (rolled half a turn about its long axis) where it was; it is put
+# down 4 cm higher so that it drops onto its back instead of starting inside the table. The success check is
+# xy only, so an upside-down mouse on the pad still counts.
+edits:
+  object_pose:
+    - {name: mouse, rpy: [-1.5708, 0.0, -1.5708], delta_xyz: [0.0, 0.0, 0.04]}

@@ -1,0 +1,21 @@
+{
+  "task": "stack_blocks_three",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-23 12:10:13",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "c7ef50fda2f1",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "break_frames": "benchmarks/robotwin/logs/frames/stack_blocks_three/v3_20261023-121046",
+  "break_errors": {
+    "9": "StepLimitExceeded: 20000 physics steps (80 s)"
+  },
+  "oracle_success_rate": 0.4,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

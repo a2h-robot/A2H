@@ -1,0 +1,4 @@
+id: r2_lying
+axis: orientation
+edits:
+  object_pose: {name: boxdrink, delta_xyz: [-0.112, 0.0, 0.04], delta_rpy: [0, 1.5708, 0]}

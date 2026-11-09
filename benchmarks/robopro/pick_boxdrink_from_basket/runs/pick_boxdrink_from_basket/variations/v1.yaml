@@ -1,0 +1,15 @@
+id: v1
+axis: distractor
+parameter_tuning: false
+assumption_violated: "there is free table space in the fixed region in front of the robot on the arm's side (A9)"
+description: "a cluttered countertop: eight movable boxes (10 x 6 x 10 cm, 0.3 kg) fill the front-left table area"
+edits:
+  add_distractor:
+    - {name: clutter_00, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.42, -0.16, 0.792]}
+    - {name: clutter_01, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.42, -0.075, 0.792]}
+    - {name: clutter_10, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.3, -0.16, 0.792]}
+    - {name: clutter_11, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.3, -0.075, 0.792]}
+    - {name: clutter_20, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.18, -0.16, 0.792]}
+    - {name: clutter_21, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.18, -0.075, 0.792]}
+    - {name: clutter_30, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.06, -0.16, 0.792]}
+    - {name: clutter_31, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.06, -0.075, 0.792]}

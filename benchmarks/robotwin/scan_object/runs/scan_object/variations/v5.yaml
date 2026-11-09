@@ -1,0 +1,7 @@
+id: v5
+axis: distractor
+parameter_tuning: false
+assumption_violated: "C1/C2/D1: the approaches, lifts and grasps have free space around them (the table holds only the scanner and the box)"
+edits:
+  # a busy table: RoboTwin's clutter generator places 10 everyday objects around the task objects
+  add_distractor: {name: clutter, asset: clutter, n: 10}

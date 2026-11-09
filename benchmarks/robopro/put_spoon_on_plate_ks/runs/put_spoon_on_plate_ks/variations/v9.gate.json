@@ -1,0 +1,23 @@
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "v9",
+  "pass": true,
+  "time": "2026-10-23 22:36:22",
+  "validity": "ok",
+  "parameter_tuning": true,
+  "parameter_tuning_label": true,
+  "parameter_tuning_auto": true,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "291b4c05c81b",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_spoon_on_plate_ks/v9_20261023-223629",
+  "break_failures": [
+    "blocked: pushing overhang with 84 N (limit 40 N)",
+    "blocked: pushing overhang with 60 N (limit 40 N)",
+    "timeout in pool",
+    "timeout in pool",
+    "timeout in pool"
+  ],
+  "reason": "pass"
+}

@@ -1,0 +1,8 @@
+id: v9
+axis: object_position
+parameter_tuning: false
+unsolved: true
+unsolved_note: "5 repairs reached 0.6: the right arm can pull the drawer only ~10 cm at x = 0.24 before its links strike the table (2-4 kN contact), after which the drawer springs shut; the left arm cannot reach the handle. Not fixable from the pipeline (see ISSUES.md 9)."
+assumption_violated: "A1/A10: the cabinet stands in the middle, so the arm opposite the object can always reach the handle and the arm on the object's side can always reach the open drawer. Here the cabinet stands 20 cm to the robot's right: the handle and the drawer are out of the left arm's comfortable reach, so the fixed arm assignment (drawer = arm opposite the object) fails."
+edits:
+  object_pose: {name: cabinet, delta_xyz: [0.20, 0.0, 0.0]}

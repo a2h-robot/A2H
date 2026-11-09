@@ -1,0 +1,14 @@
+id: v5
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A9 / round-1 repair: the corridor is checked once, at the start; nothing enters it afterwards"
+notes: >
+  The switch stands at the fixed spot of v1, with the corridor clear at the start. 1.5 s into the
+  episode, after the program has checked the corridor, a 10 x 4 x 10 cm, 0.3 kg box slides in from the
+  robot's right (0.25 m/s for 1 s) and stops directly in front of the switch, as when someone puts
+  something down there. Screening: 0.0 (arrival at 3 s: 0.2). The oracle cannot judge motion edits
+  (ISSUES 18).
+edits:
+  object_pose: {name: switch, xyz: [0.0, 0.06], rpy: [0.0, 0.0, 1.5708]}
+  add_distractor: {name: arriving_box, shape: box, size: [0.10, 0.04, 0.10], pose: [0.25, -0.06, 0.79], mass: 0.3, rgb: [0.8, 0.5, 0.2]}
+  object_motion: {name: arriving_box, velocity: [-0.25, 0.0, 0.0], start_time: 1.5, duration: 1.0}

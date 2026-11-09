@@ -1,0 +1,6 @@
+id: s18_coaster_pulled_carry
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A3: the coaster stays where it was estimated while the cup is carried"
+edits:
+  object_motion: {name: coaster, velocity: [0.0, 0.04, 0.0], start_time: 10.0, duration: 3.0, mode: constant}

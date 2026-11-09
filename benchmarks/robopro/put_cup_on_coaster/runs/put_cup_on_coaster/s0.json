@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/robopro/runs/put_cup_on_coaster/pipeline.py@bfbb69417674"
+}

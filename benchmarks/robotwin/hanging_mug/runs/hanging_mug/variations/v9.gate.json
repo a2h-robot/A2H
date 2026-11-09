@@ -1,0 +1,15 @@
+{
+  "task": "hanging_mug",
+  "variation": "v9",
+  "pass": false,
+  "time": "2026-10-23 13:54:30",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "d996b32a197d",
+  "validity": "10/10 seeds invalid",
+  "gate": "validity",
+  "reason": "invalid scene: seed 0: reset: RuntimeError: afiled to get bounding box: no collision shapes attached",
+  "wall_clock_s": 22.7
+}

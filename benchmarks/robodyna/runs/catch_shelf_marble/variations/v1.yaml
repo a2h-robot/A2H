@@ -1,0 +1,7 @@
+id: v1
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "the bowl moves only while a key is held and stays where it was left when the key is released (A8)"
+notes: "the belt creeps: the bowl drifts +x at 6 cm/s for the whole episode, pressed or not (a slipping conveyor). Still solvable: the keys drive it at 18 cm/s."
+edits:
+  object_motion: {name: bowl, velocity: [0.06, 0.0, 0.0], start_time: 0.0, duration: 60.0, mode: constant}

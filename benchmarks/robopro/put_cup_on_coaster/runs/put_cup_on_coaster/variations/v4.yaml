@@ -1,0 +1,8 @@
+id: v4
+axis: orientation
+parameter_tuning: false
+unsolved: true          # not recovered within MAX_REPAIR = 6 (best 0.7); reverted, see reflections.jsonl round 4
+assumption_violated: "A5: the cup stands upright (here it lies on its side, as after being knocked over)"
+edits:
+  object_pose:
+    - {name: cup, rpy: [0.0, 1.5708, 0.0], delta_xyz: [0.0, 0.0, 0.03]}   # lifted 3 cm so the rotated cup does not start inside the table

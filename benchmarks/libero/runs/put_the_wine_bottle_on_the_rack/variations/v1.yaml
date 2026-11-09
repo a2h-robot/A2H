@@ -1,0 +1,6 @@
+id: v1
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A1: the rack's shelf runs along world x (bottle laid along +x, wrist pitched about world y)"
+edits:
+  object_pose: {name: wine_rack_1, delta_rpy: [0.0, 0.0, 1.5708]}

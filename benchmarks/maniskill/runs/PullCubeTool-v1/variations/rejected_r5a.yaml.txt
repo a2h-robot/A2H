@@ -1,0 +1,7 @@
+id: v6
+axis: object_position
+parameter_tuning: false
+assumption_violated: "the tool lies on the table surface, so the grasp height can be hard-coded (A3); here it lies on a 6 cm high platform (a tray or a book) on the robot's left."
+edits:
+  object_pose: {name: l_shape_tool, xyz: [-0.25, 0.18, 0.085]}
+  add_obstacle: {name: platform, shape: box, size: [0.24, 0.185, 0.06], pose: [-0.15, 0.2275, 0.03], rgb: [0.55, 0.45, 0.3]}

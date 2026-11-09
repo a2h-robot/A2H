@@ -1,0 +1,13 @@
+id: v6
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A1: nothing stands next to the coaster (the hand and cup can come down onto it)"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.20, -0.05]}
+    - {name: coaster, xyz: [-0.05, -0.15]}
+  add_distractor:                  # v5's crowd, moved to the middle of the table (v5 put a box inside the furniture)
+    - {name: box_l, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.145, -0.15, 0.80], mass: 0.15}
+    - {name: box_r, shape: box, size: [0.05, 0.05, 0.12], pose: [0.045, -0.15, 0.80], mass: 0.15}
+    - {name: box_f, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.05, -0.245, 0.80], mass: 0.15}
+    - {name: box_b, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.05, -0.055, 0.80], mass: 0.15}

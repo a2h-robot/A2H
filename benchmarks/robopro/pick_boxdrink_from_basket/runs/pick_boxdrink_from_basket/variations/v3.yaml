@@ -1,0 +1,10 @@
+id: v3
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+unsolved_note: "best s_recovered 0.7 (repair 2 of 6); the last attempt is in unsolved/v3_pipeline_attempt.py; pipeline reverted to round 2"
+assumption_violated: "the path from the basket towards the robot is free (A8): after lifting, the box always leaves the basket straight towards the robot"
+description: "a tall fixed item (a paper-towel holder: cylinder, 6 cm diameter, 36 cm tall) stands on the counter 14 cm in front of the basket"
+edits:
+  add_obstacle: {name: towel_holder, shape: cylinder, size: [0.06, 0.36], rpy: [0, 1.5708, 0], rgb: [0.8, 0.8, 0.8],
+                 pose: {relative_to: basket, offset: [0.0, -0.14, 0.0], z: 0.92}}

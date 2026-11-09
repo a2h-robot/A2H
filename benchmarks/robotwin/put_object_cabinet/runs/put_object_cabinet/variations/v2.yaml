@@ -1,0 +1,6 @@
+id: v2
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A2: the cabinet faces the robot squarely, so the drawer slides straight towards the robot. Here the cabinet is turned 31 deg about the vertical (and shifted 6 cm left), so the drawer slides out diagonally towards the robot's right and its front, handle and opened part sit at an angle."
+edits:
+  object_pose: {name: cabinet, delta_xyz: [-0.06, 0.0, 0.0], delta_rpy: [0.0, 0.0, 0.55]}

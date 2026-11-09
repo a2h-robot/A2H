@@ -1,0 +1,10 @@
+id: v2
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A1: the arm on the mouse's side can also reach the pad (the pad is in the middle of the desk)"
+# The pad lies on the far side of the desk from the mouse: the arm that reaches the mouse must put it 0.68 m away,
+# across the robot's body.
+edits:
+  object_pose:
+    - {name: mouse, xyz: [0.38, -0.10]}
+    - {name: pad, xyz: [-0.30, -0.10]}

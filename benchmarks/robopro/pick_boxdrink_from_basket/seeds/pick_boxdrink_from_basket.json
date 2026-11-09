@@ -1,0 +1,242 @@
+{
+ "task": "pick_boxdrink_from_basket",
+ "source": "benchmark/eval_seeds/pick_boxdrink_from_basket/bench_demo_kitchenl_clean.txt + 40 sequential",
+ "stable_seeds": [
+  40000,
+  40001,
+  40002,
+  40003,
+  40004,
+  40005,
+  40008,
+  40009,
+  40010,
+  40012,
+  40013,
+  40015,
+  40017,
+  40021,
+  40022,
+  40020,
+  40025,
+  40027,
+  40028,
+  40033,
+  40035,
+  40037,
+  40038,
+  40039,
+  40041,
+  40042,
+  40044,
+  40045,
+  40047,
+  40048,
+  40049,
+  40059
+ ],
+ "scene_ids": [
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  0,
+  0,
+  2,
+  0,
+  2,
+  0,
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0,
+  2,
+  2,
+  2,
+  2,
+  0
+ ],
+ "rejected": [
+  {
+   "seed": 40007,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40014,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40018,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40023,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40024,
+   "scene_id": 0,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40006,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40011,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40016,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40019,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40026,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40029,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40030,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40031,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40032,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40034,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40036,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40040,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40043,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40046,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40050,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40051,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40052,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40053,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40054,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40055,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40056,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40057,
+   "scene_id": 2,
+   "error": null,
+   "expert": false
+  },
+  {
+   "seed": 40058,
+   "scene_id": 1,
+   "error": null,
+   "expert": false
+  }
+ ]
+}

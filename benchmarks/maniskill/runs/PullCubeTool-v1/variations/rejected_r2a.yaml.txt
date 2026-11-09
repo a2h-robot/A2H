@@ -1,0 +1,6 @@
+id: v2
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "the cube stays where it was detected at the start; it is detected once and never re-detected (A8). Here it is pushed sideways (+y) by 12 cm while the robot is fetching the tool."
+edits:
+  object_motion: {name: cube, velocity: [0.0, 0.06, 0.0], start_time: 0.5, duration: 2.0, mode: constant}

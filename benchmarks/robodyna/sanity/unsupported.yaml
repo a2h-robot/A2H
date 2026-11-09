@@ -1,0 +1,6 @@
+id: unsupported
+axis: size
+parameter_tuning: false
+assumption_violated: "sanity check: object_scale is rejected on RoboDyna"
+edits:
+  object_scale: {name: block, scale: 1.2}

@@ -1,0 +1,5 @@
+{
+  "s0": 0.9,
+  "seeds": 10,
+  "pipeline": "benchmarks/maniskill/runs/PegInsertionSide-v1/pipeline.py@98a1cace50bc"
+}

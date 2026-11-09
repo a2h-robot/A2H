@@ -1,0 +1,4 @@
+id: r5_bigger13
+axis: size
+edits:
+  object_scale: {name: boxdrink, scale: 1.3}

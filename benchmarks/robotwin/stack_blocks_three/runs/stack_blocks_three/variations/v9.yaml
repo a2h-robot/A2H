@@ -1,0 +1,151 @@
+id: v9
+axis: object_motion
+parameter_tuning: false
+assumption_violated: 'A20: moving objects come to rest within a few seconds, so a free-space snapshot taken after waiting describes where things will be; here a small 8 x 8 x 6 cm tray shuttles back and
+  forth along y = -0.15 between x = -0.25 and x = 0.25 at 10 cm/s for the whole episode, right across the preferred build area (like a conveyor or a person sliding things around)'
+edits:
+  add_distractor:
+    name: shuttle
+    shape: box
+    size:
+    - 0.08
+    - 0.08
+    - 0.06
+    pose:
+    - -0.25
+    - -0.15
+    - 0.77
+    rgb:
+    - 0.2
+    - 0.5
+    - 0.3
+    mass: 0.5
+  object_motion:
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 0.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 5.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 10.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 15.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 20.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 25.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 30.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 35.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 40.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 45.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 50.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 55.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 60.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 65.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - 0.1
+    - 0.0
+    - 0.0
+    start_time: 70.5
+    duration: 5.0
+    mode: constant
+  - name: shuttle
+    velocity:
+    - -0.1
+    - 0.0
+    - 0.0
+    start_time: 75.5
+    duration: 5.0
+    mode: constant

@@ -1,0 +1,30 @@
+# Screening of candidate variations: success over seeds 0-9 of the bank, for the pipeline at that point
+# and for RoboTwin's expert (oracle). Candidates were screened before choosing what to gate.
+# The oracle is not meaningful for object_motion edits (ISSUES 18).
+# round 1 (Phase 1 pipeline)
+v1_pose_only   pipeline=1.0 oracle=1.0   (control: v1's fixed switch placement without the box)
+# round 2 (round-1 pipeline)
+s_damp20       pipeline=0.3 oracle=0.1
+s_damp100      pipeline=0.0 oracle=0.0
+s_fric2        pipeline=1.0 oracle=1.0
+s_fric10       pipeline=0.3 oracle=0.7   -> gated as v2
+s_far          pipeline=1.0 oracle=1.0
+# round 3 (round-2 pipeline)
+s_move_x       pipeline=0.0 oracle=1.0   -> gated as v3
+s_move_y       pipeline=0.1 oracle=1.0
+s_side_left    pipeline=1.0 oracle=0.3
+s_side_right   pipeline=0.9 oracle=1.0
+s_tilt45       pipeline=1.0 oracle=1.0
+# round 4 (round-3 pipeline)
+s_arrive       pipeline=0.9 oracle=1.0   (box arrives at 4 s, during the first press)
+s_static_low   pipeline=0.9 oracle=0.7
+s_high         pipeline=1.0 oracle=1.0
+s_drift        pipeline=1.0 oracle=0.9
+s_near         pipeline=0.9 oracle=1.0
+s_right_edge   pipeline=1.0 oracle=0.1
+s_left_edge    pipeline=1.0 oracle=0.0
+s_corner       pipeline=1.0 oracle=1.0
+s_heavy_block  pipeline=0.4 oracle=0.0   -> gated as v4
+# round 5 (round-4 pipeline)
+s_arrive_early pipeline=0.0 oracle=1.0   -> gated as v5
+s_arrive_mid   pipeline=0.2 oracle=1.0

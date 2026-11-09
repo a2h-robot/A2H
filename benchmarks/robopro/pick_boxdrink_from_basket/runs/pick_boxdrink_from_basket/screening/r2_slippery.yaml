@@ -1,0 +1,4 @@
+id: r2_slippery
+axis: dynamics
+edits:
+  dynamics: {name: boxdrink, mass: 0.6, friction: 0.15}

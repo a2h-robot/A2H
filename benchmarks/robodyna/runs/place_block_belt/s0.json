@@ -1,0 +1,6 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "seed_offset": 0,
+  "pipeline": "benchmarks/robodyna/runs/place_block_belt/pipeline.py@29fb24124d70"
+}

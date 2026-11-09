@@ -1,0 +1,6 @@
+id: rejected4_swap
+axis: size
+parameter_tuning: false
+assumption_violated: "the dish has a fixed shape and size: the rim lip is at a hard-coded radius RIM_R = 0.067 m and is made of 8 flat segments (B2, B3); here the plate is a different, smaller and deeper dish (a white bowl asset)"
+edits:
+  swap_object: {name: plate_1, with: white_bowl}

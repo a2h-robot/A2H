@@ -1,0 +1,8 @@
+id: box_in_front_of_scanner
+axis: object_position
+parameter_tuning: false
+assumption_violated: "C1: the task objects lie apart, so each grasp only has to avoid non-task objects"
+edits:
+  object_pose:
+    - {name: scanner, xyz: [-0.15, -0.08, 0.741]}
+    - {name: object, xyz: [-0.15, -0.19, 0.741]}

@@ -1,0 +1,7 @@
+id: v6
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "D1/M2: once the lift confirmed the grasp, the object stays in the hand for the rest of the task (holding is never checked again)"
+edits:
+  # the box slips out of the hand while it is carried to the meeting point (pulled down for 0.25 s at ~10.5 s)
+  object_motion: {name: object, velocity: [0.0, 0.0, -0.6], start_time: 10.5, duration: 0.25, mode: constant}

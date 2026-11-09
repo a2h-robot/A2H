@@ -1,0 +1,100 @@
+{
+ "task": "put_spoon_on_plate_ks",
+ "variation": "base",
+ "success_rate": 0.0,
+ "seeds": 3,
+ "seed_offset": 0,
+ "per_seed": [
+  {
+   "seed": 40002,
+   "success": false,
+   "error": null,
+   "steps": 325,
+   "last_error": "",
+   "trace": [
+    "t=0.0s detect('spoon') -> ObjectState(spoon, p=[-0.323, -0.173, 0.754])",
+    "t=1.1s move_by(dz=0.05, arm='left') -> True"
+   ],
+   "final": {
+    "scene_id": 0,
+    "spoon_xyz": [
+     -0.33,
+     -0.181,
+     0.746
+    ],
+    "plate_xyz": [
+     -0.08,
+     -0.166,
+     0.741
+    ],
+    "xy_err": 0.25,
+    "grippers_open": [
+     true,
+     true
+    ]
+   },
+   "wall_clock_s": 29.68
+  },
+  {
+   "seed": 40003,
+   "success": false,
+   "error": null,
+   "steps": 320,
+   "last_error": "",
+   "trace": [
+    "t=0.0s detect('spoon') -> ObjectState(spoon, p=[-0.318, -0.068, 0.751])",
+    "t=1.1s move_by(dz=0.05, arm='left') -> True"
+   ],
+   "final": {
+    "scene_id": 2,
+    "spoon_xyz": [
+     -0.323,
+     -0.076,
+     0.746
+    ],
+    "plate_xyz": [
+     0.086,
+     -0.148,
+     0.741
+    ],
+    "xy_err": 0.415,
+    "grippers_open": [
+     true,
+     true
+    ]
+   },
+   "wall_clock_s": 29.35
+  },
+  {
+   "seed": 40005,
+   "success": false,
+   "error": null,
+   "steps": 324,
+   "last_error": "",
+   "trace": [
+    "t=0.0s detect('spoon') -> ObjectState(spoon, p=[-0.362, -0.092, 0.743])",
+    "t=1.1s move_by(dz=0.05, arm='left') -> True"
+   ],
+   "final": {
+    "scene_id": 2,
+    "spoon_xyz": [
+     -0.366,
+     -0.076,
+     0.746
+    ],
+    "plate_xyz": [
+     -0.102,
+     -0.15,
+     0.741
+    ],
+    "xy_err": 0.274,
+    "grippers_open": [
+     true,
+     true
+    ]
+   },
+   "wall_clock_s": 29.2
+  }
+ ],
+ "frames_dir": null
+}

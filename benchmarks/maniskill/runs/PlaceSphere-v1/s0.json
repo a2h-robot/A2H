@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/maniskill/runs/PlaceSphere-v1/pipeline.py@b94399918be8"
+}

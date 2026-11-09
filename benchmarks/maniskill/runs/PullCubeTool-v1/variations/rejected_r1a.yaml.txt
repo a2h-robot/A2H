@@ -1,0 +1,6 @@
+id: v1
+axis: orientation
+parameter_tuning: false
+assumption_violated: "the tool lies in its nominal orientation (handle pointing away from the robot, hook pointing +y), so a small in-hand rotation to world yaw 0 is always possible (A1/A2)"
+edits:
+  object_pose: {name: l_shape_tool, delta_xyz: [0.10, 0.0, 0.0], delta_rpy: [0.0, 0.0, 3.14159]}

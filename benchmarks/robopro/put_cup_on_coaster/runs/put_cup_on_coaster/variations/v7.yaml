@@ -1,0 +1,9 @@
+id: v7
+axis: object_position
+parameter_tuning: false
+unsolved: true          # 1 repair (0.3); in 5 of 10 seeds the cup sits inside the bookcase footprint (furniture moves per seed); see reflections round 6
+assumption_violated: "A10: one arm comfortably reaches both objects (here the cup is at the back on one side and the coaster at the front edge on the other)"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.10, 0.12]}
+    - {name: coaster, xyz: [-0.20, -0.28]}

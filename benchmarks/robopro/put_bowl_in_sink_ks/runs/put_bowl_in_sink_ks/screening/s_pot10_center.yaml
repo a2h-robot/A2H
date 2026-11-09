@@ -1,0 +1,6 @@
+id: s_pot10_center
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A1: the basin is empty"
+edits:
+  add_distractor: {name: pot, shape: box, size: [0.10, 0.10, 0.14], mass: 0.6, pose: {relative_to: sink, offset: [0, 0, 0], z: 0.732}}

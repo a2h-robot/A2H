@@ -1,0 +1,9 @@
+id: s5_slot
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A4: nothing crowds the spoon; the fingers fit around it"
+edits:
+  object_pose: {name: spoon, xyz: [-0.38, -0.20], rpy: [1.5708, 0.0, 0.0]}
+  add_obstacle:
+    - {name: wall_front, shape: box, size: [0.22, 0.03, 0.12], pose: [-0.40, -0.24, 0.80]}
+    - {name: wall_back, shape: box, size: [0.22, 0.03, 0.12], pose: [-0.40, -0.16, 0.80]}

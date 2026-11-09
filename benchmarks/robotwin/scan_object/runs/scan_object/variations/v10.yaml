@@ -1,0 +1,8 @@
+id: v10
+axis: obstacle
+parameter_tuning: false
+unsolved: true   # not recovered in 6 repairs (best: v10 0.8 with v8 0.7; also v10 0.7 with every other scene >= 0.8); pipeline reverted to round 4
+assumption_violated: "P4: some spot on the short list of meeting points is free, and if none is, the default spot will do"
+edits:
+  # a tall object (bin, monitor stand) stands in the middle of the table, filling the whole usual meeting area
+  add_obstacle: {name: column, asset: box, size: [0.08, 0.2, 0.3], pose: [0.0, -0.06, 0.89]}

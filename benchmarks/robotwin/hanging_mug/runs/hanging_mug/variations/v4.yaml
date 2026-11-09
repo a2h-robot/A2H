@@ -1,0 +1,6 @@
+id: v4
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A2: the mug starts on the left half of the table, where the left arm (always used first) can reach it; here it starts 30 cm further right, in front of the rack, out of the left arm's reach"
+edits:
+  object_pose: {name: mug, delta_xyz: [0.30, -0.06, 0.0]}

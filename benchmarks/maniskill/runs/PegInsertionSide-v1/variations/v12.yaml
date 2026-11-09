@@ -1,0 +1,8 @@
+id: v12
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A1: the peg lies flat on the table (its long axis is horizontal), so a top-down grasp at the centre's height across the long axis works anywhere along it"
+edits:
+  # the peg leaning ~20 deg: its tail on the table, its front half propped on a low immovable block
+  add_obstacle: {name: support, shape: box, size: [0.10, 0.04, 0.04], pose: [0.0, -0.10, 0.02], rgb: [0.5, 0.5, 0.5]}
+  object_pose: {name: peg, xyz: [-0.005, -0.15, 0.053], rpy: [0.31, 0.0, 1.5708]}

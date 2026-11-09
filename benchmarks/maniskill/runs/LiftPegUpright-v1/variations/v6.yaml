@@ -1,0 +1,7 @@
+id: v6
+axis: object_position
+parameter_tuning: false
+assumption_violated: "the peg rests on the table at z = 0 (A8): the grasp check sweeps the open fingers down to the table, so any support under the peg (here a 4 cm platform, like a box lid, shelf board or pallet) rejects every grasp; the peg must still be stood upright on the table"
+edits:
+  object_pose: {name: peg, delta_xyz: [0.0, 0.0, 0.04]}
+  add_obstacle: {name: platform, shape: box, size: [0.40, 0.40, 0.04], pose: [0.0, 0.0, 0.02], rgb: [0.4, 0.4, 0.5]}

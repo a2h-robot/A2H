@@ -1,0 +1,70 @@
+{
+  "task": "place_block_belt",
+  "variation": "v7",
+  "pass": false,
+  "time": "2026-10-24 01:22:19",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "c64c432fee24",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.7,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/place_block_belt/v7_20261024-012344",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10002,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10003,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10004,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": false,
+      "error": null
+    }
+  ],
+  "gate": "break",
+  "reason": "break gate: s_break=0.70 > s0/2=0.50",
+  "wall_clock_s": 209.1
+}

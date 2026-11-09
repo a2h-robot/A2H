@@ -1,0 +1,6 @@
+id: v3
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A4: the rack's hook points the usual way (rack yaw within RoboTwin's +-0.2 rad), so the right gripper lifted to point forward can slide the handle onto it; here the rack is turned 1 rad about vertical so the hook points to the robot's left"
+edits:
+  object_pose: {name: rack, delta_rpy: [0.0, 0.0, -1.0]}

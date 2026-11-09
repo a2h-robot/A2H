@@ -1,0 +1,6 @@
+id: rejected9_friction
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "the plate's surface is grippy enough (friction 0.95) for a two-finger pinch on its thin lip to hold it (F1); glazed ceramic is slippery (friction ~0.3)"
+edits:
+  dynamics: {name: plate_1, friction: 0.3}

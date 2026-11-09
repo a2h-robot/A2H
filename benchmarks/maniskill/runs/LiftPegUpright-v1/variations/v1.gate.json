@@ -1,0 +1,17 @@
+{
+  "task": "LiftPegUpright-v1",
+  "variation": "v1",
+  "pass": true,
+  "time": "2026-10-24 13:08:12",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "e593db6d5b3b",
+  "s0": 1.0,
+  "s_break": 0.4,
+  "oracle_success_rate": 1.0,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

@@ -1,0 +1,6 @@
+id: tune3
+axis: obstacle
+parameter_tuning: true
+assumption_violated: "sanity check (c): third parameter-tuning variation in a row"
+edits:
+  add_obstacle: {name: post, shape: box, size: [0.05, 0.05, 0.05], pose: [0.34, -0.20, 0.766]}

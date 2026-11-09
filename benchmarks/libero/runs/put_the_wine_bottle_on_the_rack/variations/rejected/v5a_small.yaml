@@ -1,0 +1,6 @@
+id: v5
+axis: size
+parameter_tuning: false
+assumption_violated: "A6: the bottle has the nominal size (radius 0.02 m, neck in the top 3 cm, body in the lower 45 %); here a smaller bottle (scale 0.75)"
+edits:
+  object_scale: {name: wine_bottle_1, scale: 0.75}

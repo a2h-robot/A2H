@@ -1,0 +1,6 @@
+id: tune3
+axis: color
+parameter_tuning: true
+assumption_violated: sanity check (c)
+edits:
+  object_color: {name: object, rgb: [0.7, 0.1, 0.1]}

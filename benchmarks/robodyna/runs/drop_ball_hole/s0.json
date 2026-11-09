@@ -1,0 +1,6 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "seed_offset": 0,
+  "pipeline": "benchmarks/robodyna/runs/drop_ball_hole/pipeline.py@4c892a7adc45"
+}

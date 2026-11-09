@@ -1,0 +1,6 @@
+id: v2
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A2: the bottle stands upright, so a top-down grasp 3 cm below its top pinches the neck and the in-hand bottle axis is the gripper approach axis"
+edits:
+  object_pose: {name: wine_bottle_1, xyz: [-0.19, -0.08, 0.921], rpy: [-1.5708, 0.0, 0.0]}

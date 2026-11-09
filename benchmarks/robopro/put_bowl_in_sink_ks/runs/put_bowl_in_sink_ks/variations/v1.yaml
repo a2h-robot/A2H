@@ -1,0 +1,9 @@
+id: v1
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A1: the basin is empty, so the bowl can be released over its middle"
+description: >
+  A pot (10 x 10 x 14 cm, 0.6 kg, movable) stands in the middle of the sink basin. The basin is 24 x 38 cm,
+  so a 14 cm strip stays free in front of the pot and behind it: enough for the 13.6 cm bowl.
+edits:
+  add_distractor: {name: pot, shape: box, size: [0.10, 0.10, 0.14], mass: 0.6, pose: {relative_to: sink, offset: [0, 0, 0], z: 0.732}}

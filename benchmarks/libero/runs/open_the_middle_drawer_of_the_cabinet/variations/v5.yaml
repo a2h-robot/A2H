@@ -1,0 +1,8 @@
+id: v5
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A2/A3: the cabinet stands where it usually does, facing sideways (+y); here it is turned 90 deg to face the robot and moved to the right of the table (the plate is moved out of its footprint), so the drawer must be pulled toward the robot base"
+edits:
+  object_pose:
+    - {name: wooden_cabinet_1, xyz: [0.15, -0.05, 0.905], delta_rpy: [0, 0, 1.5708]}
+    - {name: plate_1, xyz: [0.12, 0.20, 0.902]}

@@ -1,0 +1,9 @@
+id: v8
+axis: object_position
+parameter_tuning: false
+assumption_violated: "C3/D3: the two task objects lie apart, so the arm that has finished its pick never stands in the other arm's way (the other arm is not in the planner's world)"
+edits:
+  # the box was set down right in front of the scanner (both on the left, 11 cm apart)
+  object_pose:
+    - {name: scanner, xyz: [-0.15, -0.08, 0.741]}
+    - {name: object, xyz: [-0.15, -0.19, 0.741]}

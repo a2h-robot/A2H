@@ -1,0 +1,8 @@
+id: v1
+axis: orientation
+parameter_tuning: false
+unsolved: true
+assumption_violated: "A1: the charger lies flat on the table (only yaw varies), so a top-down grasp closes across the base's horizontal y axis"
+description: "The charger has tipped over onto its side (rolled 90 deg about its own x axis, pegs now stacked vertically), yawed 0.5 rad. Its xy position stays random."
+edits:
+  object_pose: {name: charger, rpy: [1.5708, 0.0, 0.5], delta_xyz: [0.0, 0.0, 0.004]}

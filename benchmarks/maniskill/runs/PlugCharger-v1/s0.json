@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/maniskill/runs/PlugCharger-v1/pipeline.py@ae40b06a31d7"
+}

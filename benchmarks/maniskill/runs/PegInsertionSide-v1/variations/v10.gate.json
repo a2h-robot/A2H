@@ -1,0 +1,15 @@
+{
+  "task": "PegInsertionSide-v1",
+  "variation": "v10",
+  "pass": false,
+  "time": "2026-10-25 15:21:13",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "4bb6a077903a",
+  "s0": 0.9,
+  "s_break": 1.0,
+  "reason": "break gate: s_break=1.00 > s0/2=0.45"
+}

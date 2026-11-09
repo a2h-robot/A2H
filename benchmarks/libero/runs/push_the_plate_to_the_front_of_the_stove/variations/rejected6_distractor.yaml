@@ -1,0 +1,6 @@
+id: rejected6_distractor
+axis: distractor
+parameter_tuning: false
+assumption_violated: "some part of the goal region is free for the plate; the pipeline only picks the clearest point in it and never clears the goal (A3, D2)"
+edits:
+  add_distractor: {name: block, shape: box, size: [0.045, 0.045, 0.045], pose: [-0.05, 0.215, 0.925], rgb: [0.8, 0.2, 0.2], mass: 0.05}

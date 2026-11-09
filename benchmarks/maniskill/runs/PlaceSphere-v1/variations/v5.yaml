@@ -1,0 +1,7 @@
+id: v5
+axis: distractor
+parameter_tuning: false
+assumption_violated: "C1: the goal is empty; here a small block already sits in the bin and must be removed first"
+edits:
+  object_pose: {name: bin, xyz: [0.05, 0.0, 0.0025]}
+  add_distractor: {name: block, shape: box, size: [0.03, 0.03, 0.03], pose: [0.05, 0.0, 0.0205], rgb: [0.8, 0.2, 0.2], mass: 0.02}

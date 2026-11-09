@@ -1,0 +1,7 @@
+id: v1
+axis: obstacle
+parameter_tuning: false
+unsolved: true          # recovered only to 0.6 within 6 repair iterations (see reflections.jsonl)
+assumption_violated: "A1: the hard-coded handover spot MIDDLE (x 0, y -0.15) mid-table is empty; here a fixed block occupies it"
+edits:
+  add_obstacle: {name: block, asset: box, size: [0.14, 0.12, 0.10], pose: [0.0, -0.15, 0.79], rgb: [0.3, 0.3, 0.35]}

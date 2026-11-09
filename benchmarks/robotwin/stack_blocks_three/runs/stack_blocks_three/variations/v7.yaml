@@ -1,0 +1,6 @@
+id: v7
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A18: any obstacle footprint blocks an arm's reach whatever its height, so a build spot needs a straight 2D line clear of every obstacle from both arm bases; here a low divider (2 cm thick, 10 cm tall) runs down the middle of the table (x = 0, y from -0.30 to 0.12), which the arms can easily reach over"
+edits:
+  add_obstacle: {name: divider, shape: box, size: [0.02, 0.42, 0.10], pose: [0.0, -0.09, 0.79], rgb: [0.6, 0.6, 0.65]}

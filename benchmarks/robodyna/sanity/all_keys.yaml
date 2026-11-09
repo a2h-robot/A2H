@@ -1,0 +1,15 @@
+id: all_keys
+axis: distractor
+parameter_tuning: false
+assumption_violated: "backend smoke test: every supported scene-edit key at once (place_block_belt)"
+edits:
+  object_pose: {name: block, delta_xyz: [0.0, 0.03, 0.0], delta_rpy: [0, 0, 0.3]}
+  object_color: {name: block, rgb: [0.2, 0.6, 0.9]}
+  lighting: {intensity: 0.6, color: [1.0, 0.9, 0.8]}
+  add_distractor:
+    - {name: can, asset: cylinder, size: [0.05, 0.08], pose: [-0.45, 0.2, 0.78], mass: 0.2}
+    - {name: bottle, asset: 001_bottle, pose: [0.45, -0.25, 0.76]}
+  add_obstacle: {name: post, asset: box, size: [0.04, 0.04, 0.2], pose: [-0.45, -0.25, 0.84]}
+  object_motion: {name: can, velocity: [0.05, 0.0, 0.0], start_time: 1.0, duration: 1.0}
+  camera_pose: {view: head, delta_xyz: [0.02, 0.0, 0.0], delta_rpy: [0, 0.03, 0]}
+  dynamics: {name: block, mass: 0.05, friction: 0.8}

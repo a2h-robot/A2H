@@ -1,0 +1,15 @@
+{
+  "task": "turn_on_the_stove",
+  "variation": "v3",
+  "pass": false,
+  "time": "2026-10-23 11:26:49",
+  "validity": "ok",
+  "parameter_tuning": true,
+  "parameter_tuning_label": true,
+  "parameter_tuning_auto": true,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "2fe15232b1ac",
+  "s0": 1.0,
+  "s_break": 0.8,
+  "reason": "break gate: s_break=0.80 > s0/2=0.50"
+}

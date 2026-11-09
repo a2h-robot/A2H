@@ -1,0 +1,23 @@
+{
+  "task": "put_object_cabinet",
+  "variation": "v13",
+  "pass": false,
+  "time": "2026-10-23 21:38:55",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "1a31b79526d4",
+  "s0": 0.9,
+  "s_break": 0.5,
+  "frames_dir": "benchmarks/robotwin/logs/frames/put_object_cabinet/v13_20261023-213903",
+  "break_failures": [
+    "place: no reachable pre-place pose (no collision-free path (unreachable, or blocked by an obstacle))",
+    "StepLimitExceeded: 30000 simulation steps",
+    "blocked: pushing table with 47 N (limit 40 N)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "StepLimitExceeded: 30000 simulation steps"
+  ],
+  "reason": "break gate: s_break=0.50 > s0/2=0.45"
+}

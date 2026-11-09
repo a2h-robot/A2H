@@ -1,0 +1,8 @@
+id: v6
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the space above the plate rim is free for a vertical approach from 8 cm above (E1): here a fixed shelf board 7.5 cm above the table covers the far half of the plate, so only the rim segments facing the robot can be reached"
+edits:
+  add_obstacle: {name: shelf, shape: box, size: [0.16, 0.20, 0.02], pose: [0.11, 0.0, 0.985], rgb: [0.5, 0.35, 0.2]}
+unsolved: true
+repair_log: 'one repair iteration: a planner sweep over all pinch poses (rim angles 90-270 deg every 15 deg, hand yaw offsets 0/+-30/+-60/90 deg) found no collision-free pose, because the 20 cm hand reaches under the board from any rim point that is still uncovered; the plate cannot be pulled out from under the board either (pushing on the rim cone from inside rides over it). Probably physically unsolvable for this gripper: a design mistake on my side, recorded as unsolved instead of spending the remaining iterations'

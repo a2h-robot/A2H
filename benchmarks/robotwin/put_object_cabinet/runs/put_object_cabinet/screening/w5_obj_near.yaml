@@ -1,0 +1,6 @@
+id: w5_obj_near
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  object_pose: {name: object, xyz: [0.0, -0.30]}

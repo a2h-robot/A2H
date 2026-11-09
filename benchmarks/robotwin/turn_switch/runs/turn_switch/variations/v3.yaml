@@ -1,0 +1,10 @@
+id: v3
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A1: the switch stays where it was measured; the press point is detected once and reused for every approach and push stage"
+notes: >
+  The switch slides 8 cm to the robot's right (0.08 m/s for 1 s), starting 2 s into the episode, while the
+  arm is on its way, as when a device on a table is bumped or moved. It then stays still. The oracle cannot
+  judge this one: RoboTwin's expert steps the scene itself, so scripted motions never run during its episode.
+edits:
+  object_motion: {name: switch, velocity: [0.08, 0.0, 0.0], start_time: 2.0, duration: 1.0}

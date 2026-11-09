@@ -1,0 +1,10 @@
+id: v5
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "nothing low lies on the table where the fingertips sweep: the push height (fingertips 0.6 cm above the table) is always free (A8/A11, vertical clearance)"
+edits:
+  # a low 2.2 cm rail (like a cable or a tray rim) 3-9 cm behind the box's usual spawn, on each
+  # layout's catch side; the fingertips at their usual push height hit it, a hand 1.5 cm higher clears it
+  add_obstacle:
+    - {asset: box, size: [0.22, 0.02, 0.022], pose: [0.32, -0.27, 0.751]}
+    - {asset: box, size: [0.22, 0.02, 0.022], pose: [-0.27, -0.27, 0.751]}

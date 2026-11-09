@@ -1,0 +1,13 @@
+id: s16_cup_on_tray
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A2: a tilted approach to the cup's body is free (here fixed 5 cm rims stand 3 cm from it, like a tray)"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.12, -0.08]}
+    - {name: coaster, xyz: [-0.15, -0.12]}
+  add_obstacle:
+    - {name: rim_l, shape: box, size: [0.01, 0.12, 0.05], pose: [0.065, -0.08, 0.765]}
+    - {name: rim_r, shape: box, size: [0.01, 0.12, 0.05], pose: [0.175, -0.08, 0.765]}
+    - {name: rim_f, shape: box, size: [0.12, 0.01, 0.05], pose: [0.12, -0.135, 0.765]}
+    - {name: rim_b, shape: box, size: [0.12, 0.01, 0.05], pose: [0.12, -0.025, 0.765]}

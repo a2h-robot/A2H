@@ -1,0 +1,7 @@
+id: v20
+axis: obstacle
+parameter_tuning: false
+unsolved: true          # 0.2 after 4 repair iterations; the run was stopped there by its time budget (see reflections.jsonl)
+assumption_violated: "A7 for the hand-over: the two arms' halves of the table are connected by open table, so the mug can be set down where the other arm reaches it; here a fixed divider (60 cm long, 30 cm tall) splits the table down the middle"
+edits:
+  add_obstacle: {name: divider, asset: box, size: [0.02, 0.58, 0.30], pose: [0.0, 0.01, 0.89], rgb: [0.5, 0.45, 0.4]}

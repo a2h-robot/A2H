@@ -1,0 +1,7 @@
+id: v1
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "P1/M1: the box is still where it was first measured when the second arm reaches for it (it is measured once at t=0 and grasped only after the scanner)"
+edits:
+  # the box is nudged 8 cm away from the robot while the scanner arm is still busy with its grasp
+  object_motion: {name: object, velocity: [0.0, 0.08, 0.0], start_time: 1.0, duration: 1.0, mode: constant}

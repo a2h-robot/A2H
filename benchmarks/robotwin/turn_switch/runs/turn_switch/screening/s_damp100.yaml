@@ -1,0 +1,6 @@
+id: s_damp100
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  dynamics: {name: switch_rocker, damping: 100.0}

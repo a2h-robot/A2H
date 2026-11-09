@@ -1,0 +1,7 @@
+id: v2
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "P4/C3: the meeting point in front of the robot (centre, 21 cm above the table) and the scanner's path to it are free; the meeting point is hard-coded, not chosen from the scene"
+edits:
+  # a tall pole (paper-towel holder, lamp) stands at the centre of the table, right where the arms meet
+  add_obstacle: {name: pole, asset: cylinder, size: [0.05, 0.4], pose: [0.0, -0.02, 0.94]}

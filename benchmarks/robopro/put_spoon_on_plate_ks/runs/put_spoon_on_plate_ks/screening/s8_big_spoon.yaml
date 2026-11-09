@@ -1,0 +1,6 @@
+id: s8_big_spoon
+axis: size
+parameter_tuning: false
+assumption_violated: "A8: the spoon has its nominal size"
+edits:
+  object_scale: {name: spoon, scale: 1.4}

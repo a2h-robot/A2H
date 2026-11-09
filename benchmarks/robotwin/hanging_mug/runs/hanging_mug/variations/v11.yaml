@@ -1,0 +1,6 @@
+id: v11
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A5: the mug starts upright, so RoboTwin's side grasps take it and the 'free' placement sets it down upright for the hand-over; here it lies on its side, opening facing away from the robot (knocked over)"
+edits:
+  object_pose: {name: mug, delta_xyz: [0.0, 0.0, 0.04], delta_rpy: [-1.5708, 0.0, 0.0]}

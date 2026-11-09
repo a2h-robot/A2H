@@ -1,0 +1,6 @@
+id: s5_cab_far
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  object_pose: {name: cabinet, delta_xyz: [0.0, 0.06, 0.0]}

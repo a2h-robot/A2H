@@ -1,0 +1,6 @@
+id: v13
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A14 (and the landing check): the mug stays where the fetching arm set it down until the other arm takes it; here it is nudged and slides ~10 cm right after it is released"
+edits:
+  object_motion: {name: mug, velocity: [0.045, 0.025, 0.0], start_time: 7.5, duration: 2.0}

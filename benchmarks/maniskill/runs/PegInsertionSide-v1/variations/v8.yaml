@@ -1,0 +1,9 @@
+id: v8
+axis: orientation
+parameter_tuning: false   # v7 plus a new edit (the peg reversed), not a change of v7's magnitude
+assumption_violated: "A2/A8: the grasp frame chosen on the table (only matched to the current wrist yaw) leaves a reachable, in-joint-limit wrist orientation for the insertion, whatever the relative yaw between the peg and the hole"
+edits:
+  # the box (fixture) turned by -90 deg (hole axis along +x) and the peg lying reversed (head toward the robot)
+  object_pose:
+    - {name: box_with_hole, delta_rpy: [0.0, 0.0, -1.5708]}
+    - {name: peg, delta_rpy: [0.0, 0.0, 3.1416]}

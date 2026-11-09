@@ -1,0 +1,7 @@
+id: s12_wall_by_plate
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A7': the space around the plate is free, so the held spoon (20 cm, not seen by the planner) can be lowered in any orientation"
+edits:
+  object_pose: {name: plate, xyz: [0.0, -0.20]}
+  add_obstacle: {name: wall, shape: box, size: [0.01, 0.30, 0.25], pose: [0.127, -0.20, 0.865]}

@@ -1,0 +1,97 @@
+{
+  "task": "pick_boxdrink_from_basket",
+  "variation": "base",
+  "success_rate": 0.0,
+  "seeds": 3,
+  "seed_offset": 0,
+  "per_seed": [
+    {
+      "seed": 40000,
+      "success": false,
+      "error": null,
+      "steps": 324,
+      "last_error": "",
+      "trace": [
+        "t=0.0s detect('boxdrink') -> ObjectState(boxdrink, p=[-0.392, 0.051, 1.069])",
+        "t=1.1s move_by(dz=0.05, arm='left') -> True"
+      ],
+      "final": {
+        "scene_id": 2,
+        "box_xyz": [
+          -0.38600000739097595,
+          0.054999999701976776,
+          0.9490000009536743
+        ],
+        "box_upright_cos": 1.0,
+        "box_above_table_m": 0.209,
+        "box_in_basket_xy": true,
+        "basket_xyz": [
+          -0.3869999945163727,
+          0.05400000140070915,
+          0.9269999861717224
+        ]
+      },
+      "wall_clock_s": 57.54,
+      "worker": "worker-4"
+    },
+    {
+      "seed": 40001,
+      "success": false,
+      "error": null,
+      "steps": 338,
+      "last_error": "",
+      "trace": [
+        "t=0.0s detect('boxdrink') -> ObjectState(boxdrink, p=[-0.387, 0.072, 1.059])",
+        "t=1.2s move_by(dz=0.05, arm='left') -> True"
+      ],
+      "final": {
+        "scene_id": 2,
+        "box_xyz": [
+          -0.3930000066757202,
+          0.06499999761581421,
+          0.9490000009536743
+        ],
+        "box_upright_cos": 1.0,
+        "box_above_table_m": 0.209,
+        "box_in_basket_xy": true,
+        "basket_xyz": [
+          -0.3930000066757202,
+          0.06499999761581421,
+          0.9269999861717224
+        ]
+      },
+      "wall_clock_s": 57.76,
+      "worker": "worker-2"
+    },
+    {
+      "seed": 40002,
+      "success": false,
+      "error": null,
+      "steps": 329,
+      "last_error": "",
+      "trace": [
+        "t=0.0s detect('boxdrink') -> ObjectState(boxdrink, p=[-0.369, 0.081, 1.067])",
+        "t=1.1s move_by(dz=0.05, arm='left') -> True"
+      ],
+      "final": {
+        "scene_id": 2,
+        "box_xyz": [
+          -0.37599998712539673,
+          0.0729999989271164,
+          0.9490000009536743
+        ],
+        "box_upright_cos": 1.0,
+        "box_above_table_m": 0.209,
+        "box_in_basket_xy": true,
+        "basket_xyz": [
+          -0.37599998712539673,
+          0.0729999989271164,
+          0.9269999861717224
+        ]
+      },
+      "wall_clock_s": 57.26,
+      "worker": "worker-3"
+    }
+  ],
+  "frames_dir": "benchmarks/robopro/logs/frames/pick_boxdrink_from_basket/base_20261023-203541"
+}

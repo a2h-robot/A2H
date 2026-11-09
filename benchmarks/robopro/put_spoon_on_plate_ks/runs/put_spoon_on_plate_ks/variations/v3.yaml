@@ -1,0 +1,9 @@
+id: v3
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A3: the arm on the spoon's side of the robot can reach both the spoon and the plate"
+# the spoon lies in the right front corner of the counter (along x), the plate on the far left
+edits:
+  object_pose:
+    - {name: spoon, xyz: [0.40, -0.25], rpy: [1.5708, 0.0, 0.0]}
+    - {name: plate, xyz: [-0.20, -0.15]}

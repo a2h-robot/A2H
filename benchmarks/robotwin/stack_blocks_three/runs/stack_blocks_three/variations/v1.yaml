@@ -1,0 +1,6 @@
+id: v1
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A1: the fixed stack spot (0, -0.13) is empty, so the base block can always be put there; here a fixed box (8 x 8 x 12 cm) stands exactly on that spot, so the stack must be built somewhere else"
+edits:
+  add_obstacle: {name: box_on_spot, shape: box, size: [0.08, 0.08, 0.12], pose: [0.0, -0.13, 0.80], rgb: [0.45, 0.45, 0.5]}

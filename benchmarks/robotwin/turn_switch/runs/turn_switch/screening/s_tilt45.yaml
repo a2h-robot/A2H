@@ -1,0 +1,6 @@
+id: s_tilt45
+axis: orientation
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_pose: {name: switch, delta_rpy: [-0.785, 0.0, 0.0]}

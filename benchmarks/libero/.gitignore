@@ -1,0 +1,4 @@
+__pycache__/
+.libero_config/
+logs/frames/
+runs/*/.gate_cache.json

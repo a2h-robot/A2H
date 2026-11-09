@@ -1,0 +1,4 @@
+id: s_heavy
+axis: dynamics
+edits:
+  dynamics: {name: boxdrink, mass: 0.8}

@@ -1,0 +1,6 @@
+id: s8_cup_nudged
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A4: the cup stays where it was estimated while the arm approaches"
+edits:
+  object_motion: {name: cup, velocity: [0.0, 0.06, 0.0], start_time: 1.0, duration: 2.0, mode: constant}

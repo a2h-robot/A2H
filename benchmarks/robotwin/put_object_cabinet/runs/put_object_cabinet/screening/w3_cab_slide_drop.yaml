@@ -1,0 +1,6 @@
+id: w3_cab_slide_drop
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  object_motion: {name: cabinet, velocity: [0.02, 0.0, 0.0], start_time: 25.0, duration: 4.0, mode: constant}

@@ -1,0 +1,8 @@
+id: v19
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A2/A3 together: the hand-over only ever ran left-to-right (mug on the left, rack on the right); here the layout is mirrored, mug on the right and rack on the far left, so the right arm must fetch and the left arm must hang"
+edits:
+  object_pose:
+    - {name: mug, delta_xyz: [0.32, -0.04, 0.0]}
+    - {name: rack, delta_xyz: [-0.62, 0.06, 0.0]}

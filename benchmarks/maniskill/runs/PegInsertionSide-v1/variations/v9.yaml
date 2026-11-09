@@ -1,0 +1,7 @@
+id: v9
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A8 (grasp side): the peg lies well inside the workspace, so the top-down tail grasp, the pre-grasp 8 cm above it and the lift are always reachable"
+edits:
+  # the peg far out to the right-front of the robot, ~0.82 m from the base (validity limit 0.85 m)
+  object_pose: {name: peg, xyz: [0.15, -0.30, 0.03], rpy: [0.0, 0.0, 1.5708]}

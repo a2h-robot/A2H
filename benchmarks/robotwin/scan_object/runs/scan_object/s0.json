@@ -1,0 +1,6 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "seed_offset": 0,
+  "pipeline": "benchmarks/robotwin/runs/scan_object/pipeline.py@00140440e7dc"
+}

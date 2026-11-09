@@ -1,0 +1,9 @@
+id: v3
+axis: object_position
+parameter_tuning: false
+assumption_violated: "P2: the scanner and the box lie on opposite sides of the robot, so the scanner's side alone can decide the arms and the box always gets the other arm, wherever it is"
+edits:
+  # both objects end up on the left half of the table: the scanner near the middle, the box far left
+  object_pose:
+    - {name: scanner, xyz: [-0.05, -0.12, 0.741]}
+    - {name: object, xyz: [-0.25, -0.06, 0.741]}

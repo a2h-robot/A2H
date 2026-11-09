@@ -1,0 +1,7 @@
+{
+  "task": "turn_switch",
+  "variation": "ts_noop",
+  "pass": false,
+  "time": "2026-10-23 19:51:39",
+  "reason": "no-op variation: no edits"
+}

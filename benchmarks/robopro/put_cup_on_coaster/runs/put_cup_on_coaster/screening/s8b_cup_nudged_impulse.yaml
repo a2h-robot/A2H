@@ -1,0 +1,7 @@
+id: s8b_cup_nudged_impulse
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A4: the cup stays where it was estimated while the arm approaches"
+edits:
+  dynamics: {name: cup, friction: 0.2}
+  object_motion: {name: cup, velocity: [0.0, 0.25, 0.0], start_time: 1.0, mode: impulse}

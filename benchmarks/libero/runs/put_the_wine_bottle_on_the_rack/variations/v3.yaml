@@ -1,0 +1,6 @@
+id: v3
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A5: nothing stands next to the bottle neck, so the fingers can open along the direction the shelf dictates and descend straight onto the neck"
+edits:
+  add_distractor: {name: tall_box, shape: box, size: [0.03, 0.03, 0.20], pose: [-0.19, 0.02, 1.0], rgb: [0.2, 0.4, 0.8], mass: 0.3}

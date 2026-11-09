@@ -1,0 +1,6 @@
+id: v5
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A6: the scene is static, so the drawer's opening can be measured as the handle's travel from where it was first seen. Here the (light) cabinet slides 12 cm towards the robot while the gripper reaches for and pulls the drawer (t = 1-5 s, 3 cm/s), as furniture does when a drawer is dragged: the handle moves although the drawer has not opened."
+edits:
+  object_motion: {name: cabinet, velocity: [0.0, -0.03, 0.0], start_time: 1.0, duration: 4.0, mode: constant}

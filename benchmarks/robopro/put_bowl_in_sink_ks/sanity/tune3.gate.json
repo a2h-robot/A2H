@@ -1,0 +1,12 @@
+{
+  "task": "pick_boxdrink_from_basket",
+  "variation": "tune3",
+  "pass": false,
+  "time": "2026-10-23 20:36:58",
+  "validity": "ok",
+  "parameter_tuning": true,
+  "parameter_tuning_label": true,
+  "parameter_tuning_auto": true,
+  "tuning_streak_before": 2,
+  "reason": "variance gate: third parameter-tuning variation in a row"
+}

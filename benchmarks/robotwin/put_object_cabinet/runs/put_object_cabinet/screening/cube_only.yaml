@@ -1,0 +1,7 @@
+id: control_cube_only
+axis: screen
+parameter_tuning: false
+assumption_violated: control for v12 (same cube and pose, no lid)
+edits:
+  swap_object: {name: object, with: 073_rubikscube, model_id: 1}
+  object_pose: {name: object, xyz: [0.26, -0.15]}

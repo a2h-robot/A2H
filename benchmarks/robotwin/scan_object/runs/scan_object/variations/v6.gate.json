@@ -1,0 +1,70 @@
+{
+  "task": "scan_object",
+  "variation": "v6",
+  "pass": false,
+  "time": "2026-10-23 17:27:31",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "26ea3d818fd4",
+  "validity": "ok",
+  "s0": 0.9,
+  "s_break": 1.0,
+  "break_frames_dir": "benchmarks/robotwin/logs/frames/scan_object/v6_20261023-172753",
+  "break_per_seed": [
+    {
+      "seed": 5,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 7,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 9,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 12,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 21,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 26,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 30,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 34,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 46,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 58,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "break",
+  "reason": "break gate: s_break=1.00 > s0/2=0.45",
+  "wall_clock_s": 66.7
+}

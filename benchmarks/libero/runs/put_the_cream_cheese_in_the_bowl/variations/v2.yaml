@@ -1,0 +1,6 @@
+id: v2
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A8: the place target does not move after it was detected once; here the bowl slides about 10 cm sideways (into the area the cheese came from) while the robot carries the cheese towards it"
+edits:
+  object_motion: {name: akita_black_bowl_1, velocity: [0.0, 0.07, 0.0], start_time: 8.5, duration: 1.5, mode: constant}

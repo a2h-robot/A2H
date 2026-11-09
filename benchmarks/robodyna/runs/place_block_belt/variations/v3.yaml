@@ -1,0 +1,10 @@
+id: v3
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A7/P2: nothing but the belt, its support and the blocker is near the carry path (the pipeline never asks for other obstacles, and the held block is not in the planner's model)"
+edits:
+  add_obstacle:
+    - {name: entry bar, asset: box, size: [0.03, 0.30, 0.03], pose: [-0.24, 0.0, 0.95], rgb: [0.55, 0.55, 0.6]}
+    - {name: exit bar, asset: box, size: [0.03, 0.30, 0.03], pose: [0.24, 0.0, 0.95], rgb: [0.55, 0.55, 0.6]}
+unsolved: true
+repair_note: "not recovered within the repair budget (MAX_REPAIR=6; 8 repair evaluations were run, rates 0.4 0.5 0.4 0.5 0.0 0.7 0.7 0.4); pipeline reverted to the round-1 version, the attempt is kept in dev/pipeline_v3_attempt.py"

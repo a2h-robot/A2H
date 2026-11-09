@@ -1,0 +1,15 @@
+{
+  "task": "push_the_plate_to_the_front_of_the_stove",
+  "variation": "v5",
+  "pass": false,
+  "time": "2026-10-23 12:12:46",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 1,
+  "frozen_pipeline": "289b871ab1e5",
+  "s0": 0.9,
+  "s_break": 1.0,
+  "reason": "break gate: s_break=1.00 > s0/2=0.45"
+}

@@ -1,0 +1,8 @@
+id: s_arrive
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_pose: {name: switch, xyz: [0.0, 0.06], rpy: [0.0, 0.0, 1.5708]}
+  add_distractor: {name: arriving_box, shape: box, size: [0.06, 0.04, 0.08], pose: [0.22, -0.07, 0.78], mass: 0.3}
+  object_motion: {name: arriving_box, velocity: [-0.12, 0.0, 0.0], start_time: 4.0, duration: 1.5}

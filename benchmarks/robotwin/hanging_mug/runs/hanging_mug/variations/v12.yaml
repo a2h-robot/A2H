@@ -1,0 +1,7 @@
+id: v12
+axis: obstacle
+parameter_tuning: false
+unsolved: true          # 0.2 after 6 repair iterations (see reflections.jsonl)
+assumption_violated: "A7: the space above the mug is free, so it can be approached from above and lifted straight up after the grasp; here a fixed shelf board hangs 18 cm above the table over the whole area where the mug starts"
+edits:
+  add_obstacle: {name: shelf, asset: box, size: [0.30, 0.26, 0.02], pose: [-0.175, 0.0, 0.93], rgb: [0.55, 0.4, 0.25]}

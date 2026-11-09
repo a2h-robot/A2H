@@ -1,0 +1,8 @@
+id: v3
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "once pushed into place the box stays put, so only its y error needs re-checking (A5)"
+edits:
+  # the box is knocked sideways (+x) by ~7 cm at t = 3.5 s, after the main push and >2 s before
+  # the ball leaves the ramp (release is at 5.7-6.6 s)
+  object_motion: {name: blue box, velocity: [0.25, 0.0, 0.0], start_time: 3.5, duration: 0.3, mode: constant}

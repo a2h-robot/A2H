@@ -1,0 +1,4 @@
+logs/frames/
+logs/workers/
+runs/*/.gate_cache.json
+__pycache__/

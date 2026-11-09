@@ -1,0 +1,8 @@
+{"variation": "v1", "time": "2026-10-24 00:20:01", "pass": false, "reason": "break gate: s_break=0.80 > s0/2=0.40", "gate": "break", "parameter_tuning": false, "s0": 0.8, "s_break": 0.8}
+{"variation": "v2", "time": "2026-10-24 00:27:54", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 0.8, "s_break": 0.3}
+{"variation": "v3", "time": "2026-10-24 00:59:41", "pass": false, "reason": "break gate: s_break=0.50 > s0/2=0.40", "gate": "break", "parameter_tuning": false, "s0": 0.8, "s_break": 0.5}
+{"variation": "v4", "time": "2026-10-24 01:09:32", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": true, "s0": 0.8, "s_break": 0.1}
+{"variation": "v5", "time": "2026-10-24 01:43:51", "pass": false, "reason": "break gate: s_break=0.80 > s0/2=0.40", "gate": "break", "parameter_tuning": false, "s0": 0.8, "s_break": 0.8}
+{"variation": "v6", "time": "2026-10-24 01:48:12", "pass": false, "reason": "break gate: s_break=0.50 > s0/2=0.40", "gate": "break", "parameter_tuning": false, "s0": 0.8, "s_break": 0.5}
+{"variation": "v7", "time": "2026-10-24 01:52:47", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": true, "s0": 0.8, "s_break": 0.4}
+{"variation": "v8", "time": "2026-10-24 02:39:45", "pass": false, "reason": "break gate: s_break=0.80 > s0/2=0.40", "gate": "break", "parameter_tuning": false, "s0": 0.8, "s_break": 0.8}

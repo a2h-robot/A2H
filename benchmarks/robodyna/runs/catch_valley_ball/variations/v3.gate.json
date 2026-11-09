@@ -1,0 +1,70 @@
+{
+  "task": "catch_valley_ball",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-24 01:06:23",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "d876e8e4fcd8",
+  "validity": "ok",
+  "s0": 0.8,
+  "s_break": 0.2,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/catch_valley_ball/v3_20261024-010919",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10013,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10014,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10021,
+      "success": false,
+      "error": null
+    }
+  ],
+  "gate": "pass",
+  "reason": "pass",
+  "wall_clock_s": 295.7
+}

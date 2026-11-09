@@ -1,0 +1,8 @@
+id: v1
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A1: the object to grasp has free space beside it along the closing axis; here it lies almost touching the bowl wall (about 7 mm gap), so the wide hand cannot descend straight down next to it"
+edits:
+  object_pose:
+    - {name: akita_black_bowl_1, xyz: [-0.09, 0.0, 0.901]}
+    - {name: cream_cheese_1, xyz: [-0.09, 0.082, 0.912]}

@@ -1,0 +1,6 @@
+id: divider
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "P4/C3: the space between the two objects, where the hands meet, is open"
+edits:
+  add_obstacle: {name: divider, asset: box, size: [0.02, 0.36, 0.26], pose: [0.0, -0.1, 0.87]}

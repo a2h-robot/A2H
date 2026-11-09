@@ -1,0 +1,8 @@
+id: v5
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A2/A6: the space the fingers need on both sides of the charger base is free (nothing touches the charger, the pre-grasp to grasp path is clear)"
+description: "Clutter: a heavy 3 cm block (1 kg, e.g. a power brick) sits 2 mm from the charger's side, exactly where one finger must go down. The charger lies at a fixed spot (x -0.06, y 0.05, aligned with the table x axis) so the block always blocks the grasp; the receptacle is still random."
+edits:
+  object_pose: {name: charger, xyz: [-0.06, 0.05, 0.012], rpy: [0.0, 0.0, 0.0]}
+  add_distractor: {name: brick, shape: box, size: [0.03, 0.03, 0.03], pose: [-0.08, 0.082, 0.015], mass: 1.0}

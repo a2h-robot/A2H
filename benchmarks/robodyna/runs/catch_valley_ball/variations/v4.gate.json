@@ -1,0 +1,70 @@
+{
+  "task": "catch_valley_ball",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-24 01:58:40",
+  "parameter_tuning": true,
+  "parameter_tuning_label": true,
+  "parameter_tuning_auto": true,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "17b6940996f2",
+  "validity": "ok",
+  "s0": 0.9,
+  "s_break": 0.4,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/catch_valley_ball/v4_20261024-021631",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": false,
+      "error": "reset: OutOfMemoryError: CUDA out of memory. Tried to allocate 24.00 MiB. GPU 0 has a total capacity of 15.56 GiB of which 17.75 MiB is free. Process 3707408 has 3.04 GiB memory in use. Including non-PyTorch memory, this process has 2.05 GiB memory in use. Process 4061172 has 3.29 GiB memory in use. Process 4063188 has 2.61 GiB memory in use. Process 4067170 has 3.04 GiB memory in use. Process 4068016 has 1.26 GiB memory in use. Of the allocated memory 335.98 MiB is allocated by PyTorch, with 37.67 MiB allocated in private pools (e.g., CUDA Graphs), and 38.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+    },
+    {
+      "seed": 10013,
+      "success": false,
+      "error": "worker timed out (exit -9); see logs/workers/"
+    },
+    {
+      "seed": 10014,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10021,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "pass",
+  "reason": "pass",
+  "wall_clock_s": 2044.2
+}

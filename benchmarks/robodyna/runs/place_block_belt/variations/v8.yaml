@@ -1,0 +1,11 @@
+id: v8
+axis: object_motion
+parameter_tuning: true
+assumption_violated: "M1: the block stays where it was detected until the fingers close. Here it shuttles back and forth (~5 cm/s, reversing every 3 s, like an item on a vibrating feeder) from t = 3 s to t = 15 s on a slippery surface (friction 0.2; see backend_issues.md)"
+edits:
+  dynamics: {name: block, friction: 0.2}
+  object_motion:
+    - {name: block, velocity: [0.0, -0.08, 0.0], start_time: 3.0, duration: 3.0, mode: constant}
+    - {name: block, velocity: [0.0, 0.08, 0.0], start_time: 6.0, duration: 3.0, mode: constant}
+    - {name: block, velocity: [0.0, -0.08, 0.0], start_time: 9.0, duration: 3.0, mode: constant}
+    - {name: block, velocity: [0.0, 0.08, 0.0], start_time: 12.0, duration: 3.0, mode: constant}

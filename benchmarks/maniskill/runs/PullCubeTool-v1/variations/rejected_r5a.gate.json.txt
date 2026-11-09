@@ -1,0 +1,15 @@
+{
+  "task": "PullCubeTool-v1",
+  "variation": "v6",
+  "pass": false,
+  "time": "2026-10-24 13:48:26",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "14e85669ae38",
+  "s0": 1.0,
+  "s_break": 1.0,
+  "reason": "break gate: s_break=1.00 > s0/2=0.50"
+}

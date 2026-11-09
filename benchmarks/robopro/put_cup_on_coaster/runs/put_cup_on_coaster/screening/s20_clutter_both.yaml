@@ -1,0 +1,13 @@
+id: s20_clutter_both
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A1 + A2: free space around both the cup and the coaster"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.20, -0.05]}
+    - {name: coaster, xyz: [-0.05, -0.15]}
+  add_distractor:
+    - {name: cbox_l, shape: box, size: [0.05, 0.05, 0.12], pose: [0.135, -0.05, 0.80], mass: 0.15}
+    - {name: cbox_f, shape: box, size: [0.05, 0.05, 0.12], pose: [0.20, -0.115, 0.80], mass: 0.15}
+    - {name: kbox_l, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.145, -0.15, 0.80], mass: 0.15}
+    - {name: kbox_f, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.05, -0.245, 0.80], mass: 0.15}

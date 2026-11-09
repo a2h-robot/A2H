@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/robotwin/runs/turn_switch/pipeline.py@3d3fea078ba9"
+}

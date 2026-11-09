@@ -1,0 +1,7 @@
+{"variation": "v1", "time": "2026-10-24 00:10:03", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 0.9, "s_break": 0.3}
+{"variation": "v2", "time": "2026-10-24 01:08:39", "pass": false, "reason": "break gate: s_break=0.80 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 0.8}
+{"variation": "v3", "time": "2026-10-24 01:16:21", "pass": false, "reason": "break gate: s_break=1.00 > s0/2=0.50", "gate": "break", "parameter_tuning": true, "s0": 1.0, "s_break": 1.0}
+{"variation": "v4", "time": "2026-10-24 01:20:39", "pass": false, "reason": "invalid scene: seed 10001: added object block_left at [-0.2199999988079071, -0.3700000047683716, 0.8700000047683716] is not on the table", "gate": "validity", "parameter_tuning": false, "s0": null, "s_break": null}
+{"variation": "v4", "time": "2026-10-24 01:23:06", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0}
+{"variation": "v5", "time": "2026-10-24 01:52:01", "pass": false, "reason": "break gate: s_break=0.80 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 0.8}
+{"variation": "v6", "time": "2026-10-24 01:58:56", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0}

@@ -1,0 +1,70 @@
+{
+  "task": "catch_shelf_marble",
+  "variation": "v2",
+  "pass": true,
+  "time": "2026-10-24 00:27:54",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "90d9c32fe76c",
+  "validity": "ok",
+  "s0": 0.8,
+  "s_break": 0.3,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/catch_shelf_marble/v2_20261024-002914",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10002,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10003,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10004,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "pass",
+  "reason": "pass",
+  "wall_clock_s": 191.4
+}

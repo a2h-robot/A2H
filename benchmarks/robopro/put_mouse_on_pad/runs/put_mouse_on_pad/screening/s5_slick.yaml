@@ -1,0 +1,9 @@
+id: s5
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A7/A11: the mouse grips well and stays where it is released"
+edits:
+  dynamics:
+    - {name: mouse, friction: 0.08, mass: 0.12}
+    - {name: pad, friction: 0.08}
+    - {name: table, friction: 0.08}

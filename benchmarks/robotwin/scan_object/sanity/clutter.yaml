@@ -1,0 +1,6 @@
+id: clutter
+axis: distractor
+parameter_tuning: false
+assumption_violated: "backend smoke test: RoboTwin's clutter generator (ISSUES 8-9 fix: no pose, shape-less bodies skipped)"
+edits:
+  add_distractor: {name: clutter, asset: clutter, n: 6}

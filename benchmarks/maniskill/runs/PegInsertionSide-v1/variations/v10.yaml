@@ -1,0 +1,9 @@
+id: v10
+axis: dynamics
+parameter_tuning: false   # a different object and mechanism than v3/v4 (sticky insertion contact, not a slippery grasp)
+assumption_violated: "A12: once aligned within 0.8 mm the peg slides into the 3 mm-clearance hole; contact with the hole wall does not stop it"
+edits:
+  # sticky surfaces (rubbery peg, rough hole): any wall contact during insertion now holds the peg back
+  dynamics:
+    - {name: box_with_hole, friction: 2.0}
+    - {name: peg, friction: 2.0}

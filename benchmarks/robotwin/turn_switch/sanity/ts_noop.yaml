@@ -1,0 +1,5 @@
+id: ts_noop
+axis: object_position
+parameter_tuning: false
+assumption_violated: "sanity check (b): a variation without edits"
+edits: {}

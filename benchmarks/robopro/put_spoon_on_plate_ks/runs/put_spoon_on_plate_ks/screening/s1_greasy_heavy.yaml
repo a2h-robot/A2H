@@ -1,0 +1,6 @@
+id: s1_greasy_heavy
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A5: the spoon stays in the hand (nominal mass and friction)"
+edits:
+  dynamics: {name: spoon, mass: 0.25, friction: 0.2}

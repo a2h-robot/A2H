@@ -1,0 +1,7 @@
+id: v4
+axis: obstacle
+parameter_tuning: true
+assumption_violated: "the straight pull lane from the cube back toward the robot is free (A9); here an immovable block stands in the lane halfway between the cube and the robot, so a straight pull jams the cube against it. The cube is placed at a fixed spot (yaw still random) so that the block is always in its lane; going around it is possible."
+edits:
+  object_pose: {name: cube, xyz: [0.22, 0.05, 0.025]}
+  add_obstacle: {name: block, shape: box, size: [0.05, 0.06, 0.08], pose: [0.0, 0.05, 0.04], rgb: [0.4, 0.4, 0.4]}

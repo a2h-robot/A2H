@@ -1,0 +1,7 @@
+id: s3
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: the pad is reachable from above (here at the front edge of the desk, close to the robot)"
+edits:
+  object_pose:
+    - {name: pad, xyz: [0.0, -0.29]}

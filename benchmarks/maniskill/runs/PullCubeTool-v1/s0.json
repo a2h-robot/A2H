@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/maniskill/runs/PullCubeTool-v1/pipeline.py@6c892f2ad0fc"
+}

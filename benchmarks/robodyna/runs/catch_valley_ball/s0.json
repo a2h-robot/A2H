@@ -1,0 +1,6 @@
+{
+  "s0": 0.8,
+  "seeds": 10,
+  "seed_offset": 0,
+  "pipeline": "benchmarks/robodyna/runs/catch_valley_ball/pipeline.py@cecef7eb7e7c"
+}

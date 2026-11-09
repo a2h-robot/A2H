@@ -1,0 +1,8 @@
+id: v4
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+assumption_violated: "A4/D3: after the pick the gripper can lift 10 cm and carry at that height (free space above the work zone); here an overhead rail runs across the workspace just above the fruit, between the tree and the basket lane"
+edits:
+  add_obstacle:
+    - {name: overhead_rail, asset: box, size: [0.70, 0.03, 0.03], pose: [0.0, -0.07, 1.02]}

@@ -1,0 +1,10 @@
+id: v7
+axis: object_motion
+parameter_tuning: true
+unsolved: true
+assumption_violated: "obstacles are static: round 1 measures them once at the start and picks each key's press configuration from that snapshot (v6 arrived too late to matter on half the seeds)"
+notes: "v6, but the post slides in next to the left key between t=4 s and t=6 s, right after the arms reach their keys. Once it is there, the home-yaw hover over the key overlaps it. Solvable as v2: re-select the press configuration (turn the gripper 90 deg)."
+unsolved_why: "Gates passed (s_break 0.4). Six repair iterations (attempts/pipeline_v7_unsolved.py): re-read obstacles every 0.2 s, re-plan the press configuration when one moved, keep the current one while it still clears (hysteresis), plan against where a moving obstacle will be 0.3-1.5 s later, take a wider margin on re-plans. v7 reached 0.7 / 0.6 / 0.6 / 0.5 / 0.6 / 0.6 over the six iterations (base 0.9-1.0, then 0.7 and 0.5 in the same runs on a shared GPU host with CUDA OOM resets). Every re-plan costs 1-1.6 s of left-key downtime (lift, turn, descend) in the 5-8 s window in which 3-4 seeds land, so 0.8 was not reached; pipeline reverted to round 1."
+edits:
+  add_obstacle: {name: post, asset: box, size: [0.035, 0.06, 0.18], pose: [-0.5275, -0.13, 0.83]}
+  object_motion: {name: post, velocity: [0.10, 0.0, 0.0], start_time: 4.0, duration: 2.0, mode: constant}

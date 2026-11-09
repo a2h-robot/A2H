@@ -1,0 +1,8 @@
+id: s_canisters
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A2: the bowl can be grasped at its annotated rim grasp points, i.e. nothing stands next to the bowl there"
+edits:
+  add_obstacle:
+    - {name: canister_a, shape: box, size: [0.06, 0.06, 0.12], pose: {relative_to: bowl, offset: [-0.068, 0.083, 0], z: 0.801}}
+    - {name: canister_b, shape: box, size: [0.06, 0.06, 0.12], pose: {relative_to: bowl, offset: [0.071, -0.081, 0], z: 0.801}}

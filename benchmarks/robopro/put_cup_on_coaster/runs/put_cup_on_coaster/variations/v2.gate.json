@@ -1,0 +1,23 @@
+{
+  "task": "put_cup_on_coaster",
+  "variation": "v2",
+  "pass": true,
+  "time": "2026-10-23 18:13:43",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "7710512bb97e",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_cup_on_coaster/v2_20261023-181348",
+  "break_failures": [
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 3/5 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 1/5 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "linear move stopped at 3/6 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "reason": "pass"
+}

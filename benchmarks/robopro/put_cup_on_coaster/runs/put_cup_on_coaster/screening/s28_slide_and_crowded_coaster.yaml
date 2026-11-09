@@ -1,0 +1,16 @@
+id: s28_slide_and_crowded_coaster
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A4 + A1: a static cup and a free coaster (here the cup slides during the approach and the coaster is boxed in)"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.20, -0.08]}
+    - {name: coaster, xyz: [-0.05, -0.15]}
+  dynamics:
+    - {name: cup, friction: 0.1}
+    - {name: table, friction: 0.1}
+  object_motion: {name: cup, velocity: [0.0, 0.05, 0.0], start_time: 1.0, duration: 2.0, mode: constant}
+  add_distractor:
+    - {name: box_l, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.145, -0.15, 0.80], mass: 0.15}
+    - {name: box_r, shape: box, size: [0.05, 0.05, 0.12], pose: [0.045, -0.15, 0.80], mass: 0.15}
+    - {name: box_f, shape: box, size: [0.05, 0.05, 0.12], pose: [-0.05, -0.245, 0.80], mass: 0.15}

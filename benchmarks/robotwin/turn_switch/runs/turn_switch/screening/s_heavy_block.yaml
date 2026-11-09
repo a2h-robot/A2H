@@ -1,0 +1,7 @@
+id: s_heavy_block
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_pose: {name: switch, xyz: [0.0, 0.06], rpy: [0.0, 0.0, 1.5708]}
+  add_distractor: {name: box_in_front, shape: box, size: [0.10, 0.04, 0.10], pose: [0.0, -0.06, 0.79], mass: 5.0}

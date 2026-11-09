@@ -1,0 +1,23 @@
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-23 20:39:18",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "0b72ee2a7b46",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_spoon_on_plate_ks/v4_20261023-203927",
+  "break_failures": [
+    "target [-0.322, -0.186, 0.718] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.326, -0.078, 0.717] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.369, -0.076, 0.718] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.334, -0.147, 0.716] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.371, -0.172, 0.717] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}"
+  ],
+  "reason": "pass"
+}

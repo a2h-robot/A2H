@@ -1,0 +1,6 @@
+id: u6_mug
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  swap_object: {name: object, with: 039_mug}

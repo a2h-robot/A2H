@@ -1,0 +1,42 @@
+{
+ "object_pose": {
+  "valid": true,
+  "why": "ok"
+ },
+ "object_color": {
+  "valid": true,
+  "why": "ok"
+ },
+ "object_scale": {
+  "valid": true,
+  "why": "ok"
+ },
+ "swap_object": {
+  "valid": true,
+  "why": "ok"
+ },
+ "lighting": {
+  "valid": true,
+  "why": "ok"
+ },
+ "add_distractor": {
+  "valid": true,
+  "why": "ok"
+ },
+ "add_obstacle": {
+  "valid": true,
+  "why": "ok"
+ },
+ "object_motion": {
+  "valid": true,
+  "why": "ok"
+ },
+ "camera_pose": {
+  "valid": true,
+  "why": "ok"
+ },
+ "dynamics": {
+  "valid": true,
+  "why": "ok"
+ }
+}

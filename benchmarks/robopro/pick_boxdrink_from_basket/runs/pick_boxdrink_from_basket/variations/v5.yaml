@@ -1,0 +1,7 @@
+id: v5
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "the box is light (A5/A11): one pinch lifts it and the arm reaches the commanded heights while carrying it"
+description: "a full carton: the box drink weighs 1.2 kg (was 0.1 kg) and its surface friction is 0.3"
+edits:
+  dynamics: {name: boxdrink, mass: 1.2, friction: 0.3}

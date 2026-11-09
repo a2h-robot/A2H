@@ -1,0 +1,8 @@
+id: far_sides
+axis: object_position
+parameter_tuning: false
+assumption_violated: "P3: objects lie within the usual ranges (both objects far to the sides)"
+edits:
+  object_pose:
+    - {name: scanner, xyz: [-0.33, -0.1, 0.741]}
+    - {name: object, xyz: [0.33, -0.08, 0.741]}

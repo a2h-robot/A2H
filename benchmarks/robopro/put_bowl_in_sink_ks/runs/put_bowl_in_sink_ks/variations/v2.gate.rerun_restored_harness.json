@@ -1,0 +1,25 @@
+{
+  "task": "put_bowl_in_sink_ks",
+  "variation": "v2",
+  "pass": true,
+  "time": "2026-10-26 21:25:14",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "9062b7f3c6b2",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_bowl_in_sink_ks/v2_20261026-212802",
+  "break_failures": [
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "reason": "pass (the expert could not solve it: counts only after the agent recovers it)"
+}

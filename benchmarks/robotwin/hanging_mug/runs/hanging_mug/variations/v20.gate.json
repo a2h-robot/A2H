@@ -1,0 +1,72 @@
+{
+  "task": "hanging_mug",
+  "variation": "v20",
+  "pass": true,
+  "time": "2026-10-23 17:30:45",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "3548e4c615ad",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.2,
+  "break_frames_dir": "benchmarks/robotwin/logs/frames/hanging_mug/v20_20261023-173123",
+  "break_per_seed": [
+    {
+      "seed": 0,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 3,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 4,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 5,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 6,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 7,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 8,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 9,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 11,
+      "success": true,
+      "error": null
+    }
+  ],
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "gate": "pass",
+  "reason": "pass (oracle could not solve it: counts only after the agent recovers)",
+  "wall_clock_s": 176.7
+}

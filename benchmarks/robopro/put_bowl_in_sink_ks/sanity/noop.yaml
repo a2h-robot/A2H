@@ -1,0 +1,5 @@
+id: noop
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "sanity check (b): a variation with no edits"
+edits: {}

@@ -1,0 +1,6 @@
+id: t2_battery
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  swap_object: {name: object, with: 061_battery}

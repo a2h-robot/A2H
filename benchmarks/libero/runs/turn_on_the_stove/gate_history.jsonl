@@ -1,0 +1,2 @@
+{"variation": "v1", "time": "2026-10-23 10:38:15", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0, "edits": {"add_distractor": {"name": "spice_box", "shape": "box", "size": [0.08, 0.06, 0.14], "pose": [-0.41, 0.3, 0.97], "rgb": [0.8, 0.3, 0.1], "mass": 0.4}}}
+{"variation": "v2", "time": "2026-10-23 10:51:16", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0, "edits": {"add_obstacle": {"name": "shelf", "shape": "box", "size": [0.22, 0.24, 0.02], "pose": [-0.41, 0.25, 1.095], "rgb": [0.5, 0.35, 0.2]}}}

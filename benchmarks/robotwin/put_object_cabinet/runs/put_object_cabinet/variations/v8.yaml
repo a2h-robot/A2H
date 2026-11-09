@@ -1,0 +1,13 @@
+id: v8
+axis: distractor
+parameter_tuning: false
+unsolved: true
+unsolved_note: "4 repairs reached 0.3: two blocks must be moved (only their free ends are graspable) before the drawer sequence, which does not fit the 120 s episode budget with any retry; the repairs also cost v5 (0.9 -> 0.5)"
+assumption_violated: "A12/A5 at the grasp: the object stands alone, so there is room around it for the open fingers from some direction. Here the object (a 5.8 cm cube at x = 0.33) is packed between three movable blocks (left, right and behind, 1.6 cm gaps; 4 cm thick, 10 cm tall), like an item in a crowded tray: no grasp fits until a block is moved."
+edits:
+  swap_object: {name: object, with: 073_rubikscube, model_id: 1}
+  object_pose: {name: object, xyz: [0.33, -0.16]}
+  add_distractor:
+    - {name: block_left, shape: box, size: [0.04, 0.14, 0.10], pose: [0.265, -0.16, 0.79], rgb: [0.8, 0.3, 0.2], mass: 0.15}
+    - {name: block_right, shape: box, size: [0.04, 0.14, 0.10], pose: [0.395, -0.16, 0.79], rgb: [0.8, 0.3, 0.2], mass: 0.15}
+    - {name: block_back, shape: box, size: [0.08, 0.04, 0.10], pose: [0.33, -0.095, 0.79], rgb: [0.8, 0.3, 0.2], mass: 0.15}

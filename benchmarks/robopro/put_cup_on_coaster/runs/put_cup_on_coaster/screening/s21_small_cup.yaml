@@ -1,0 +1,6 @@
+id: s21_small_cup
+axis: size
+parameter_tuning: false
+assumption_violated: "A5: the cup is about 5 cm wide and 7 cm tall (here an espresso cup, ~3 cm wide)"
+edits:
+  object_scale: {name: cup, scale: 0.6}

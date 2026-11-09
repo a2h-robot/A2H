@@ -1,0 +1,6 @@
+id: v5
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A3: the rack stands on the right half of the table, where the right arm (always the hanging arm) can line the handle up with the hook; here the rack stands on the far left"
+edits:
+  object_pose: {name: rack, delta_xyz: [-0.62, 0.06, 0.0]}

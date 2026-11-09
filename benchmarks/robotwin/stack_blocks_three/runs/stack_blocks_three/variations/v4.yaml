@@ -1,0 +1,7 @@
+id: v4
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A16: the scene is static apart from the robot, so the build spot chosen at the start stays free; here a 10 x 10 x 6 cm box slides in from the front-right corner 2 s into the episode and comes to rest on the preferred build spot (around (0, -0.13)), as if a person put something down there while the robot works"
+edits:
+  add_distractor: {name: tray, shape: box, size: [0.10, 0.10, 0.06], pose: [0.30, -0.25, 0.77], rgb: [0.55, 0.35, 0.2], mass: 0.3}
+  object_motion: {name: tray, velocity: [-0.15, 0.06, 0.0], start_time: 2.0, duration: 2.0, mode: constant}

@@ -1,0 +1,6 @@
+id: s23_coaster_near_robot
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A1/A10: the hand has room around the coaster (here it lies at the front edge, close to the robot)"
+edits:
+  object_pose: {name: coaster, xyz: [-0.08, -0.30]}

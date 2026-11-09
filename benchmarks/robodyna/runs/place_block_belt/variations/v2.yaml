@@ -1,0 +1,6 @@
+id: v2
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A1/A2: the block starts on the load side of the belt, so the belt flows away from the block and the arm on the block's side places it (flow direction inferred from where the block is, never observed)"
+edits:
+  object_pose: {name: block, xyz: [0.30, -0.30, 0.76]}

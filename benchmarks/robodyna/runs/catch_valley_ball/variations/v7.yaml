@@ -1,0 +1,10 @@
+id: v7
+axis: distractor
+parameter_tuning: false
+assumption_violated: "the goal area is empty: the box can be slid onto the landing spot and nothing else sits there (A8/A9, clutter at the goal)"
+edits:
+  # a loose 1 kg block (6 x 6 x 5 cm) sitting on the table in the landing area of each layout;
+  # it is movable, so it can be cleared, but the box cannot simply be shoved through it
+  add_distractor:
+    - {name: block, asset: box, size: [0.06, 0.06, 0.05], pose: [0.30, 0.03, 0.766], mass: 1.0, rgb: [0.55, 0.45, 0.3]}
+    - {name: block 2, asset: box, size: [0.06, 0.06, 0.05], pose: [-0.27, 0.03, 0.766], mass: 1.0, rgb: [0.55, 0.45, 0.3]}

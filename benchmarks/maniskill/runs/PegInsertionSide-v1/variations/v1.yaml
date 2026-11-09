@@ -1,0 +1,6 @@
+id: v1
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A2: the peg's head already points roughly toward the box, so only a small wrist yaw is needed between grasp and insertion"
+edits:
+  object_pose: {name: peg, delta_rpy: [0.0, 0.0, 3.14159]}

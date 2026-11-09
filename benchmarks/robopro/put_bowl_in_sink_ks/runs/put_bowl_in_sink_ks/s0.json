@@ -1,0 +1,5 @@
+{
+  "s0": 0.9,
+  "seeds": 10,
+  "pipeline": "benchmarks/robopro/runs/put_bowl_in_sink_ks/pipeline.py@c00810d37e1e"
+}

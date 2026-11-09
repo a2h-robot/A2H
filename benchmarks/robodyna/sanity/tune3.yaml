@@ -1,0 +1,6 @@
+id: tune3
+axis: object_position
+parameter_tuning: true
+assumption_violated: "sanity check (c): the block moved further in the same direction a third time"
+edits:
+  object_pose: {name: block, delta_xyz: [0.0, -0.04, 0.0]}

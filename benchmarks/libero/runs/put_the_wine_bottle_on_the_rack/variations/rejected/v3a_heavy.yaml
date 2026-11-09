@@ -1,0 +1,6 @@
+id: v3
+axis: dynamics
+parameter_tuning: true
+assumption_violated: "A3: the bottle is light (0.015 kg) so a pinch on the thin neck holds it through lifting and a 60 deg wrist pitch; a real full wine bottle weighs ~1.2 kg and glass is less grippy"
+edits:
+  dynamics: {name: wine_bottle_1, mass: 1.2, friction: 0.5}

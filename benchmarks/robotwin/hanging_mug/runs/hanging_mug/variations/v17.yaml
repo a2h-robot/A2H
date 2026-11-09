@@ -1,0 +1,12 @@
+id: v17
+axis: distractor
+parameter_tuning: false
+unsolved: true          # 0.2-0.3 after 6 repair iterations (see reflections.jsonl)
+assumption_violated: "A12: only the mug and the rack are near the mug, so some grasp approach is free; here the mug (placed at x -0.17, y 0) is boxed in on all four sides by tall movable objects (like bottles) standing a finger's width from it"
+edits:
+  object_pose: {name: mug, xyz: [-0.17, 0.0, 0.741]}
+  add_distractor:
+    - {name: bottle_l, asset: box, size: [0.05, 0.05, 0.22], pose: [-0.285, 0.0, 0.851], mass: 0.3, rgb: [0.2, 0.5, 0.3]}
+    - {name: bottle_r, asset: box, size: [0.05, 0.05, 0.22], pose: [-0.055, 0.0, 0.851], mass: 0.3, rgb: [0.2, 0.5, 0.3]}
+    - {name: bottle_b, asset: box, size: [0.05, 0.05, 0.22], pose: [-0.17, 0.115, 0.851], mass: 0.3, rgb: [0.2, 0.5, 0.3]}
+    - {name: bottle_f, asset: box, size: [0.05, 0.05, 0.22], pose: [-0.17, -0.115, 0.851], mass: 0.3, rgb: [0.2, 0.5, 0.3]}

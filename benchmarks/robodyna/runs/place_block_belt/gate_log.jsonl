@@ -1,0 +1,12 @@
+{"variation": "v1", "time": "2026-10-23 23:27:18", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.5}
+{"variation": "v2", "time": "2026-10-23 23:42:40", "pass": false, "reason": "break gate: s_break=0.70 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 0.7}
+{"variation": "v3", "time": "2026-10-23 23:49:22", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0}
+{"variation": "v4", "time": "2026-10-24 00:38:17", "pass": false, "reason": "break gate: s_break=1.00 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 1.0}
+{"variation": "v5", "time": "2026-10-24 00:53:25", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.3}
+{"variation": "v6", "time": "2026-10-24 01:12:44", "pass": false, "reason": "break gate: s_break=1.00 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 1.0}
+{"variation": "v7", "time": "2026-10-24 01:22:19", "pass": false, "reason": "break gate: s_break=0.70 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 0.7}
+{"variation": "v8", "time": "2026-10-24 01:27:18", "pass": false, "reason": "break gate: s_break=0.90 > s0/2=0.50", "gate": "break", "parameter_tuning": true, "s0": 1.0, "s_break": 0.9}
+{"variation": "v9", "time": "2026-10-24 01:31:14", "pass": false, "reason": "break gate: s_break=0.60 > s0/2=0.50", "gate": "break", "parameter_tuning": false, "s0": 1.0, "s_break": 0.6}
+{"variation": "v10", "time": "2026-10-24 01:35:36", "pass": false, "reason": "invalid scene: seed 10002: added object belt cover touches the robot at reset", "gate": "validity", "parameter_tuning": true, "s0": null, "s_break": null}
+{"variation": "v10", "time": "2026-10-24 01:37:42", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": true, "s0": 1.0, "s_break": 0.4}
+{"variation": "v11", "time": "2026-10-24 02:01:02", "pass": true, "reason": "pass", "gate": "pass", "parameter_tuning": false, "s0": 1.0, "s_break": 0.5}

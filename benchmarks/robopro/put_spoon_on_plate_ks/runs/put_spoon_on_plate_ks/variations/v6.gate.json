@@ -1,0 +1,23 @@
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "v6",
+  "pass": false,
+  "time": "2026-10-23 20:46:47",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "1dc9a0d7744f",
+  "s0": 0.9,
+  "s_break": 0.5,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_spoon_on_plate_ks/v6_20261023-204652",
+  "break_failures": [
+    "blocked: pushing dishrack with 44 N (limit 40 N)",
+    "blocked: pushing dishrack with 40 N (limit 40 N)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "reason": "break gate: s_break=0.50 > s0/2=0.45"
+}

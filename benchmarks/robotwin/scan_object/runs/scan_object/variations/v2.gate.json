@@ -1,0 +1,72 @@
+{
+  "task": "scan_object",
+  "variation": "v2",
+  "pass": true,
+  "time": "2026-10-23 16:16:02",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "accb9e06db7a",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.5,
+  "break_frames_dir": "benchmarks/robotwin/logs/frames/scan_object/v2_20261023-161643",
+  "break_per_seed": [
+    {
+      "seed": 5,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 7,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 9,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 12,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 21,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 26,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 30,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 34,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 46,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 58,
+      "success": true,
+      "error": null
+    }
+  ],
+  "oracle_success_rate": 0.3,
+  "needs_agent_solve": false,
+  "gate": "pass",
+  "reason": "pass",
+  "wall_clock_s": 95.6
+}

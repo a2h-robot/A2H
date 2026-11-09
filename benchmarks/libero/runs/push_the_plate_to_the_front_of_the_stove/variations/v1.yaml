@@ -1,0 +1,8 @@
+id: v1
+axis: dynamics
+parameter_tuning: true
+assumption_violated: "the plate is very light (~11 g), so a two-finger pinch on its thin lip can lift one edge and carry it without slipping (F1); a real ceramic plate weighs ~0.4 kg"
+edits:
+  dynamics: {name: plate_1, mass: 0.4}
+unsolved: true
+repair_log: 'six repair iterations (pinch-and-drag hops with 2-8 cm edge lifts, hop length 8-16 cm, pinch angle orderings, normal vs slow speed; plus tilted-finger outside pushes probed separately) peaked at 0.5 on v1 and dropped base to 0.7'

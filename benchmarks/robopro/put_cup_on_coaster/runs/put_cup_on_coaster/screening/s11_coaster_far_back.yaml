@@ -1,0 +1,7 @@
+id: s11_coaster_far_back
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: at least one arm reaches both the cup and the coaster comfortably"
+edits:
+  object_pose:
+    - {name: coaster, xyz: [0.12, 0.15]}

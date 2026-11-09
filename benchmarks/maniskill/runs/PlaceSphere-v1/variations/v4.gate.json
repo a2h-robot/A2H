@@ -1,0 +1,17 @@
+{
+  "task": "PlaceSphere-v1",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-25 14:33:39",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "29d44a010b97",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "oracle_success_rate": 0.1,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

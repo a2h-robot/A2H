@@ -1,0 +1,8 @@
+id: v1
+axis: object_position
+parameter_tuning: false
+assumption_violated: "the box starts roughly at the landing x, so a +y push (with the x error dragged along diagonally) is enough (A1)"
+edits:
+  # box starts at the table centre line, in front of the ramp (its y is re-parked by the task):
+  # it has to travel ~0.3 m along x to get past the red line, in either layout
+  object_pose: {name: blue box, xyz: [0.0, -0.17, 0.76]}

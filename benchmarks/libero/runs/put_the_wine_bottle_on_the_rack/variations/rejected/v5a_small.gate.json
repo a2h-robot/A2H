@@ -1,0 +1,15 @@
+{
+  "task": "put_the_wine_bottle_on_the_rack",
+  "variation": "v5",
+  "pass": false,
+  "time": "2026-10-23 11:54:19",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "e253b4ab4928",
+  "s0": 0.9,
+  "s_break": 0.7,
+  "reason": "break gate: s_break=0.70 > s0/2=0.45"
+}

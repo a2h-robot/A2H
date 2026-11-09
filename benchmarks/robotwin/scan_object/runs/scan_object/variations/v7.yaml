@@ -1,0 +1,9 @@
+id: v7
+axis: object_position
+parameter_tuning: false
+assumption_violated: "P3: both objects lie within the usual ranges near the robot, so every grasp, lift and carry is comfortably inside the arms' reach"
+edits:
+  # the box was put down towards the back of the table, near the edge of the arms' reach
+  object_pose:
+    - {name: scanner, xyz: [-0.2, -0.1, 0.741]}
+    - {name: object, xyz: [0.12, 0.16, 0.741]}

@@ -1,0 +1,6 @@
+id: u3_damp80
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  dynamics: {name: drawer, damping: 80.0}

@@ -1,0 +1,72 @@
+{
+  "task": "scan_object",
+  "variation": "v1",
+  "pass": true,
+  "time": "2026-10-23 15:38:05",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "00140440e7dc",
+  "validity": "ok",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "break_frames_dir": "benchmarks/robotwin/logs/frames/scan_object/v1_20261023-153844",
+  "break_per_seed": [
+    {
+      "seed": 5,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 7,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 9,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 12,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 21,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 26,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 30,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 34,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 46,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 58,
+      "success": false,
+      "error": null
+    }
+  ],
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "gate": "pass",
+  "reason": "pass (oracle could not solve it: counts only after the agent recovers)",
+  "wall_clock_s": 86.3
+}

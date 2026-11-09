@@ -1,0 +1,5 @@
+{"variation": "v1", "time": "2026-10-23 10:53:00", "parameter_tuning": false, "s0": 0.9, "s_break": 0.0, "edits": {"object_pose": {"name": "wine_rack_1", "delta_rpy": [0.0, 0.0, 1.5708]}}}
+{"variation": "v2", "time": "2026-10-23 11:12:34", "parameter_tuning": false, "s0": 0.9, "s_break": 0.0, "edits": {"object_pose": {"name": "wine_bottle_1", "xyz": [-0.19, -0.08, 0.921], "rpy": [-1.5708, 0.0, 0.0]}}}
+{"variation": "v3", "time": "2026-10-23 11:24:34", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0, "edits": {"add_distractor": {"name": "tall_box", "shape": "box", "size": [0.03, 0.03, 0.2], "pose": [-0.19, 0.02, 1.0], "rgb": [0.2, 0.4, 0.8], "mass": 0.3}}}
+{"variation": "v4", "time": "2026-10-23 11:29:15", "parameter_tuning": false, "s0": 1.0, "s_break": 0.4, "edits": {"object_pose": {"name": "wine_rack_1", "delta_xyz": [-0.1, 0.0, 0.0]}}}
+{"variation": "v5", "time": "2026-10-23 11:56:46", "parameter_tuning": false, "s0": 0.9, "s_break": 0.0, "edits": {"add_obstacle": {"name": "overhead_board", "shape": "box", "size": [0.16, 0.16, 0.01], "pose": [-0.19, -0.045, 1.098], "rgb": [0.6, 0.45, 0.3]}}}

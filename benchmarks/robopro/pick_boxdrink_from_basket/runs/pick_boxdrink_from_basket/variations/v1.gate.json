@@ -1,0 +1,25 @@
+{
+  "task": "pick_boxdrink_from_basket",
+  "variation": "v1",
+  "pass": true,
+  "time": "2026-10-23 21:50:02",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "d12f1e16537f",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/pick_boxdrink_from_basket/v1_20261023-215208",
+  "break_failures": [
+    null,
+    null,
+    null,
+    "linear move stopped at 4/5 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "reason": "pass (the expert could not solve it: counts only after the agent recovers it)"
+}

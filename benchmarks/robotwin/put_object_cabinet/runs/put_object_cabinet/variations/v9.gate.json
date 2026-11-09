@@ -1,0 +1,23 @@
+{
+  "task": "put_object_cabinet",
+  "variation": "v9",
+  "pass": true,
+  "time": "2026-10-23 18:21:22",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "21cb1119420c",
+  "s0": 1.0,
+  "s_break": 0.1,
+  "frames_dir": "benchmarks/robotwin/logs/frames/put_object_cabinet/v9_20261023-182128",
+  "break_failures": [
+    null,
+    "grasp of ObjectState(name='drawer_handle', position=array([0.23455192, 0.02997216, 0.86413693]), quaternion=array([-0.7045061 , -0.70967974,  0.00420187,  0.00285762]), bbox_extents=array([0.16323039, 0.00457056, 0.00434673]), confidence=1.0) closed on nothing",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "place: no reachable pre-place pose (no collision-free path (unreachable, or blocked by an obstacle))"
+  ],
+  "reason": "pass"
+}

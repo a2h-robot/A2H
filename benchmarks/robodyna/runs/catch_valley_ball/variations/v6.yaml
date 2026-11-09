@@ -1,0 +1,11 @@
+id: v6
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the straight path the box slides along to the landing is free; only the hand's free space is checked (A8, path of the pushed object)"
+edits:
+  # a fixed 5 x 3 x 5 cm post on the ramp side of the landing column, 10 cm in front of the lane
+  # edge: a box pushed straight along y at the nominal landing x clips it with its corner; shifted
+  # 2-3 cm away from the ramp it passes. The post is lower than the ball's flight over it.
+  add_obstacle:
+    - {asset: box, size: [0.05, 0.03, 0.05], pose: [0.235, -0.06, 0.765]}
+    - {asset: box, size: [0.05, 0.03, 0.05], pose: [-0.215, -0.06, 0.765]}

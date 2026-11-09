@@ -1,0 +1,6 @@
+id: v6
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "M1: the block stays where it was detected until the fingers close (it is detected once per grasp attempt, and the approach takes ~3 s)"
+edits:
+  object_motion: {name: block, velocity: [0.0, -0.03, 0.0], start_time: 3.0, duration: 6.0, mode: constant}

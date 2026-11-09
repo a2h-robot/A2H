@@ -1,0 +1,9 @@
+id: v3
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the straight pull lane from the cube back toward the robot is free (A9); here an immovable block stands between the cube and the robot, so pulling straight along -x jams the cube against it. The cube is placed at a fixed spot (yaw still random) so that the block is always in its lane."
+edits:
+  object_pose: {name: cube, xyz: [0.22, -0.05, 0.025]}
+  add_obstacle: {name: block, shape: box, size: [0.05, 0.06, 0.08], pose: [0.135, -0.05, 0.04], rgb: [0.4, 0.4, 0.4]}
+unsolved: true
+unsolved_reason: "No stroke sequence within reach goes around the block: the cube sits 0.83 m from the base with the block directly behind it, so any sideways push with the handle sweeps the 0.2 m handle into the block, and every placement that keeps the handle clear (handle on the far side, or the tool end face as a pusher) needs the hand 0.82-0.88 m from the base, beyond the ~0.80 m reach at table height. Oracle 0.0; pipeline 0.0 after 2 repair iterations and a geometric analysis of all push/drag configurations."

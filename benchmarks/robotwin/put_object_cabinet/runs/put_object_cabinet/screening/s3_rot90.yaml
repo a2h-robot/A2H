@@ -1,0 +1,6 @@
+id: s3_rot90
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  object_pose: {name: object, delta_rpy: [0.0, 0.0, 1.57]}

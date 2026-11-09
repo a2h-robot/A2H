@@ -1,0 +1,8 @@
+id: v3
+axis: dynamics
+parameter_tuning: true
+assumption_violated: "F1/F3: a full close holds the fruit by friction through the carry (fruit twice as heavy, 0.6 kg, with skin-like friction 0.4 instead of rubber-like 6)"
+edits:
+  dynamics:
+    - {name: "left apple", mass: 0.6, friction: 0.4}
+    - {name: "right apple", mass: 0.6, friction: 0.4}

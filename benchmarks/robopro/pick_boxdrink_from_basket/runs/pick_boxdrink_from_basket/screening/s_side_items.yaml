@@ -1,0 +1,6 @@
+id: s_side_items
+axis: distractor
+edits:
+  add_distractor:
+    - {name: left_item, shape: box, size: [0.04, 0.06, 0.12], mass: 0.15, pose: {relative_to: boxdrink, offset: [-0.06, 0.0, 0.065]}}
+    - {name: right_item, shape: box, size: [0.04, 0.06, 0.12], mass: 0.15, pose: {relative_to: boxdrink, offset: [0.06, 0.0, 0.065]}}

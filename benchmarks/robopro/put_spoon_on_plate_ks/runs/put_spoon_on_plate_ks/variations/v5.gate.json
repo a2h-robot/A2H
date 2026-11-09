@@ -1,0 +1,21 @@
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "v5",
+  "pass": false,
+  "time": "2026-10-23 20:44:06",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "1dc9a0d7744f",
+  "s0": 0.9,
+  "s_break": 0.7,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_spoon_on_plate_ks/v5_20261023-204439",
+  "break_failures": [
+    "linear move stopped at 2/5 steps: no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "blocked: pushing glass with 79 N (limit 40 N)"
+  ],
+  "reason": "break gate: s_break=0.70 > s0/2=0.45"
+}

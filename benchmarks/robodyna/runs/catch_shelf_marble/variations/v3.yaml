@@ -1,0 +1,7 @@
+id: v3
+axis: distractor
+parameter_tuning: false
+assumption_violated: "the bowl is empty and ready to receive the ball (never checked: A18)"
+notes: "a 3 cm x 8 cm stick (50 g) stands in the bowl at reset (a leftover item in the receptacle). With it inside, the ball cannot settle in the cavity. Solvable: knock or lift the stick out of the bowl with a gripper before the ball arrives (the bowl is 4 cm deep, the stick sticks out 4 cm above the rim)."
+edits:
+  add_distractor: {name: stick, asset: cylinder, size: [0.03, 0.08], pose: [0.0, 0.0, 0.802], rgb: [0.2, 0.6, 0.9], mass: 0.05}

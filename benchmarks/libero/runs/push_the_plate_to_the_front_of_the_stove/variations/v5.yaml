@@ -1,0 +1,8 @@
+id: v5
+axis: size
+parameter_tuning: false
+assumption_violated: "the plate has a fixed size: the pinch point is at a hard-coded radius RIM_R = 0.067 m (B3); here the plate is scaled to 0.7 (rim at ~5 cm), so that radius lies outside it"
+edits:
+  object_scale: {name: plate_1, scale: 0.7}
+unsolved: true
+repair_log: 'six repair iterations: pinch radius and depth derived from the measured bbox (0.3), grip height clamped to 1.7 cm above the support (0.0), clamp 1.25 cm (0.5), clamp 1.1 cm (0.3), pinch 1 cm inside the rim (0.3), pinch 3 mm inside the rim (0.3); the shrunken lip (1.3 cm tall) is too low for the fingers to pinch without the finger tips reaching the table'

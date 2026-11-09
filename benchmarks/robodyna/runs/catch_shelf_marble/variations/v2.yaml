@@ -1,0 +1,7 @@
+id: v2
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the path from home to the key hover pose and the press stroke are free (A13): move_to is called without avoid, and the gripper always takes its home orientation straight over the key centre"
+notes: "an 18 cm post stands 1.5 cm left of the left key's bezel (clutter next to a button). It overlaps the wide WSG palm when the gripper hovers over the key centre in the home yaw; the key stays pressable (rotate the gripper 90 deg, or press off-centre within the key's 4.5 cm capture radius)."
+edits:
+  add_obstacle: {name: post, asset: box, size: [0.035, 0.06, 0.18], pose: [-0.3275, -0.13, 0.83]}

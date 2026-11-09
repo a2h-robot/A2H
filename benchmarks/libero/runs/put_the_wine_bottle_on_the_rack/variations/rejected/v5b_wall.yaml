@@ -1,0 +1,6 @@
+id: v5
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A13: the space on the robot side of the rack is free, so the hand and forearm can hover there while pitching the bottle 50-60 deg over the shelf (here a wall panel stands against the rack's near end)"
+edits:
+  add_obstacle: {name: wall_panel, shape: box, size: [0.02, 0.30, 0.50], pose: [-0.42, -0.27, 1.15], rgb: [0.8, 0.8, 0.75]}

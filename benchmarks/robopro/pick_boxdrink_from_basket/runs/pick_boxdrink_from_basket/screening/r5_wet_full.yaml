@@ -1,0 +1,4 @@
+id: r5_wet_full
+axis: dynamics
+edits:
+  dynamics: {name: boxdrink, mass: 1.0, friction: 0.2}

@@ -1,0 +1,10 @@
+id: v4
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A5: the space above the pad is free"
+# A mug-sized object (7 x 7 x 10 cm, 0.3 kg, movable) was left standing in the middle of the mouse pad.
+edits:
+  object_pose:
+    - {name: pad, xyz: [0.0, -0.10]}
+  add_distractor:
+    - {name: mug, shape: box, size: [0.07, 0.07, 0.10], pose: [0.0, -0.10, 0.7915], mass: 0.3}

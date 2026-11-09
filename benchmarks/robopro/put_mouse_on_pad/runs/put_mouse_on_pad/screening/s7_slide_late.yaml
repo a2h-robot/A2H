@@ -1,0 +1,8 @@
+id: s7
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A3: the mouse stays where it was estimated while the arm approaches"
+edits:
+  dynamics:
+    - {name: mouse, friction: 0.15}
+  object_motion: {name: mouse, velocity: [0.0, -0.06, 0.0], start_time: 4.5, duration: 1.5, mode: constant}

@@ -1,0 +1,12 @@
+id: s1_walled_coaster
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A1: free space around the coaster for a tilted hand"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.15, -0.12]}
+    - {name: coaster, xyz: [-0.12, -0.10]}
+  add_obstacle:
+    - {name: wall_left, shape: box, size: [0.03, 0.16, 0.15], pose: [-0.225, -0.10, 0.815]}
+    - {name: wall_right, shape: box, size: [0.03, 0.16, 0.15], pose: [-0.015, -0.10, 0.815]}
+    - {name: wall_front, shape: box, size: [0.18, 0.03, 0.15], pose: [-0.12, -0.205, 0.815]}

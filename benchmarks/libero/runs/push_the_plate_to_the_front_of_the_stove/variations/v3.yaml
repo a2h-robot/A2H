@@ -1,0 +1,6 @@
+id: v3
+axis: distractor
+parameter_tuning: false
+assumption_violated: "an object blocking the goal can be picked up with a top grasp (it fits between the fingers); here the blocker is a 10 cm wide box, wider than the 8 cm gripper opening, so it can only be pushed away"
+edits:
+  add_distractor: {name: box, shape: box, size: [0.10, 0.10, 0.05], pose: [-0.05, 0.215, 0.926], rgb: [0.2, 0.4, 0.8], mass: 0.3}

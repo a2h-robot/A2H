@@ -1,0 +1,6 @@
+id: box_yaw45
+axis: orientation
+parameter_tuning: false
+assumption_violated: "O2: the box keeps its usual yaw"
+edits:
+  object_pose: {name: object, delta_rpy: [0, 0, 0.785]}

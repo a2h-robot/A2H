@@ -1,0 +1,6 @@
+id: v1_pose_only
+axis: object_position
+parameter_tuning: false
+assumption_violated: "screening: the fixed switch placement of v1 without the box"
+edits:
+  object_pose: {name: switch, xyz: [0.0, 0.06], rpy: [0.0, 0.0, 1.5708]}

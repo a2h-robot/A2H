@@ -1,0 +1,6 @@
+id: s3_big_cup
+axis: size
+parameter_tuning: false
+assumption_violated: "A5: the cup is small (about 5 cm wide)"
+edits:
+  object_scale: {name: cup, scale: 1.5}

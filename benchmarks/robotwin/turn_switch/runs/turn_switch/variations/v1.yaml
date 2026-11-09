@@ -1,0 +1,11 @@
+id: v1
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A4: the straight corridor in front of the press point is free (nothing stands between the robot and the switch at push height)"
+notes: >
+  The switch stands at a fixed spot facing the robot (its model still varies by seed). A movable box,
+  10 cm wide, 4 cm deep and 10 cm tall (0.3 kg), sits on the table directly in front of it, 4-9 cm
+  from the press point depending on the model, like an object left in front of a wall switch.
+edits:
+  object_pose: {name: switch, xyz: [0.0, 0.06], rpy: [0.0, 0.0, 1.5708]}
+  add_distractor: {name: box_in_front, shape: box, size: [0.10, 0.04, 0.10], pose: [0.0, -0.06, 0.79], mass: 0.3, rgb: [0.2, 0.4, 0.8]}

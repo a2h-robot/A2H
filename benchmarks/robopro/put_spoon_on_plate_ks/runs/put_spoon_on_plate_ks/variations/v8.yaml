@@ -1,0 +1,10 @@
+id: v8
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+assumption_violated: "A4: nothing crowds the spoon; it can be reached from above"
+# the spoon (left front, lying along x) is partly under a low overhang 6 cm above the counter, e.g. the
+# edge of a board or a cabinet; its bowl end sticks out
+edits:
+  object_pose: {name: spoon, xyz: [-0.38, -0.20], rpy: [1.5708, 0.0, 0.0]}
+  add_obstacle: {name: overhang, shape: box, size: [0.14, 0.20, 0.01], pose: [-0.40, -0.20, 0.80]}

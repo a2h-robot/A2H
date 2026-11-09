@@ -1,0 +1,23 @@
+{
+  "task": "put_mouse_on_pad",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-26 17:10:40",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "9df325d52b8f",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_mouse_on_pad/v3_20261026-171051",
+  "break_failures": [
+    "target [0.409, -0.078, 0.723] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.345, -0.179, 0.721] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.447, -0.19, 0.733] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [-0.304, 0.056, 0.725] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "target [0.304, -0.091, 0.734] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}"
+  ],
+  "reason": "pass"
+}

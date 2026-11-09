@@ -1,0 +1,6 @@
+id: v5
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A5: the space above the bottle is free, so the neck can be grasped from straight above (here the bottle stands under a low shelf board 3.5 cm above its top)"
+edits:
+  add_obstacle: {name: overhead_board, shape: box, size: [0.16, 0.16, 0.01], pose: [-0.19, -0.045, 1.098], rgb: [0.6, 0.45, 0.3]}

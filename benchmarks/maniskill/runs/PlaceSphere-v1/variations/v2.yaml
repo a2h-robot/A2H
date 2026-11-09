@@ -1,0 +1,7 @@
+id: v2
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A2: the straight paths grasp -> lift (z=0.12) -> above-bin are free; nothing is passed to avoid"
+edits:
+  object_pose: {name: bin, delta_xyz: [0.08, 0.0, 0.0]}
+  add_obstacle: {name: wall, shape: box, size: [0.02, 0.40, 0.15], pose: [0.03, 0.0, 0.075], rgb: [0.6, 0.4, 0.2]}

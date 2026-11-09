@@ -1,0 +1,12 @@
+id: s_table_clutter
+axis: obstacle
+edits:
+  add_distractor:
+    - {name: clutter_00, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.42, -0.16, 0.792]}
+    - {name: clutter_01, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.42, -0.075, 0.792]}
+    - {name: clutter_10, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.3, -0.16, 0.792]}
+    - {name: clutter_11, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.3, -0.075, 0.792]}
+    - {name: clutter_20, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.18, -0.16, 0.792]}
+    - {name: clutter_21, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.18, -0.075, 0.792]}
+    - {name: clutter_30, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.06, -0.16, 0.792]}
+    - {name: clutter_31, shape: box, size: [0.10, 0.06, 0.10], mass: 0.3, pose: [-0.06, -0.075, 0.792]}

@@ -1,0 +1,10 @@
+id: v4
+axis: distractor
+parameter_tuning: true
+assumption_violated: "the space around the plate's rim is free for the open fingers to come down on a rim segment (E1, A2): here four cans stand 3 cm from the rim on every reachable side of the plate"
+edits:
+  add_distractor:
+    - {name: can_a, shape: cylinder, size: [0.04, 0.08], pose: [0.153, -0.025, 0.941], rgb: [0.9, 0.7, 0.1], mass: 0.15}
+    - {name: can_b, shape: cylinder, size: [0.04, 0.08], pose: [0.123, 0.048, 0.941], rgb: [0.1, 0.7, 0.3], mass: 0.15}
+    - {name: can_c, shape: cylinder, size: [0.04, 0.08], pose: [0.050, 0.078, 0.941], rgb: [0.7, 0.1, 0.6], mass: 0.15}
+    - {name: can_d, shape: cylinder, size: [0.04, 0.08], pose: [-0.022, 0.046, 0.941], rgb: [0.2, 0.3, 0.9], mass: 0.15}

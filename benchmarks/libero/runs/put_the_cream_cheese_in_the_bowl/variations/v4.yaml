@@ -1,0 +1,8 @@
+id: v4
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A16: the container is empty; here a 5 cm block already sits in the middle of the bowl (its top is level with the rim), so an object released over the bowl centre lands on the block and never touches the bowl"
+edits:
+  object_pose: {name: akita_black_bowl_1, xyz: [-0.09, 0.0, 0.901]}
+  add_distractor: {name: block, shape: box, size: [0.05, 0.05, 0.05], pose: [-0.09, 0.0, 0.935], rgb: [0.2, 0.5, 0.9], mass: 0.05}
+unsolved: true

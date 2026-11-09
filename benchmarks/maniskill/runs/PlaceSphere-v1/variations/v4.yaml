@@ -1,0 +1,7 @@
+id: v4
+axis: object_position
+parameter_tuning: false
+assumption_violated: "B5: the sphere rests on the table plane (grasp height = radius, hard-coded); here it sits on a 12 cm platform"
+edits:
+  add_obstacle: {name: platform, shape: box, size: [0.10, 0.26, 0.12], pose: [-0.08, 0.0, 0.06], rgb: [0.5, 0.5, 0.6]}
+  object_pose: {name: sphere, delta_xyz: [0.0, 0.0, 0.12]}

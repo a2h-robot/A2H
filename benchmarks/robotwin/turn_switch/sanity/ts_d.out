@@ -1,0 +1,7 @@
+{
+  "task": "turn_switch",
+  "variation": "ts_integ",
+  "pass": false,
+  "time": "2026-10-23 19:52:03",
+  "reason": "integrity: modified ['check_success:turn_switch']"
+}

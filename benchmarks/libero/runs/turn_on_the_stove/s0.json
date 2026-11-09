@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/libero/runs/turn_on_the_stove/pipeline.py@d9d198286f94"
+}

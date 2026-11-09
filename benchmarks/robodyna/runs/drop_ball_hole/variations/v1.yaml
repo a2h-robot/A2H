@@ -1,0 +1,6 @@
+id: v1
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "the ball lies still on the table between the moment it is detected and the moment the gripper closes on it (grasp() aims at one averaged detection)"
+edits:
+  object_motion: {name: ball, velocity: [0.0, 0.04, 0.0], start_time: 1.2, duration: 1.5, mode: constant}

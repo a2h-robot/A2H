@@ -1,0 +1,7 @@
+id: s24_big_mug
+axis: size
+parameter_tuning: false
+assumption_violated: "A5: a cup-sized object without a handle"
+edits:
+  swap_object: {name: cup, with: 039_mug}
+  object_scale: {name: cup, scale: 1.3}

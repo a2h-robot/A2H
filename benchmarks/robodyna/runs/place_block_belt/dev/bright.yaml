@@ -1,0 +1,5 @@
+id: bright
+axis: lighting
+parameter_tuning: false
+edits:
+  lighting: {intensity: 1.8}

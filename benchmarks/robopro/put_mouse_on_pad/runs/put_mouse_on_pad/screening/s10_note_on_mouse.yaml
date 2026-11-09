@@ -1,0 +1,9 @@
+id: s10
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A2: nothing lies on or against the mouse"
+edits:
+  object_pose:
+    - {name: mouse, xyz: [0.36, -0.12], rpy: [1.5708, 0.0, 1.5708]}
+  add_distractor:
+    - {name: notebook, shape: box, size: [0.16, 0.12, 0.012], pose: [0.36, -0.12, 0.79], mass: 0.08}

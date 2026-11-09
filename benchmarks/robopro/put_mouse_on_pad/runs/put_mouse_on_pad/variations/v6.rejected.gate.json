@@ -1,0 +1,21 @@
+{
+  "task": "put_mouse_on_pad",
+  "variation": "v6",
+  "pass": false,
+  "time": "2026-10-26 17:51:12",
+  "validity": "ok",
+  "parameter_tuning": true,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": true,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "2562aa0b5332",
+  "s0": 1.0,
+  "s_break": 0.7,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_mouse_on_pad/v6_20261026-175122",
+  "break_failures": [
+    null,
+    null,
+    null
+  ],
+  "reason": "break gate: s_break=0.70 > s0/2=0.50"
+}

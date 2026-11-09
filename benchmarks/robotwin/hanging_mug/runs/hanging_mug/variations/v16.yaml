@@ -1,0 +1,8 @@
+id: v16
+axis: object_motion
+parameter_tuning: false
+unsolved: true          # 0.0-0.1 after 6 repair iterations (see reflections.jsonl)
+assumption_violated: "A13: obstacles are measured once at the start and stay where they were; here, after the first look, a tall post (like a person's arm or a panel) glides into the workspace between the hand-over area and the rack and stays there"
+edits:
+  add_obstacle: {name: post, asset: box, size: [0.05, 0.05, 0.35], pose: [0.45, -0.05, 0.915], rgb: [0.4, 0.4, 0.45]}
+  object_motion: {name: post, velocity: [-0.10, 0.0, 0.0], start_time: 9.0, duration: 3.7}

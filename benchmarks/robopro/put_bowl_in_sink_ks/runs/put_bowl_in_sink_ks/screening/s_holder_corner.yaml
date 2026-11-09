@@ -1,0 +1,6 @@
+id: s_holder_corner
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A4: lifting the bowl until it clears the counter and the basin's contents clears everything on the way (the planner sees the hand, not the bowl hanging below it)"
+edits:
+  add_obstacle: {name: soap_holder, shape: cylinder, size: [0.06, 0.14], rpy: [0, 1.5707963, 0], pose: {relative_to: sink, offset: [-0.17, -0.20, 0], z: 0.811}}

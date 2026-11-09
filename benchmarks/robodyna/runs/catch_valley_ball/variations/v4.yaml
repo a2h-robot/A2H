@@ -1,0 +1,10 @@
+id: v4
+axis: object_motion
+parameter_tuning: true
+assumption_violated: "late errors are small and in the cheap direction: a disturbance close to the catch can be undone by pushing forwards (+y) with the finger already in place; pushing back from the far side is rare and may be skipped when time is short (A10/A5, deadline)"
+edits:
+  # 0.8 s after v3's knock and away from the robot: the box is shoved ~7 cm in +y at t = 4.3 s,
+  # about 1.4 s before the earliest release (5.7 s)
+  object_motion: {name: blue box, velocity: [0.0, 0.25, 0.0], start_time: 4.3, duration: 0.3, mode: constant}
+
+unsolved: true   # not recovered within MAX_REPAIR (see reflections.jsonl round 4); reverted

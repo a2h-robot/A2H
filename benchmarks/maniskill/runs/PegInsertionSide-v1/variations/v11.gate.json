@@ -1,0 +1,17 @@
+{
+  "task": "PegInsertionSide-v1",
+  "variation": "v11",
+  "pass": true,
+  "time": "2026-10-25 15:27:36",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "4bb6a077903a",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "reason": "pass (oracle could not solve it: counts only after the agent recovers)"
+}

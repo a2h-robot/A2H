@@ -1,0 +1,6 @@
+id: rejected1_size
+axis: size
+parameter_tuning: false
+assumption_violated: "the plate has a fixed size: the rim lip is at a hard-coded radius (RIM_R = 0.067 m) from the centre (B3)"
+edits:
+  object_scale: {name: plate_1, scale: 1.3}

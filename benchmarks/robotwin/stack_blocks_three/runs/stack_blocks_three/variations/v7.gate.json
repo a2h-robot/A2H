@@ -1,0 +1,17 @@
+{
+  "task": "stack_blocks_three",
+  "variation": "v7",
+  "pass": false,
+  "time": "2026-10-23 13:14:28",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "2b367f529a39",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 1.0,
+  "break_frames": "benchmarks/robotwin/logs/frames/stack_blocks_three/v7_20261023-131500",
+  "break_errors": {},
+  "reason": "break gate: s_break=1.00 > s0/2=0.50"
+}

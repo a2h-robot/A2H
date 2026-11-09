@@ -1,0 +1,5 @@
+{
+  "s0": 0.9,
+  "seeds": 10,
+  "pipeline": "benchmarks/robopro/runs/put_spoon_on_plate_ks/pipeline.py@e4a80e237f5c"
+}

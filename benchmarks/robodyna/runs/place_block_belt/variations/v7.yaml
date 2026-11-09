@@ -1,0 +1,7 @@
+id: v7
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "M1: the block stays where it was detected until the fingers close (it is detected once per grasp attempt, and the approach takes ~3 s). Here it slides towards the robot at ~5 cm/s for 6 s (~30 cm) (a slippery surface: friction 0.2, so the motion edit can act; see backend_issues.md)"
+edits:
+  dynamics: {name: block, friction: 0.2}
+  object_motion: {name: block, velocity: [0.0, -0.08, 0.0], start_time: 3.0, duration: 6.0, mode: constant}

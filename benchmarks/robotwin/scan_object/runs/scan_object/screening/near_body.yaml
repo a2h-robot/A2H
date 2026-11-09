@@ -1,0 +1,8 @@
+id: near_body
+axis: object_position
+parameter_tuning: false
+assumption_violated: "P3: objects lie within the usual ranges (box close to the robot's body)"
+edits:
+  object_pose:
+    - {name: scanner, xyz: [-0.2, -0.1, 0.741]}
+    - {name: object, xyz: [0.12, -0.27, 0.741]}

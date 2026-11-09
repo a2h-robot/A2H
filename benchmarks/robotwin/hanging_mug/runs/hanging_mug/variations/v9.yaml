@@ -1,0 +1,6 @@
+id: v9
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A12: only the mug and the rack are on the table, so grasp approaches, the handover spot and every carry path have room; here the table is cluttered with 10 household objects (RoboTwin's own clutter generator, which keeps a small margin around the mug and the rack)"
+edits:
+  add_distractor: {name: clutter, asset: clutter, n: 10, pose: [0, 0, 0]}   # pose is ignored for clutter (validation requires the field)

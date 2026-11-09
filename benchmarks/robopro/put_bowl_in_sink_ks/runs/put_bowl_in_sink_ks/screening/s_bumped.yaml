@@ -1,0 +1,6 @@
+id: s_bumped
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A5: the bowl does not move between detection and grasp"
+edits:
+  object_motion: {name: bowl, velocity: [0.0, 0.25, 0.0], start_time: 1.0, duration: 0.3, mode: constant}

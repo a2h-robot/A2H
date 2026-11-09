@@ -1,0 +1,7 @@
+id: v4
+axis: dynamics
+parameter_tuning: true   # same edit as the rejected v3, larger magnitude
+unsolved: true   # not recovered within MAX_REPAIR=6 repair iterations (see reflections.jsonl round 2)
+assumption_violated: "A7: the peg is light and grippy enough that a full-strength grasp at its tail holds it rigidly while it is carried and pushed into the hole"
+edits:
+  dynamics: {name: peg, mass: 2.0, friction: 0.15}

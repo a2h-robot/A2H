@@ -1,0 +1,6 @@
+id: v15
+axis: size
+parameter_tuning: false
+assumption_violated: "A3/A9 for the fixture: the rack is the size RoboTwin's rack has (hook ~0.94 m high, ~7 cm bar), so the hook's mouth, the staging pose and the insertion all fall where the hanging arm reaches; here the rack is 1.3x larger (hook ~0.99 m, longer bar)"
+edits:
+  object_scale: {name: rack, scale: 1.3}

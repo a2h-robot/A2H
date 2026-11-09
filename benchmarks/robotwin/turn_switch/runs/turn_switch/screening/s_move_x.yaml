@@ -1,0 +1,6 @@
+id: s_move_x
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_motion: {name: switch, velocity: [0.08, 0.0, 0.0], start_time: 2.0, duration: 1.0}

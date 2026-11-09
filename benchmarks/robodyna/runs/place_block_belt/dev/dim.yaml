@@ -1,0 +1,5 @@
+id: dim
+axis: lighting
+parameter_tuning: false
+edits:
+  lighting: {intensity: 0.2}

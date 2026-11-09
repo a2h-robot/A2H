@@ -1,0 +1,23 @@
+{
+  "task": "put_cup_on_coaster",
+  "variation": "v8",
+  "pass": true,
+  "time": "2026-10-24 01:50:50",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "b7f04a11b6b6",
+  "s0": 1.0,
+  "s_break": 0.3,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_cup_on_coaster/v8_20261024-015054",
+  "break_failures": [
+    "target [0.249, -0.827, 0.775] outside the workspace {'x': (-0.7, 0.7), 'y': (-0.5, 0.45), 'z': (0.74, 1.4)}",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "StepLimitExceeded: 30000 simulation steps"
+  ],
+  "reason": "pass"
+}

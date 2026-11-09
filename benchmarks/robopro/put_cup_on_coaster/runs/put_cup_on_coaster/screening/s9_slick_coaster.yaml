@@ -1,0 +1,6 @@
+id: s9_slick_coaster
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A7: the coaster stays put when the cup lands"
+edits:
+  dynamics: {name: coaster, mass: 0.02, friction: 0.05}

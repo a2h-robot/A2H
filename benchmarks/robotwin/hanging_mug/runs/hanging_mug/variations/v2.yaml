@@ -1,0 +1,6 @@
+id: v2
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A8: the mug is light and grippy, so a grasp that closes on it stays firm through lift, rotation and carry; here it weighs 0.35 kg (a real ceramic mug) and its surface is less grippy"
+edits:
+  dynamics: {name: mug, mass: 0.35, friction: 0.3}

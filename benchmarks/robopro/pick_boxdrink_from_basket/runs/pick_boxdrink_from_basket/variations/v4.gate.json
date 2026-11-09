@@ -1,0 +1,25 @@
+{
+  "task": "pick_boxdrink_from_basket",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-24 01:54:50",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "4e791e753e60",
+  "s0": 1.0,
+  "s_break": 0.4,
+  "frames_dir": "benchmarks/robopro/logs/frames/pick_boxdrink_from_basket/v4_20261024-015457",
+  "break_failures": [
+    null,
+    null,
+    null,
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    null
+  ],
+  "oracle_success_rate": 0.6,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

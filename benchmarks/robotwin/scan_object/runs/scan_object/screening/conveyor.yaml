@@ -1,0 +1,6 @@
+id: conveyor
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "M1: an object stops moving soon after it is disturbed"
+edits:
+  object_motion: {name: object, velocity: [0.0, 0.012, 0.0], start_time: 0.0, duration: 18.0, mode: constant}

@@ -1,0 +1,6 @@
+id: s_drift
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_motion: {name: switch, velocity: [0.012, 0.0, 0.0], start_time: 1.0, duration: 15.0}

@@ -1,0 +1,6 @@
+id: s2_nudged
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A2: the spoon lies still where it was detected until the gripper closes on it"
+edits:
+  object_motion: {name: spoon, velocity: [0.0, 0.08, 0.0], start_time: 2.0, duration: 0.75, mode: constant}

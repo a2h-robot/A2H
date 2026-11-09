@@ -1,0 +1,6 @@
+id: s_heavy
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A6: the bowl is light and not slippery, so a rim pinch holds it"
+edits:
+  dynamics: {name: bowl, mass: 0.4, friction: 0.4}

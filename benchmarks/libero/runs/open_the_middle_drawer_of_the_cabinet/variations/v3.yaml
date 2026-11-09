@@ -1,0 +1,7 @@
+id: v3
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A8: the scene is static after the first look (the work volume is checked for blockers once, at the start); here a box slides into the space in front of the drawer during the first seconds of the episode, after the robot has looked"
+edits:
+  add_distractor: {name: sliding_box, shape: box, size: [0.07, 0.07, 0.16], pose: [0.05, 0.42, 0.982], rgb: [0.2, 0.3, 0.8], mass: 0.3}
+  object_motion: {name: sliding_box, velocity: [0.0, -0.2, 0.0], start_time: 1.0, duration: 1.5, mode: constant}

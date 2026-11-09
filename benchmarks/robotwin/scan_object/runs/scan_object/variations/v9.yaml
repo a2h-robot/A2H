@@ -1,0 +1,10 @@
+id: v9
+axis: object_position
+parameter_tuning: true
+unsolved: true   # not recovered in 6 repairs (best: v9 0.9 with v8 0.5; last: v9 0.6); pipeline reverted to round 4
+assumption_violated: "P3: every grasp, lift and carry is comfortably inside the arms' reach; a lift that cannot be planned means the grasp failed"
+edits:
+  # the box was put down at the back of the table, at the edge of the arms' reach (further back than v7)
+  object_pose:
+    - {name: scanner, xyz: [-0.2, -0.1, 0.741]}
+    - {name: object, xyz: [0.1, 0.19, 0.741]}

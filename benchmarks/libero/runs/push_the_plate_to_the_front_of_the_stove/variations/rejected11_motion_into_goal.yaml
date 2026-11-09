@@ -1,0 +1,8 @@
+id: rejected11_motion_into_goal
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "nothing moves into the goal region after it was checked at the start (D2, H4): here a can slides into the goal region from behind while the robot is working"
+edits:
+  add_distractor: {name: can, shape: cylinder, size: [0.045, 0.08], pose: [-0.04, 0.40, 0.941], rgb: [0.9, 0.5, 0.1], mass: 0.15}
+  object_motion: {name: can, velocity: [0.0, -0.05, 0.0], start_time: 6.0, duration: 3.6, mode: constant}
+# gate result (gate.json overwritten by a file-renaming slip): pass=false, s0=0.9, s_break=0.6 (break gate: 0.60 > 0.45), 2026-10-23 12:26:54

@@ -1,0 +1,2 @@
+{"variation": "t1", "parameter_tuning": true, "edits": {"object_color": {"name": "object", "rgb": [0.9, 0.1, 0.1]}}}
+{"variation": "t2", "parameter_tuning": true, "edits": {"object_color": {"name": "object", "rgb": [0.8, 0.1, 0.1]}}}

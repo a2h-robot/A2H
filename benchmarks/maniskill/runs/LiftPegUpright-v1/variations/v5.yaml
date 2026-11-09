@@ -1,0 +1,7 @@
+id: v5
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the peg can be grasped where it lies (A16): every grasp candidate straddles the peg with open fingers, so a peg lying 1 cm from a low wall (e.g. the rim of a tray or bin) along its whole length leaves no grasp; it has to be slid out along the wall first"
+edits:
+  object_pose: {name: peg, xyz: [0.0, 0.0, 0.025]}
+  add_obstacle: {name: wall, shape: box, size: [0.30, 0.03, 0.06], pose: [0.0, 0.050, 0.03], rgb: [0.6, 0.6, 0.6]}

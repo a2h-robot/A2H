@@ -1,0 +1,6 @@
+id: t4_drift
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  object_motion: {name: object, velocity: [0.0, 0.012, 0.0], start_time: 12.0, duration: 20.0, mode: constant}

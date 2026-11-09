@@ -1,0 +1,12 @@
+{
+  "task": "push_the_plate_to_the_front_of_the_stove",
+  "variation": "v2",
+  "pass": false,
+  "time": "2026-10-23 11:38:52",
+  "validity": {
+    "seed0": "KeyError: 'akita_black_bowl_1'",
+    "seed1": "KeyError: 'akita_black_bowl_1'",
+    "seed2": "KeyError: 'akita_black_bowl_1'"
+  },
+  "reason": "invalid scene: KeyError: 'akita_black_bowl_1' (seed 0)"
+}

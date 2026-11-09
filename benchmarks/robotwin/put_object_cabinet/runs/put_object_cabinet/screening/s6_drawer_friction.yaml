@@ -1,0 +1,6 @@
+id: s6_drawer_friction
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  dynamics: {name: drawer, friction: 3.0}

@@ -1,0 +1,11 @@
+id: v9
+axis: obstacle
+parameter_tuning: true
+unsolved: true
+assumption_violated: "A4: nothing crowds the spoon; there is room for the hand above its grasp point"
+# like v8 (unsolved), but the low overhang now covers only the handle and the middle of the spoon: about
+# 10 cm of the bowl end is exposed, enough room for a hand if it grips there. Only the overhang's extent
+# changes from v8, so this is labelled parameter tuning.
+edits:
+  object_pose: {name: spoon, xyz: [-0.38, -0.20], rpy: [1.5708, 0.0, 0.0]}
+  add_obstacle: {name: overhang, shape: box, size: [0.11, 0.20, 0.01], pose: [-0.415, -0.20, 0.80]}

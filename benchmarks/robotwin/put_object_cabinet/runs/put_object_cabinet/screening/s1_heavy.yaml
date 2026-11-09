@@ -1,0 +1,6 @@
+id: s1_heavy
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  dynamics: {name: object, mass: 0.6, friction: 0.25}

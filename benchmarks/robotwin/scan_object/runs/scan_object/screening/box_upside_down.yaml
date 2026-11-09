@@ -1,0 +1,6 @@
+id: box_upside_down
+axis: orientation
+parameter_tuning: false
+assumption_violated: "O2: the box stands on its base"
+edits:
+  object_pose: {name: object, delta_rpy: [3.14159, 0, 0]}

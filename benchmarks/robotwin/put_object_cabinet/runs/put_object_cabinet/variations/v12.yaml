@@ -1,0 +1,10 @@
+id: v12
+axis: distractor
+parameter_tuning: false
+unsolved: true
+unsolved_note: "5 repairs reached 0.5 (6th not attempted): removing the lid keeps disturbing the 10 g cube under it (the lid slides off and leans on it, fingertips catch it) and the simulator then flings the cube off the table; remaining failures are the 120 s budget"
+assumption_violated: "A12/A5 at the pick: nothing rests on the object, so it can be grasped from above or the side as it lies. Here a light board (7 x 12 x 2 cm, 0.1 kg) lies on top of the object (a 5.8 cm cube placed at x = 0.26), like a lid or a sheet of paper left on an item: every grasp of the object collides with it until it is taken off."
+edits:
+  swap_object: {name: object, with: 073_rubikscube, model_id: 1}
+  object_pose: {name: object, xyz: [0.26, -0.15]}
+  add_distractor: {name: lid, shape: box, size: [0.07, 0.12, 0.02], pose: [0.26, -0.15, 0.813], rgb: [0.7, 0.7, 0.2], mass: 0.1}

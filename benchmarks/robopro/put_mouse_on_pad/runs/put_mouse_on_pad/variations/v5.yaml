@@ -1,0 +1,9 @@
+id: v5
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: the pad can be reached from straight above (here it lies at the back of the desk, against the wall shelf, whose lower board overhangs the pad's back edge 15 cm up)"
+# Screened as screening/s2_pad_back.yaml (0.0 against the round-4 pipeline). The pad is free and on the desk; only
+# the space above its back part is taken by the shelf board.
+edits:
+  object_pose:
+    - {name: pad, xyz: [0.0, 0.12]}

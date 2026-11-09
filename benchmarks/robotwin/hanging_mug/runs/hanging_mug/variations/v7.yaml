@@ -1,0 +1,6 @@
+id: v7
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A6 (for the target): the rack stays where it was measured once before the hang; here the rack is pushed and slides ~8 cm (away and to the right) while the mug is being carried to it and inserted"
+edits:
+  object_motion: {name: rack, velocity: [0.012, 0.012, 0.0], start_time: 14.0, duration: 5.0}

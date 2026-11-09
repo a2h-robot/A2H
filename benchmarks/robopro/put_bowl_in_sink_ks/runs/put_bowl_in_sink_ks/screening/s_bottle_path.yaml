@@ -1,0 +1,6 @@
+id: s_bottle_path
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A3/A4: the way from the bowl to the sink is free, so a 5 cm lift and a straight carry clear everything"
+edits:
+  add_distractor: {name: soap_bottle, shape: cylinder, size: [0.07, 0.22], rpy: [0, 1.5707963, 0], mass: 0.4, pose: {relative_to: sink, offset: [-0.21, -0.17, 0], z: 0.852}}

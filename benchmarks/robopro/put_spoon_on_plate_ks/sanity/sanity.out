@@ -1,0 +1,47 @@
+== (a) trivial pipeline end to end
+exit 0
+success_rate 0.0 [(40002, False, None, ["t=0.0s detect('spoon') -> ObjectState(spoon, p=[-0.323, -0.173, 0.754])", "t=1.1s move_by(dz=0.05, arm='left') -> True"]), (40003, False, None, ["t=0.0s detect('spoon') -> ObjectState(spoon, p=[-0.318, -0.068, 0.751])", "t=1.1s move_by(dz=0.05, arm='left') -> True"]), (40005, False, None, ["t=0.0s detect('spoon') -> ObjectState(spoon, p=[-0.362, -0.092, 0.743])", "t=1.1s move_by(dz=0.05, arm='left') -> True"])]
+== (b) no-op variation
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "noop",
+  "pass": false,
+  "time": "2026-10-23 20:23:00",
+  "reason": "no-op variation: no edits"
+}
+exit 1
+== (c) third parameter-tuning variation in a row
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "tune3",
+  "pass": false,
+  "time": "2026-10-23 20:23:05",
+  "validity": "ok",
+  "parameter_tuning": true,
+  "parameter_tuning_label": true,
+  "parameter_tuning_auto": true,
+  "tuning_streak_before": 2,
+  "reason": "variance gate: third parameter-tuning variation in a row"
+}
+exit 1
+== (d) success check modified (eps1 0.03 -> 0.05 in a shadow benchmark tree)
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "tune3",
+  "pass": false,
+  "time": "2026-10-23 20:23:10",
+  "reason": "integrity: modified ['check_success:put_spoon_on_plate_ks']"
+}
+exit 1
+== (d') a protected tool file modified
+{
+  "task": "put_spoon_on_plate_ks",
+  "variation": "tune3",
+  "pass": false,
+  "time": "2026-10-23 20:23:14",
+  "reason": "integrity: modified ['tools/pool.py']"
+}
+exit 1
+== integrity after restoring
+{"ok": true, "modified": []}
+exit 0

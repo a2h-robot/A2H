@@ -1,0 +1,19 @@
+Screening of candidate variations against the frozen round-2 pipeline (git HEAD after round 2), 10 seeds each,
+one batch, before choosing round 3. Success rates of the frozen pipeline:
+  s1_greasy_heavy  0.0   spoon 0.25 kg, friction 0.2           -> gated as v7 (round 3)
+  s2_nudged        0.9   spoon pushed 6 cm at t = 2 s          (re-detect and retry already handles it)
+  s3_crossing_box  1.0   a 22 cm box slides across the carry
+  s4_overhang      0.0   a low overhang 6 cm above the spoon   (candidate)
+  s5_slot          0.0   spoon in a 5 cm slot between two boxes (candidate)
+
+After round 4 (v8 unsolved), against the frozen round-3 pipeline (git HEAD), 10 seeds each:
+  s6_teaspoon        0.8   spoon scaled 0.5
+  s7_plate_late      0.7   plate slides 7.5 cm from t = 14.5 s (during the final descent on some seeds)
+  s8_big_spoon       0.7   spoon scaled 1.4
+  s12_wall_by_plate  0.9   a 25 cm wall 1 cm from the plate rim (the held spoon is not in the planner's world)
+  s13_pinned         0.9   a 0.4 kg box resting on the spoon's handle
+  s14_plate_drift    0.9   the plate drifts 1.2 cm/s for 12 s (too slow for the "stopped moving" check)
+  s16_stand_08cm     0.9   the plate on an 8 cm stand
+  s17_stand_12cm     0.8   the plate on a 12 cm stand
+None of these breaks the program (break gate needs <= 0.45). The remaining breaking class is "no room for the
+hand at the grasp point": s4/v8 (unsolved) and s5 (narrow slot); v9 attacks it with a solvable exposure.

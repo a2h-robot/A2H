@@ -1,0 +1,70 @@
+{
+  "task": "catch_shelf_marble",
+  "variation": "v6",
+  "pass": false,
+  "time": "2026-10-24 01:48:12",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 1,
+  "frozen_pipeline": "66a5b81c7cf3",
+  "validity": "ok",
+  "s0": 0.8,
+  "s_break": 0.5,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/catch_shelf_marble/v6_20261024-014948",
+  "break_per_seed": [
+    {
+      "seed": 10000,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10002,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10003,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10004,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10007,
+      "success": true,
+      "error": null
+    },
+    {
+      "seed": 10008,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10009,
+      "success": true,
+      "error": null
+    }
+  ],
+  "gate": "break",
+  "reason": "break gate: s_break=0.50 > s0/2=0.40",
+  "wall_clock_s": 228.3
+}

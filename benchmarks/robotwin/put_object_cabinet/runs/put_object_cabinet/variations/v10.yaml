@@ -1,0 +1,6 @@
+id: v10
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A1/A10 (re-run of v9 on backend v2, which no longer lets the arm grind on the table): the cabinet stands in the middle, so the arm opposite the object can always reach the handle and the arm on the object's side can always reach the open drawer. Here the cabinet stands 20 cm to the robot's right."
+edits:
+  object_pose: {name: cabinet, delta_xyz: [0.20, 0.0, 0.0]}

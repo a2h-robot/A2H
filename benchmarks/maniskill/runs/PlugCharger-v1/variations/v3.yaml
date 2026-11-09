@@ -1,0 +1,10 @@
+id: v3
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A7: lifting 5 cm and moving straight to 4 cm in front of the receptacle is collision free (nothing stands between the charger and the receptacle)"
+description: "A low fixed wall (6 mm thick, 9 cm high, 60 cm long) stands on the table between the charger and the receptacle, like a cable tray or the rim of a socket panel. The charger starts 12 cm closer to the robot and the receptacle 5 cm further away, so there is room to lift the charger over the wall and insert it."
+edits:
+  object_pose:
+    - {name: charger, delta_xyz: [-0.12, 0.0, 0.0]}
+    - {name: receptacle, delta_xyz: [0.05, 0.0, 0.0]}
+  add_obstacle: {name: wall, shape: box, size: [0.006, 0.6, 0.09], pose: [-0.05, 0.0, 0.045]}

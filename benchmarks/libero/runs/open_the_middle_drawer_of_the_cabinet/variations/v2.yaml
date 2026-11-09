@@ -1,0 +1,6 @@
+id: v2
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A6: nothing stands in the volume the hand and arm sweep while approaching the handle and pulling the drawer out (a tall movable box stands on the table in front of the drawer, outside the drawer's own path but where the hand ends up)"
+edits:
+  add_distractor: {name: tall_box, shape: box, size: [0.06, 0.06, 0.22], pose: [0.05, 0.12, 1.012], rgb: [0.8, 0.2, 0.2], mass: 0.3}

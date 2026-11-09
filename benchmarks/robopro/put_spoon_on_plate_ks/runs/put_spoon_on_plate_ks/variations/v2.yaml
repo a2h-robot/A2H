@@ -1,0 +1,8 @@
+id: v2
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A7: the plate's top is clear, so the spoon can be lowered straight onto the plate centre"
+# something (a sponge-sized box) already lies in the middle of the plate; the plate sits front centre
+edits:
+  object_pose: {name: plate, xyz: [0.0, -0.20]}
+  add_distractor: {name: sponge, shape: box, size: [0.07, 0.07, 0.05], pose: [0.0, -0.20, 0.785], mass: 0.15, rgb: [0.9, 0.8, 0.2]}

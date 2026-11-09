@@ -1,0 +1,6 @@
+id: u4_slippery
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  dynamics: {name: object, mass: 0.4, friction: 0.1}

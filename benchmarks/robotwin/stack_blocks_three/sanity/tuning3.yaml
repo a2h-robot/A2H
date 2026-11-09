@@ -1,0 +1,6 @@
+id: t3
+axis: object_position
+parameter_tuning: true
+assumption_violated: "sanity check c: third magnitude-only change"
+edits:
+  object_pose: {name: red block, delta_xyz: [0.06, 0.0, 0.0]}

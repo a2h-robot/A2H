@@ -1,0 +1,4 @@
+id: s_near_wall
+axis: object_position
+edits:
+  object_pose: {name: boxdrink, delta_xyz: [0, -0.025, 0.003]}

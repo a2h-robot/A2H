@@ -1,0 +1,8 @@
+id: v4
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+unsolved_note: "2 repairs reached 0.2; clearance analysis shows the drop pose is kinematically reachable on ~2/10 layouts, so further repairs cannot reach 0.8 (design error: solvability not checked); see reflections.jsonl"
+assumption_violated: "A3/A10: the drawer opens to its full travel (the pipeline pulls 17 cm, needs >= 10 cm and aims at fixed offsets from the handle). Here a fixed low block (10 x 4 x 6 cm) on the table in front of the drawer stops it after about 9 cm; the hand can still pass over the block."
+edits:
+  add_obstacle: {name: door_stop, shape: box, size: [0.10, 0.04, 0.06], pose: [0.0, -0.085, 0.77], rgb: [0.3, 0.3, 0.3]}

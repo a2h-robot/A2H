@@ -1,0 +1,8 @@
+id: s8e_glossy_control
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "control for s8d: slick cup and table, no motion"
+edits:
+  dynamics:
+    - {name: cup, friction: 0.1}
+    - {name: table, friction: 0.1}

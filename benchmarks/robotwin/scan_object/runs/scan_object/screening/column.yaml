@@ -1,0 +1,6 @@
+id: column
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "P4: some spot on the short list of meeting points is free; otherwise the default spot is used"
+edits:
+  add_obstacle: {name: column, asset: box, size: [0.08, 0.2, 0.3], pose: [0.0, -0.06, 0.89]}

@@ -1,0 +1,91 @@
+{
+  "task": "turn_switch",
+  "variation": "base",
+  "success_rate": 0.0,
+  "seeds": 3,
+  "seed_offset": 0,
+  "per_seed": [
+    {
+      "seed": 0,
+      "success": false,
+      "error": null,
+      "steps": 329,
+      "last_error": "",
+      "trace": [
+        "t=0.0s detect('switch') -> ObjectState(switch, p=[-0.009, 0.09, 0.81])",
+        "t=1.1s move_by(dz=0.05, arm='left') -> True"
+      ],
+      "final": {
+        "model_id": 2,
+        "root_xyz": [
+          -0.010999999940395355,
+          0.08100000023841858,
+          0.8240000009536743
+        ],
+        "qpos": 0.0,
+        "qlim": [
+          0.0,
+          0.19200000166893005
+        ],
+        "need_qpos": 0.142
+      },
+      "wall_clock_s": 21.45,
+      "worker": "gn100-7d8f-4"
+    },
+    {
+      "seed": 1,
+      "success": false,
+      "error": null,
+      "steps": 327,
+      "last_error": "",
+      "trace": [
+        "t=0.0s detect('switch') -> ObjectState(switch, p=[-0.145, 0.053, 0.848])",
+        "t=1.1s move_by(dz=0.05, arm='left') -> True"
+      ],
+      "final": {
+        "model_id": 2,
+        "root_xyz": [
+          -0.13500000536441803,
+          0.05299999937415123,
+          0.8370000123977661
+        ],
+        "qpos": 0.0,
+        "qlim": [
+          0.0,
+          0.19200000166893005
+        ],
+        "need_qpos": 0.142
+      },
+      "wall_clock_s": 23.15,
+      "worker": "gn100-7d8f-0"
+    },
+    {
+      "seed": 2,
+      "success": false,
+      "error": null,
+      "steps": 327,
+      "last_error": "",
+      "trace": [
+        "t=0.0s detect('switch') -> ObjectState(switch, p=[0.067, 0.083, 0.822])",
+        "t=1.1s move_by(dz=0.05, arm='left') -> True"
+      ],
+      "final": {
+        "model_id": 2,
+        "root_xyz": [
+          0.06599999964237213,
+          0.0820000022649765,
+          0.8299999833106995
+        ],
+        "qpos": 0.0,
+        "qlim": [
+          0.0,
+          0.19200000166893005
+        ],
+        "need_qpos": 0.142
+      },
+      "wall_clock_s": 21.35,
+      "worker": "gn100-7d8f-1"
+    }
+  ],
+  "frames_dir": "benchmarks/robotwin/logs/frames/turn_switch/base_20261023-195111"
+}

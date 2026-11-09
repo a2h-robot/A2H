@@ -1,0 +1,6 @@
+id: v5
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "the tool is light enough to stay rigid in the fingers when held near its free end, so the hand-to-tool transform measured after each carry is the one that holds during the next carry (A10). Here the tool is twice as heavy (1.0 kg, e.g. a metal bar), so it pivots in the grasp."
+edits:
+  dynamics: {name: l_shape_tool, mass: 1.0}

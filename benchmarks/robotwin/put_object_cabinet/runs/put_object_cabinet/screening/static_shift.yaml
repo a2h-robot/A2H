@@ -1,0 +1,6 @@
+id: precheck_static_shift
+axis: object_position
+parameter_tuning: false
+assumption_violated: "solvability pre-check for v5 (not a training variation)"
+edits:
+  object_pose: {name: cabinet, delta_xyz: [0.0, -0.12, 0.0]}

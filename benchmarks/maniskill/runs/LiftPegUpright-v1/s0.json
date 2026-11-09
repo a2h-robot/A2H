@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/maniskill/runs/LiftPegUpright-v1/pipeline.py@e593db6d5b3b"
+}

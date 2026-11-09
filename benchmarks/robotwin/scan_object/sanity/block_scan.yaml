@@ -1,0 +1,6 @@
+id: block_scan
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "backend smoke test: a static wall stands where the arms bring the scanner and the box together"
+edits:
+  add_obstacle: {name: wall, asset: box, size: [0.02, 0.3, 0.3], pose: [0.0, -0.02, 0.95]}

@@ -1,0 +1,10 @@
+id: v2
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A5: the rocker turns easily under a gentle staged push, so 'less than 2 deg more per 0.5 cm stage' means it is at its stop"
+notes: >
+  A stiff switch: the rocker joint has high friction (10), as on a worn or heavy-duty rocker that needs a
+  firm push. Screening on the round-1 pipeline gave 0.3 (the rocker stopped part-way on 7 seeds); the
+  scripted expert still solves 0.7 with its single deep push, so the scene is solvable.
+edits:
+  dynamics: {name: switch_rocker, friction: 10.0}

@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/libero/runs/put_the_wine_bottle_on_the_rack/pipeline.py@68ef59773ce5"
+}

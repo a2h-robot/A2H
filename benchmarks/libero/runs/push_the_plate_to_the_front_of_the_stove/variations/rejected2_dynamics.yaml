@@ -1,0 +1,6 @@
+id: rejected2_dynamics
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "the plate is very light (~11 g), so a two-finger pinch on its thin lip can lift one edge and carry it without slipping (F1); a real plate weighs 10-40x more"
+edits:
+  dynamics: {name: plate_1, mass: 0.15}

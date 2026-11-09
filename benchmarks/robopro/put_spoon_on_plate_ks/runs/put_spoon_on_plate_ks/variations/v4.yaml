@@ -1,0 +1,7 @@
+id: v4
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A4: the spoon lies the right way up, so its annotated grasp points can be approached from above"
+# the spoon lies upside down (bowl facing down) where it was
+edits:
+  object_pose: {name: spoon, delta_xyz: [0.0, 0.0, 0.006], delta_rpy: [3.14159, 0.0, 0.0]}

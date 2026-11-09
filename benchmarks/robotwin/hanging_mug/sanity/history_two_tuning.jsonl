@@ -1,0 +1,3 @@
+{"variation": "s1", "time": "sanity", "parameter_tuning": false, "s0": 1.0, "s_break": 0.0, "edits": {"object_pose": {"name": "mug", "delta_xyz": [-0.02, 0.0, 0.0]}}}
+{"variation": "s2", "time": "sanity", "parameter_tuning": true, "s0": 1.0, "s_break": 0.0, "edits": {"object_pose": {"name": "mug", "delta_xyz": [-0.03, 0.0, 0.0]}}}
+{"variation": "s3", "time": "sanity", "parameter_tuning": true, "s0": 1.0, "s_break": 0.0, "edits": {"object_pose": {"name": "mug", "delta_xyz": [-0.04, 0.0, 0.0]}}}

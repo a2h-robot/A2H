@@ -1,0 +1,10 @@
+id: v2
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A6'/A14: a block whose grasp is blocked is only ever crowded by other blocks, and some top-down grasp of each block is free; here the red block stands in a U of three movable 5 x 5 x 8 cm boxes (1 cm gaps on its left, right and far sides), so no top-down grasp fits until some clutter is moved"
+edits:
+  object_pose: {name: red block, xyz: [0.14, -0.22, 0.765]}
+  add_distractor:
+    - {name: box_left, shape: box, size: [0.05, 0.05, 0.08], pose: [0.08, -0.22, 0.78], rgb: [0.8, 0.7, 0.3], mass: 0.1}
+    - {name: box_right, shape: box, size: [0.05, 0.05, 0.08], pose: [0.20, -0.22, 0.78], rgb: [0.3, 0.7, 0.8], mass: 0.1}
+    - {name: box_back, shape: box, size: [0.05, 0.05, 0.08], pose: [0.14, -0.16, 0.78], rgb: [0.7, 0.3, 0.8], mass: 0.1}

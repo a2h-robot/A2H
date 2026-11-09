@@ -1,0 +1,4 @@
+{"variation": "noop", "time": "2026-10-23 20:36:47", "pass": false, "reason": "no-op variation: no edits", "parameter_tuning": null, "s0": null, "s_break": null, "oracle_success_rate": null}
+{"variation": "tune3", "time": "2026-10-23 20:36:58", "pass": false, "reason": "variance gate: third parameter-tuning variation in a row", "parameter_tuning": true, "s0": null, "s_break": null, "oracle_success_rate": null}
+{"variation": "integ", "time": "2026-10-23 20:37:27", "pass": false, "reason": "integrity: modified ['check_success:pick_boxdrink_from_basket']", "parameter_tuning": null, "s0": null, "s_break": null, "oracle_success_rate": null}
+{"variation": "integ", "time": "2026-10-23 20:37:31", "pass": false, "reason": "integrity: modified ['gah_env.py']", "parameter_tuning": null, "s0": null, "s_break": null, "oracle_success_rate": null}

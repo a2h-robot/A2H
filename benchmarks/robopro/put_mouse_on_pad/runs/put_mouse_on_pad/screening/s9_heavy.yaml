@@ -1,0 +1,7 @@
+id: s9
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A7: the mouse is light and grips well"
+edits:
+  dynamics:
+    - {name: mouse, mass: 0.45, friction: 0.25}

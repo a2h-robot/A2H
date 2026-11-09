@@ -1,0 +1,8 @@
+id: v2
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "F1/F3: a full close holds the fruit by friction and a slow carry does not shake it loose (the task's fruit has rubber-like friction 6; real fruit skin is closer to 0.5-1)"
+edits:
+  dynamics:
+    - {name: "left apple", friction: 0.6}
+    - {name: "right apple", friction: 0.6}

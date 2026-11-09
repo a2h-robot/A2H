@@ -1,0 +1,7 @@
+id: v4
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "D1/M2: the held tool is light and stays rigid in the hand, so the arm (and the tool) end up exactly where commanded; an arm that does not arrive within tolerance means the plan failed"
+edits:
+  # a heavier, slicker hand-held scanner (0.7 kg, friction 0.12) than the 10 g default
+  dynamics: {name: scanner, mass: 0.7, friction: 0.12}

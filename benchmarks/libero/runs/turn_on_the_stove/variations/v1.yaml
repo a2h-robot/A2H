@@ -1,0 +1,7 @@
+id: v1
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A6: nothing stands beside the knob within the hand's footprint along the finger-closing axis, so a top-down pinch of the fin is free"
+description: "A tall box (e.g. a spice box / oil bottle) stands on the table right next to the knob on the +y side, inside the span of the Panda hand when it pinches the fin from above."
+edits:
+  add_distractor: {name: spice_box, shape: box, size: [0.08, 0.06, 0.14], pose: [-0.41, 0.30, 0.97], rgb: [0.8, 0.3, 0.1], mass: 0.4}

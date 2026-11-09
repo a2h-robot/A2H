@@ -1,0 +1,6 @@
+id: pre_scale
+axis: size
+parameter_tuning: false
+assumption_violated: precheck
+edits:
+  object_scale: {name: object, scale: 1.35}

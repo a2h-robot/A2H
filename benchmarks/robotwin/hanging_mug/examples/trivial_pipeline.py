@@ -1,0 +1,6 @@
+"""Trivial pipeline for sanity check (a): looks at the scene and does nothing else (expected success 0)."""
+
+
+def run(api):
+    api.detect("mug")
+    api.wait(0.5)

@@ -1,0 +1,6 @@
+id: rejected10_on_stove
+axis: object_position
+parameter_tuning: false
+assumption_violated: "the plate starts on the table, at the same height as the goal: grasp height, release height and the lowering stop (grip_z) are all taken from its start (B1, F2); here it starts on top of the stove, 5 cm above the table"
+edits:
+  object_pose: {name: plate_1, xyz: [-0.27, 0.21, 0.962]}

@@ -1,0 +1,70 @@
+{
+  "task": "pick_ripe_apple",
+  "variation": "v6",
+  "pass": true,
+  "time": "2026-10-24 01:58:56",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "5f13a7168da5",
+  "validity": "ok",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "break_frames_dir": "benchmarks/robodyna/logs/frames/pick_ripe_apple/v6_20261024-020026",
+  "break_per_seed": [
+    {
+      "seed": 10001,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10002,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10003,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10005,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10006,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10010,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10016,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10017,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10019,
+      "success": false,
+      "error": null
+    },
+    {
+      "seed": 10023,
+      "success": false,
+      "error": null
+    }
+  ],
+  "gate": "pass",
+  "reason": "pass",
+  "wall_clock_s": 193.9
+}

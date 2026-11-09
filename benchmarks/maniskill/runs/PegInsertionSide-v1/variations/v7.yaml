@@ -1,0 +1,7 @@
+id: v7
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A2/A8: the hole faces the side the peg comes from (the peg's head already points roughly toward it), so after the grasp only a small wrist yaw is needed and the pre-insert pose is reachable"
+edits:
+  # the box (fixture) turned by -90 deg: the hole axis now points along +x, the peg enters from the robot's side
+  object_pose: {name: box_with_hole, delta_rpy: [0.0, 0.0, -1.5708]}

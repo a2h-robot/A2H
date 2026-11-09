@@ -1,0 +1,6 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "seed_offset": 0,
+  "pipeline": "benchmarks/robodyna/runs/pick_ripe_apple/pipeline.py@0f77209f54fa"
+}

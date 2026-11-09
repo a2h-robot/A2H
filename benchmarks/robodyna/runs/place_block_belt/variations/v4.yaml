@@ -1,0 +1,6 @@
+id: v4
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "R1/O3: closing the fingers on the upper part of the block holds it firmly through every move (a light, grippy block); the pipeline never checks the block is still in hand before setting it down"
+edits:
+  dynamics: {name: block, mass: 0.6, friction: 0.35}

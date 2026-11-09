@@ -1,0 +1,19 @@
+{
+  "task": "stack_blocks_three",
+  "variation": "v1",
+  "pass": true,
+  "time": "2026-10-23 11:51:31",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "181dec9a9f0a",
+  "validity": "ok",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "break_frames": "benchmarks/robotwin/logs/frames/stack_blocks_three/v1_20261023-115238",
+  "break_errors": {},
+  "oracle_success_rate": 0.0,
+  "needs_agent_solve": true,
+  "reason": "pass (the expert could not solve it: counts only after the agent recovers)"
+}

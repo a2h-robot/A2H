@@ -1,0 +1,7 @@
+id: s_pan_slides
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A11: nothing about the sink changes during the episode, so the release spot chosen at the start is still free at release"
+edits:
+  add_distractor: {name: pan, shape: box, size: [0.10, 0.10, 0.10], mass: 0.5, pose: {relative_to: sink, offset: [0, 0.12, 0], z: 0.712}}
+  object_motion: {name: pan, velocity: [0.0, -0.25, 0.0], start_time: 11.0, duration: 0.8, mode: constant}

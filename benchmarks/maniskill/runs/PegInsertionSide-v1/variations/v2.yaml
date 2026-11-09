@@ -1,0 +1,6 @@
+id: v2
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A3: the peg stays where it was detected until the fingers close on it"
+edits:
+  object_motion: {name: peg, velocity: [0.15, 0.0, 0.0], start_time: 0.2, duration: 0.5, mode: constant}

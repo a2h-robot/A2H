@@ -1,0 +1,6 @@
+id: v5
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A7: the object to grasp is static between detection and finger closing; here the cheese slides steadily away from the robot at 1.2 cm/s for 14 s (as on a slowly moving tray or conveyor), so a grasp aimed at the detected pose closes on empty table and an early grasp is pulled out of the fingers"
+edits:
+  object_motion: {name: cream_cheese_1, velocity: [0.012, 0.0, 0.0], start_time: 0.5, duration: 14.0, mode: constant}

@@ -1,0 +1,6 @@
+id: pre_damp_60
+axis: dynamics
+parameter_tuning: false
+assumption_violated: precheck
+edits:
+  dynamics: {name: drawer, damping: 60.0}

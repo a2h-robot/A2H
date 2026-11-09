@@ -1,0 +1,6 @@
+id: v1
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A1: the drawer slides freely, so one slow constant-speed pull moves it without the pinch grasp slipping (stiff drawer: joint damping 3000 N*s/m, i.e. 30 N of resistance per 1 cm/s)"
+edits:
+  dynamics: {name: wooden_cabinet_1, damping: 3000}

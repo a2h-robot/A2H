@@ -1,0 +1,11 @@
+id: s22_box_crosses_path
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A14: nothing moves into the space the held cup passes through"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.20, -0.05]}
+    - {name: coaster, xyz: [-0.15, -0.12]}
+  add_distractor:
+    - {name: sliding_box, shape: box, size: [0.06, 0.06, 0.14], pose: [0.03, 0.08, 0.81], mass: 0.3}
+  object_motion: {name: sliding_box, velocity: [0.0, -0.08, 0.0], start_time: 8.0, duration: 2.5, mode: constant}

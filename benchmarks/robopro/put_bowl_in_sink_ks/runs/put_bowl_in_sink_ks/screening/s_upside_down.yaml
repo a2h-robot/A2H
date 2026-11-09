@@ -1,0 +1,6 @@
+id: s_upside_down
+axis: orientation
+parameter_tuning: false
+assumption_violated: "A2: the bowl stands upright, so its rim can be pinched from above"
+edits:
+  object_pose: {name: bowl, delta_xyz: [0, 0, 0.056], delta_rpy: [3.14159265, 0, 0]}

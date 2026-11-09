@@ -1,0 +1,6 @@
+id: w4_scale06
+axis: screen
+parameter_tuning: false
+assumption_violated: screening candidate
+edits:
+  object_scale: {name: object, scale: 0.6}

@@ -1,0 +1,6 @@
+id: rejected5_obstacle
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the space the carried plate sweeps between its start and the goal is free: a 6 cm lift (+3 cm on refusal) of one edge is enough and the planner's rigid model of the dangling plate is accurate (A4, E1)"
+edits:
+  add_obstacle: {shape: box, size: [0.12, 0.03, 0.12], pose: [0.0, 0.09, 0.96]}

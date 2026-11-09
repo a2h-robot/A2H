@@ -1,0 +1,4 @@
+id: s_basket_far
+axis: object_position
+edits:
+  object_pose: {name: basket, delta_xyz: [0, 0.06, 0]}

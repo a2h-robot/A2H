@@ -1,0 +1,14 @@
+id: all_edits
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "sanity: exercise every edit key"
+edits:
+  object_pose: {name: blue block, delta_xyz: [0.0, 0.03, 0.0], delta_rpy: [0, 0, 0.3]}
+  object_color: {name: red block, rgb: [0.9, 0.5, 0.1]}
+  add_distractor: {name: crate, shape: box, size: [0.06, 0.06, 0.06], pose: [0.05, 0.12, 0.775], rgb: [0.6, 0.4, 0.2], mass: 0.2}
+  object_scale: {name: crate, scale: 1.5}
+  add_obstacle: {name: post, shape: cylinder, size: [0.04, 0.2], pose: [-0.15, 0.15, 0.85], rpy: [0, 1.5708, 0], rgb: [0.3, 0.3, 0.3]}
+  lighting: {intensity: 0.6, color: [1.0, 0.9, 0.8]}
+  camera_pose: {view: head, delta_xyz: [0.03, 0.0, 0.0], delta_rpy: [0, 0, 0.05]}
+  dynamics: {name: green block, mass: 0.05, friction: 0.3}
+  object_motion: {name: crate, velocity: [0.0, -0.05, 0.0], start_time: 1.0, duration: 1.0}

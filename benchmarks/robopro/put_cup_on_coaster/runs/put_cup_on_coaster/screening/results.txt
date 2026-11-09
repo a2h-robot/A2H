@@ -1,0 +1,64 @@
+Screening of candidate variations against the round-0 pipeline (commit "phase 1 pipeline, s0=1.0"), 10 bank seeds each,
+with eval.py --variation (logged in logs/runs.jsonl). Candidates that did not break the pipeline were not gated.
+
+s1_walled_coaster  obstacle       0.8  coaster and cup fixed; three 15 cm walls form a U around the coaster (open at the back).
+                                       The hand-yaw search during the carry still finds an entry.
+s2_coaster_slides  object_motion  0.9  the coaster slides 10 cm at t = 10 s (mid-carry); the end check re-picks and re-places.
+s3_big_cup         size           0.0  cup scaled 1.5 (7.3-8.3 cm wide, ~10.7 cm tall); the tilted body grasp no longer fits:
+                                       cups knocked over or flung -> gated as v1.
+s4_mug             size           0.5  cup swapped for a mug with a handle; at the break limit (s0/2 = 0.5).
+s5_full_cup        dynamics       1.0  cup mass 0.6 kg; the pinch holds.
+
+Round 2 screening (round-1 pipeline, commit "round 1, axis=size"):
+s6_walled_cup      obstacle       0.0  three fixed 15 cm walls 2.5 cm from the cup (open at the back); probably unsolvable
+                                       with this gripper (a 3.7 cm finger does not fit the 2.5 cm gap) -> not gated.
+s7_cluttered_cup   distractor     0.0  four movable 5x5x12 cm boxes 1.5 cm from the cup on all sides: every approach is
+                                       blocked, retries until the step budget -> gated as v2.
+s8_cup_nudged      object_motion  0.0  the cup slides 12 cm away at t = 1-3 s (during the approach): cups knocked over or
+                                       flung; kept for a later round.
+
+Round 3 screening (round-2 pipeline, commit "round 2, axis=distractor"):
+s8_cup_nudged          object_motion  0.0  BUT the constant push alone tips the cup over (86-89 deg on 6/6 seeds, robot
+                                           idle): RoboPRO's high default friction; a knocked-over cup is another task.
+s8b_cup_nudged_impulse object_motion  -    impulse with cup friction 0.2: the cup moves <= 5 mm (no test).
+s8c_cup_slides_slow    object_motion  -    0.05 m/s push, cup friction 0.2: still tips on 5/6 seeds (friction is averaged
+                                           with the table's).
+s8d_cup_slides_glossy  object_motion  0.0  cup and table friction 0.1, 0.05 m/s for 2 s: slides 9.3 cm upright on 6/6 ->
+                                           gated as v3.
+s8e_glossy_control     dynamics       0.8  same slick cup and table, no push: the slickness alone does not break it.
+s9_slick_coaster       dynamics       1.0  coaster 20 g, friction 0.05.
+s4_mug                 size           1.0  mug with a handle (the round-1 width-based grasp choice covers it; 0.5 before).
+
+Round 4 screening (round-3 pipeline, commit "round 3, axis=object_motion"):
+s10_occupied_coaster  distractor      0.8  a 5x4x3 cm item lies on the coaster; the xy-only success check also counts a
+                                           cup resting on the item, so this cannot be a fair break -> not gated.
+s11_coaster_far_back  object_position 0.8  coaster at the back of the table (0.12, 0.15).
+s12_wall_between      obstacle        0.9  20 cm divider between the cup and the coaster (the planner does not model the
+                                           held cup, but the carry stays clear).
+s13_cup_on_side       orientation     0.0  the cup lies on its side: carried and set down lying, so its base centre ends
+                                           2.7-3.8 cm from the coaster centre -> gated as v4.
+
+Round 5 screening (round-3 pipeline again, after round 4 was reverted):
+s14_crowded_coaster  distractor  0.2  four movable 5x5x12 cm boxes 2 cm from the coaster's edge on all sides; the
+                                      pipeline only clears around the cup, never at the destination -> gated as v5.
+s15_wet_full_cup     dynamics    0.8  cup 0.4 kg with friction 0.15 (a full, wet glass); the pinch holds.
+
+Round 6 screening (round-5 pipeline, commit "round 5, axis=distractor"):
+s16_cup_on_tray   obstacle         0.5  cup inside fixed 5 cm rims 3 cm away (a tray): at the break limit, and probably not
+                                        solvable with 3.7 cm fingers in a 3 cm gap -> not gated.
+s17_cross_table   object_position  0.4  cup at the back on one side, coaster at the front edge on the other -> gated as v7.
+
+Round 7 screening (round-5 pipeline). Every layout with pinned positions was first checked on all 10 seeds for scene
+validity and furniture-footprint overlap (the round-6 lesson):
+s18_coaster_pulled_carry       object_motion    1.0  coaster pulled 12 cm away from t = 10 s
+s19_coaster_pulled_late        object_motion    1.0  coaster pulled 12 cm away from t = 16 s
+s20_clutter_both               distractor       0.8  two light boxes next to the cup and two next to the coaster
+s21_small_cup                  size             0.7  espresso-size cup (0.6x)
+s22_box_crosses_path           object_motion    0.9  a box slides across the carry path (its start overlapped the bookcase
+                                                     footprint on 1 of 10 seeds; would have needed moving before gating)
+s23_coaster_near_robot         object_position  1.0  coaster at the front edge, close to the robot
+s24_big_mug                    size             1.0  mug with a handle, scaled 1.3x
+s25_glossy_light_coaster       dynamics         1.0  20 g coaster, friction 0.05, on a table with friction 0.05
+s26_coaster_on_book            object_position  1.0  coaster raised on a 4 cm book
+s27_big_cup_in_clutter         distractor       0.3  mug-size cup (1.5x) boxed in by four light boxes -> gated as v8
+s28_slide_and_crowded_coaster  object_motion    0.8  the cup slides during the approach and the coaster is boxed in

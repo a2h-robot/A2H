@@ -1,0 +1,6 @@
+id: v3
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A4: the bottle does not move between detection and grasp (one averaged detection, then an open-loop approach)"
+edits:
+  object_motion: {name: wine_bottle_1, velocity: [-0.02, 0.02, 0.0], start_time: 0.5, duration: 6.0, mode: constant}

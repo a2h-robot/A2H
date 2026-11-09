@@ -1,0 +1,5 @@
+{
+  "s0": 1.0,
+  "seeds": 10,
+  "pipeline": "benchmarks/robopro/runs/pick_boxdrink_from_basket/pipeline.py@d12f1e16537f"
+}

@@ -1,0 +1,8 @@
+id: s25_glossy_light_coaster
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A7: the coaster stays put when the cup lands (here a 20 g slick coaster on a glossy table)"
+edits:
+  dynamics:
+    - {name: coaster, mass: 0.02, friction: 0.05}
+    - {name: table, friction: 0.05}

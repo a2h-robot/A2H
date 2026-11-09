@@ -1,0 +1,7 @@
+id: s2
+axis: object_position
+parameter_tuning: false
+assumption_violated: "A10: the pad is reachable from above (here at the back of the desk, against the shelf)"
+edits:
+  object_pose:
+    - {name: pad, xyz: [0.0, 0.12]}

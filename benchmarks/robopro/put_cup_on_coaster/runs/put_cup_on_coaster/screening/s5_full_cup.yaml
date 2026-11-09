@@ -1,0 +1,6 @@
+id: s5_full_cup
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A6: a light cup that a pinch on its upper body holds"
+edits:
+  dynamics: {name: cup, mass: 0.6}

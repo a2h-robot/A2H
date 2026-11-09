@@ -1,0 +1,9 @@
+id: v6
+axis: distractor
+parameter_tuning: false
+unsolved: true
+assumption_violated: "D2: the straight-in segment to the fruit is free; here a light, movable object (a 18 cm tall box) stands on the table right in front of each fruit, in the approach corridor"
+edits:
+  add_distractor:
+    - {name: box_left, asset: box, size: [0.05, 0.05, 0.18], pose: [-0.17, -0.02, 0.83], mass: 0.1}
+    - {name: box_right, asset: box, size: [0.05, 0.05, 0.18], pose: [0.17, -0.02, 0.83], mass: 0.1}

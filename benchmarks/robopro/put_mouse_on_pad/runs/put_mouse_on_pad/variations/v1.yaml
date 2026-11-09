@@ -1,0 +1,15 @@
+id: v1
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A2: nothing stands next to the mouse, so a grasp from above is free"
+# A cluttered desk: the mouse (long axis along x) is boxed in by four light, movable objects 1.5-2 cm from its sides
+# and ends, all taller than the mouse, so the fingers cannot come down beside it until something is moved.
+edits:
+  object_pose:
+    - {name: mouse, xyz: [0.36, -0.12], rpy: [1.5708, 0.0, 1.5708]}
+  add_distractor:
+    - {name: box_front, shape: box, size: [0.12, 0.04, 0.06], pose: [0.36, -0.1835, 0.775], mass: 0.15}
+    - {name: box_back, shape: box, size: [0.12, 0.04, 0.06], pose: [0.36, -0.0565, 0.775], mass: 0.15}
+    - {name: box_left, shape: box, size: [0.04, 0.16, 0.06], pose: [0.275, -0.12, 0.775], mass: 0.15}
+    - {name: box_right, shape: box, size: [0.04, 0.16, 0.06], pose: [0.445, -0.12, 0.775], mass: 0.15}
+unsolved: true

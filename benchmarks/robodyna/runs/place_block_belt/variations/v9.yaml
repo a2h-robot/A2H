@@ -1,0 +1,7 @@
+id: v9
+axis: camera
+parameter_tuning: false
+assumption_violated: "C3: both end edges of the belt are visible to the head camera, so the belt's full length in the image gives the pixel scale for the speed measurement. Here a guard cover over the middle of the conveyor hides 14 cm of the belt from above (the block rides under it)"
+edits:
+  add_obstacle:
+    - {name: belt cover, asset: box, size: [0.14, 0.40, 0.01], pose: [0.0, -0.02, 1.0], rgb: [0.72, 0.72, 0.75]}

@@ -1,0 +1,4 @@
+id: r2_nudge
+axis: object_motion
+edits:
+  object_motion: {name: boxdrink, velocity: [0.0, 0.3, 0.0], start_time: 4.0, duration: 0.15, mode: constant}

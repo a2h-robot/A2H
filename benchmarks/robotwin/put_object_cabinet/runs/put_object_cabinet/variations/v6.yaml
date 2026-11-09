@@ -1,0 +1,6 @@
+id: v6
+axis: dynamics
+parameter_tuning: false
+assumption_violated: "A3/A8: the drawer slides easily, so a friction pinch on the handle holds while pulling and a few re-grasps finish the job. Here the drawer's runners are stiff (joint damping 60 N s/m): pulling at normal speed needs more force than the pinch can hold, the handle slips out after a few cm each time."
+edits:
+  dynamics: {name: drawer, damping: 60.0}

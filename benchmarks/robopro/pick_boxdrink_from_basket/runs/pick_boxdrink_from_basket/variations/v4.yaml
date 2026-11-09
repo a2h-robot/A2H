@@ -1,0 +1,8 @@
+id: v4
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "nothing in the scene moves on its own (A12): the placement spot is chosen once, before the carry, and never re-checked"
+description: "a tray (12 x 10 x 4 cm, 0.4 kg) on the counter slides 36 cm to the left from 9 s to 12 s, into the area where the box is set down"
+edits:
+  add_distractor: {name: tray, shape: box, size: [0.12, 0.10, 0.04], mass: 0.4, rgb: [0.3, 0.3, 0.3], pose: [-0.15, -0.10, 0.762]}
+  object_motion: {name: tray, velocity: [-0.12, 0.0, 0.0], start_time: 9.0, duration: 3.0, mode: constant}

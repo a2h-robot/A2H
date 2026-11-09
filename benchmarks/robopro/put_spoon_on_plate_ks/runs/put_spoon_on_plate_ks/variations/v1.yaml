@@ -1,0 +1,7 @@
+id: v1
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A1: the plate stays where it was seen at the start (it is detected once, before the pick)"
+# someone slides the plate 7 cm towards the robot while the robot is picking up the spoon
+edits:
+  object_motion: {name: plate, velocity: [0.0, -0.07, 0.0], start_time: 3.0, duration: 1.0, mode: constant}

@@ -1,0 +1,6 @@
+id: s7_plate_late
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A1': the plate does not move after the last check before the release"
+edits:
+  object_motion: {name: plate, velocity: [0.025, 0.0, 0.0], start_time: 14.5, duration: 3.0, mode: constant}

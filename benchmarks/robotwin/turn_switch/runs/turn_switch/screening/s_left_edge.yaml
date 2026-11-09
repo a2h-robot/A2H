@@ -1,0 +1,6 @@
+id: s_left_edge
+axis: object_position
+parameter_tuning: false
+assumption_violated: "screening"
+edits:
+  object_pose: {name: switch, xyz: [-0.38, 0.05], rpy: [0.0, 0.0, 1.5708]}

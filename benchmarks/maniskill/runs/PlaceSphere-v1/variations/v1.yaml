@@ -1,0 +1,6 @@
+id: v1
+axis: object_motion
+parameter_tuning: false
+assumption_violated: "A1: the sphere stays where it was perceived at t=0 until it is grasped (a ball nudged or on a slightly tilted table keeps rolling)"
+edits:
+  object_motion: {name: sphere, velocity: [0.0, 0.04, 0.0], start_time: 0.3, duration: 0.5, mode: constant}

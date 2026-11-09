@@ -1,0 +1,17 @@
+{
+  "task": "PlugCharger-v1",
+  "variation": "v2",
+  "pass": true,
+  "time": "2026-10-25 13:17:47",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "ae40b06a31d7",
+  "s0": 1.0,
+  "s_break": 0.4,
+  "oracle_success_rate": 0.3,
+  "needs_agent_solve": false,
+  "reason": "pass"
+}

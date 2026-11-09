@@ -1,0 +1,2 @@
+{"variation": "fake1", "time": "sanity", "parameter_tuning": true, "s0": 1.0, "s_break": 0.0, "edits": {"object_pose": {"name": "switch", "delta_xyz": [0.02, 0.0, 0.0]}}}
+{"variation": "fake2", "time": "sanity", "parameter_tuning": true, "s0": 1.0, "s_break": 0.0, "edits": {"object_pose": {"name": "switch", "delta_xyz": [0.04, 0.0, 0.0]}}}

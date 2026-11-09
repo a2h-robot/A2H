@@ -1,0 +1,23 @@
+{
+  "task": "put_object_cabinet",
+  "variation": "v4",
+  "pass": true,
+  "time": "2026-10-23 16:48:06",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "204376647322",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robotwin/logs/frames/put_object_cabinet/v4_20261023-164813",
+  "break_failures": [
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    null,
+    "linear move stopped at 3/4 steps: no collision-free path (unreachable, or blocked by an obstacle)"
+  ],
+  "reason": "pass"
+}

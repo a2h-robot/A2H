@@ -1,0 +1,10 @@
+id: v2
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the space behind the box (on the robot side), where the fingers go to start the push, is free (A8)"
+edits:
+  # a fixed 10 x 3 x 12 cm block close behind the box's usual spawn, on each layout's catch side
+  # (right layout: box spawns at x 0.30-0.34; mirrored: x -0.29..-0.25; both at y -0.19..-0.13)
+  add_obstacle:
+    - {asset: box, size: [0.10, 0.03, 0.12], pose: [0.32, -0.30, 0.80]}
+    - {asset: box, size: [0.10, 0.03, 0.12], pose: [-0.27, -0.30, 0.80]}

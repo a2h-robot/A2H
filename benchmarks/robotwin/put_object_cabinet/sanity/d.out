@@ -1,0 +1,7 @@
+{
+  "task": "put_object_cabinet",
+  "variation": "integ",
+  "pass": false,
+  "time": "2026-10-23 16:14:10",
+  "reason": "integrity: modified ['check_success:put_object_cabinet']"
+}

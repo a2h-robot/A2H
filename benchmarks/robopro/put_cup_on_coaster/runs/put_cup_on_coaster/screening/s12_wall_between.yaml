@@ -1,0 +1,10 @@
+id: s12_wall_between
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A14 (new): the path between the cup and the coaster is free; the planner does not model the held cup"
+edits:
+  object_pose:
+    - {name: cup, xyz: [0.12, -0.10]}
+    - {name: coaster, xyz: [-0.15, -0.12]}
+  add_obstacle:
+    - {name: divider, shape: box, size: [0.04, 0.24, 0.20], pose: [-0.015, -0.11, 0.84]}

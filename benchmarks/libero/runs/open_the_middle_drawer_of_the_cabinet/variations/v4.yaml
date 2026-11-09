@@ -1,0 +1,6 @@
+id: v4
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A4: the space straight in front of (and above) the handle is free for the palm and forearm, so approaching along the pull axis (only pitch varies) is always possible; here a fixed post stands just beyond the opened drawer's front, on the pull axis, so the hand must come in from an angle"
+edits:
+  add_obstacle: {name: post, shape: box, size: [0.04, 0.04, 0.35], pose: [0.035, 0.11, 1.075], rgb: [0.3, 0.3, 0.3]}

@@ -1,0 +1,7 @@
+id: v8
+axis: distractor
+parameter_tuning: false
+assumption_violated: "A19: only task blocks ever rest on a block, so nothing needs to be cleared off a block before picking it, and the whole-stack check only looks at the three blocks; here a light 6 x 6 x 4 cm box lies on top of the green block like a lid (the green block is moved to the front-left of the table so the lid can sit on it)"
+edits:
+  object_pose: {name: green block, xyz: [-0.15, -0.20, 0.765]}
+  add_distractor: {name: lid, shape: box, size: [0.06, 0.06, 0.04], pose: [-0.15, -0.20, 0.811], rgb: [0.9, 0.85, 0.75], mass: 0.05}

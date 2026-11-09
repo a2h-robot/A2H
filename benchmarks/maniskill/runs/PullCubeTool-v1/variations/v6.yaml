@@ -1,0 +1,7 @@
+id: v6
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "the grasp point near the handle's free end is free, so a fixed top-down grasp there always works (A4); here a tall object (a bottle-sized box) stands right next to that end of the handle. The tool is placed at a fixed spot (in its usual area) so that the object is always beside it."
+edits:
+  object_pose: {name: l_shape_tool, xyz: [-0.2, -0.2, 0.025]}
+  add_obstacle: {name: bottle, shape: box, size: [0.04, 0.04, 0.15], pose: [-0.175, -0.143, 0.075], rgb: [0.2, 0.6, 0.3]}

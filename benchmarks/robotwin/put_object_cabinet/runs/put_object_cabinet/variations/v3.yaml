@@ -1,0 +1,8 @@
+id: v3
+axis: obstacle
+parameter_tuning: false
+unsolved: true
+unsolved_note: "6 repair budget: 5 repairs reached 0.0 on v3 (drawer opened on 3/10 seeds at best); see reflections.jsonl and unsolved/v3_pipeline_attempt.py"
+assumption_violated: "A9/A5: the space above the opened drawer is free, so the object can be lowered into it from above with a top-down grip. Here a fixed counter-top board (30 x 22 x 2 cm) overhangs the front of the cabinet at z = 0.97 m, like a kitchen counter above a drawer: the opened drawer is under it and only reachable from the front."
+edits:
+  add_obstacle: {name: counter_top, shape: box, size: [0.30, 0.22, 0.02], pose: [0.0, -0.09, 0.97], rgb: [0.55, 0.45, 0.35]}

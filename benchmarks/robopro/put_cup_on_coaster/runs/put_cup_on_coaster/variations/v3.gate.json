@@ -1,0 +1,23 @@
+{
+  "task": "put_cup_on_coaster",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-23 19:20:29",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "49759ec6a42e",
+  "s0": 0.9,
+  "s_break": 0.0,
+  "frames_dir": "benchmarks/robopro/logs/frames/put_cup_on_coaster/v3_20261023-192034",
+  "break_failures": [
+    "grasp of ObjectState(name='cup', position=array([ 0.00194612, -0.16115496,  0.775932  ]), quaternion=array([ 0.70290351,  0.71125036, -0.00252043, -0.00657307]), bbox_extents=array([0.04871397, 0.07127488, 0.04835801]), confidence=1.0) closed on nothing",
+    "grasp of ObjectState(name='cup', position=array([ 0.40271232, -0.10341742,  0.75621575]), quaternion=array([ 0.54226023, -0.04409923, -0.07295158, -0.83587509]), bbox_extents=array([0.04871397, 0.07127488, 0.04835801]), confidence=1.0) closed on nothing",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "no collision-free path (unreachable, or blocked by an obstacle)",
+    "blocked: pushing bookcase with 729 N (limit 40 N)"
+  ],
+  "reason": "pass"
+}

@@ -1,0 +1,15 @@
+{
+  "task": "open_the_middle_drawer_of_the_cabinet",
+  "variation": "v3",
+  "pass": true,
+  "time": "2026-10-23 09:05:43",
+  "validity": "ok",
+  "parameter_tuning": false,
+  "parameter_tuning_label": false,
+  "parameter_tuning_auto": false,
+  "tuning_streak_before": 0,
+  "frozen_pipeline": "2a4a93480d90",
+  "s0": 1.0,
+  "s_break": 0.0,
+  "reason": "pass"
+}

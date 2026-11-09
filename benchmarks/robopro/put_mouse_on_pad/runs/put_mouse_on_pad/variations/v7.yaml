@@ -1,0 +1,11 @@
+id: v7
+axis: obstacle
+parameter_tuning: false
+assumption_violated: "A2: the space above the mouse is free, so it can be grasped from straight above"
+# The mouse (long axis pointing away from the robot) was pushed half under a monitor riser: a fixed board 8 cm above
+# the desk covers its back half; its front half is in the open.
+edits:
+  object_pose:
+    - {name: mouse, xyz: [0.36, -0.12], rpy: [1.5708, 0.0, 3.1416]}
+  add_obstacle:
+    - {name: riser, shape: box, size: [0.24, 0.22, 0.02], pose: [0.36, -0.01, 0.83]}

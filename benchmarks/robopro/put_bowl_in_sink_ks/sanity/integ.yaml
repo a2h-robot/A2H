@@ -1,0 +1,6 @@
+id: integ
+axis: distractor
+parameter_tuning: false
+assumption_violated: "sanity check (d): any valid variation, gated after the success check's hash was changed"
+edits:
+  add_distractor: {name: cube, shape: box, size: [0.04, 0.04, 0.04], pose: [0.30, -0.15, 0.765]}

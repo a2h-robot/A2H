@@ -1,0 +1,7 @@
+id: s4
+axis: size
+parameter_tuning: false
+assumption_violated: "A12: the mouse is narrower than the gripper opening"
+edits:
+  object_scale:
+    - {name: mouse, scale: 1.5}

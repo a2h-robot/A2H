@@ -1,0 +1,4 @@
+id: r3_full_carton
+axis: dynamics
+edits:
+  dynamics: {name: boxdrink, mass: 1.0, friction: 0.3}
